@@ -1,0 +1,1223 @@
+,team,won,fog,hail,maxtempi,meantempi,mintempi,rain,snow,Game_location,winning_team,losing_team,year,Day
+0,St. Louis Rams,1,0,0,90,83,75,1,0,"Tampa, FL",St. Louis Rams,Tampa Bay Buccaneers,2014,September 14
+1,San Diego Chargers,1,0,0,62,58,54,1,0,"Santa Clara, CA",San Diego Chargers,San Francisco 49ers,2014,December 20
+2,Philadelphia Eagles,1,0,0,64,54,43,0,0,"Philadelphia, PA",Philadelphia Eagles,New York Giants,2014,October 12
+3,San Francisco 49ers,1,0,0,85,74,62,0,0,"St. Louis, MO",San Francisco 49ers,St. Louis Rams,2013,September 26
+4,Minnesota Vikings,1,0,0,78,67,56,0,0,"St. Louis, MO",Minnesota Vikings,St. Louis Rams,2014,September 7
+5,San Diego Chargers,1,0,0,30,22,14,0,0,"Kansas City, MO",San Diego Chargers,Kansas City Chiefs,2013,November 24
+6,Denver Broncos,1,0,0,57,40,23,0,0,"Kansas City, MO",Denver Broncos,Kansas City Chiefs,2014,November 30
+7,New Orleans Saints,1,0,0,62,56,51,1,0,"Pittsburgh, PA",New Orleans Saints,Pittsburgh Steelers,2014,November 30
+8,New York Jets,1,0,0,72,62,53,1,0,"East Rutherford, NJ",New York Jets,Cleveland Browns,2013,December 22
+9,Green Bay Packers,1,0,0,54,39,24,0,0,"Green Bay, WI",Green Bay Packers,San Diego Chargers,2015,October 18
+10,Indianapolis Colts,1,0,0,63,50,37,0,0,"East Rutherford, NJ",Indianapolis Colts,New York Giants,2014,November 3
+11,Denver Broncos,1,0,0,48,44,39,1,0,"Cleveland, OH",Denver Broncos,Cleveland Browns,2015,October 18
+12,Seattle Seahawks,1,0,0,75,58,41,0,0,"Landover, MD",Seattle Seahawks,Washington Redskins,2014,October 6
+13,Detroit Lions,1,0,0,28,23,16,0,1,"Detroit, MI",Detroit Lions,Green Bay Packers,2013,November 28
+14,Chicago Bears,1,0,0,79,69,59,0,0,"Santa Clara, CA",Chicago Bears,San Francisco 49ers,2014,September 14
+15,Buffalo Bills,1,0,0,47,43,38,1,0,"Orchard Park, NY",Buffalo Bills,Minnesota Vikings,2014,October 19
+16,Seattle Seahawks,1,0,0,57,52,48,1,0,"Seattle, WA",Seattle Seahawks,New York Giants,2014,November 9
+17,Green Bay Packers,1,0,0,66,55,43,1,0,"Green Bay, WI",Green Bay Packers,Washington Redskins,2013,September 15
+18,Baltimore Ravens,1,0,0,73,64,57,1,0,"Cleveland, OH",Baltimore Ravens,Cleveland Browns,2014,September 21
+19,Miami Dolphins,1,0,0,84,78,73,0,0,"Miami Gardens, FL",Miami Dolphins,Houston Texans,2015,October 25
+20,Baltimore Ravens,1,0,0,63,56,51,0,0,"Pittsburgh, PA",Baltimore Ravens,Pittsburgh Steelers,2015,October 1
+21,Chicago Bears,1,0,0,72,63,54,1,0,"East Rutherford, NJ",Chicago Bears,New York Jets,2014,September 22
+22,San Francisco 49ers,1,0,0,88,80,72,0,0,"Arlington, TX",San Francisco 49ers,Dallas Cowboys,2014,September 7
+23,Detroit Lions,1,0,0,53,44,35,0,0,"Detroit, MI",Detroit Lions,New Orleans Saints,2014,October 19
+24,Minnesota Vikings,1,0,0,61,54,45,0,0,"Detroit, MI",Minnesota Vikings,Detroit Lions,2015,October 25
+25,Miami Dolphins,1,0,0,91,83,77,1,0,"Miami Gardens, FL",Miami Dolphins,Atlanta Falcons,2013,September 22
+26,Chicago Bears,1,0,0,52,48,44,1,0,"Green Bay, WI",Chicago Bears,Green Bay Packers,2013,November 4
+27,San Diego Chargers,1,0,0,79,74,69,1,0,"Jacksonville, FL",San Diego Chargers,Jacksonville Jaguars,2013,October 20
+28,Miami Dolphins,1,0,0,63,51,38,0,0,"Nashville, TN",Miami Dolphins,Tennessee Titans,2015,October 18
+29,Cincinnati Bengals,1,0,0,64,59,53,1,0,"Cincinnati, OH",Cincinnati Bengals,Cleveland Browns,2013,November 17
+30,Cincinnati Bengals,1,0,0,77,67,56,0,0,"New Orleans, LA",Cincinnati Bengals,New Orleans Saints,2014,November 16
+31,Indianapolis Colts,1,0,0,83,71,58,0,0,"Indianapolis, IN",Indianapolis Colts,Tennessee Titans,2014,September 28
+32,New York Giants,1,0,0,50,38,25,0,0,"Landover, MD",New York Giants,Washington Redskins,2013,December 1
+33,Indianapolis Colts,1,0,0,69,57,45,0,0,"Houston, TX",Indianapolis Colts,Houston Texans,2013,November 3
+34,Houston Texans,1,0,0,61,55,48,0,0,"Houston, TX",Houston Texans,Baltimore Ravens,2014,December 21
+35,Cincinnati Bengals,1,0,0,73,64,55,1,0,"Cincinnati, OH",Cincinnati Bengals,New England Patriots,2013,October 6
+36,Buffalo Bills,1,0,0,56,54,51,1,0,"Orchard Park, NY",Buffalo Bills,Indianapolis Colts,2015,September 13
+37,Chicago Bears,1,0,0,62,60,58,1,0,"Chicago, IL",Chicago Bears,Minnesota Vikings,2013,September 15
+38,San Diego Chargers,1,0,0,74,70,66,0,0,"San Diego, CA",San Diego Chargers,Jacksonville Jaguars,2014,September 28
+39,Dallas Cowboys,1,0,0,72,67,62,0,0,"Landover, MD",Dallas Cowboys,Washington Redskins,2013,December 22
+40,Pittsburgh Steelers,1,0,0,94,85,75,0,0,"San Diego, CA",Pittsburgh Steelers,San Diego Chargers,2015,October 12
+41,Philadelphia Eagles,1,0,0,86,76,66,0,0,"Tampa, FL",Philadelphia Eagles,Tampa Bay Buccaneers,2013,October 13
+42,Denver Broncos,1,0,0,71,57,43,0,0,"Denver, CO",Denver Broncos,Green Bay Packers,2015,November 1
+43,Kansas City Chiefs,1,0,0,87,71,55,1,0,"Kansas City, MO",Kansas City Chiefs,St. Louis Rams,2014,October 26
+44,Indianapolis Colts,1,0,0,87,78,69,0,0,"Houston, TX",Indianapolis Colts,Houston Texans,2015,October 8
+45,New England Patriots,1,1,0,35,32,28,0,1,"Indianapolis, IN",New England Patriots,Indianapolis Colts,2014,November 16
+46,Pittsburgh Steelers,1,0,0,62,54,46,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Indianapolis Colts,2014,October 26
+47,New England Patriots,1,0,0,96,80,64,0,0,"Arlington, TX",New England Patriots,Dallas Cowboys,2015,October 11
+48,Baltimore Ravens,1,1,0,31,29,27,1,1,"Baltimore, MD",Baltimore Ravens,Minnesota Vikings,2013,December 8
+49,Atlanta Falcons,1,0,0,68,54,40,0,0,"Atlanta, GA",Atlanta Falcons,Arizona Cardinals,2014,November 30
+50,New England Patriots,1,0,0,68,60,51,1,0,"Orchard Park, NY",New England Patriots,Buffalo Bills,2013,September 8
+51,Indianapolis Colts,1,0,0,59,50,40,1,0,"Indianapolis, IN",Indianapolis Colts,Baltimore Ravens,2014,October 5
+52,San Francisco 49ers,1,0,0,73,60,47,0,0,"Santa Clara, CA",San Francisco 49ers,Arizona Cardinals,2013,October 13
+53,Green Bay Packers,1,1,0,48,40,31,1,0,"Green Bay, WI",Green Bay Packers,Cleveland Browns,2013,October 20
+54,New York Giants,1,1,0,73,57,44,0,0,"East Rutherford, NJ",New York Giants,Minnesota Vikings,2013,October 21
+55,New Orleans Saints,1,0,0,90,75,60,0,0,"New Orleans, LA",New Orleans Saints,Atlanta Falcons,2015,October 15
+56,Detroit Lions,1,0,0,73,66,59,0,0,"Detroit, MI",Detroit Lions,Minnesota Vikings,2013,September 8
+57,San Diego Chargers,1,1,0,89,76,63,0,0,"San Diego, CA",San Diego Chargers,New York Jets,2014,October 5
+58,New York Jets,1,0,0,57,50,42,0,0,"East Rutherford, NJ",New York Jets,Pittsburgh Steelers,2014,November 9
+59,Oakland Raiders,1,0,0,70,63,55,1,0,"Oakland, CA",Oakland Raiders,New York Jets,2015,November 1
+60,Buffalo Bills,1,0,0,79,69,58,0,0,"Chicago, IL",Buffalo Bills,Chicago Bears,2014,September 7
+61,Indianapolis Colts,1,0,0,37,34,30,0,0,"Cleveland, OH",Indianapolis Colts,Cleveland Browns,2014,December 7
+62,Pittsburgh Steelers,1,0,0,69,60,51,0,0,"Pittsburgh, PA",Pittsburgh Steelers,San Francisco 49ers,2015,September 20
+63,Detroit Lions,1,1,0,89,72,57,0,0,"East Rutherford, NJ",Detroit Lions,New York Jets,2014,September 28
+64,Green Bay Packers,1,0,0,80,67,53,0,0,"Green Bay, WI",Green Bay Packers,St. Louis Rams,2015,October 11
+65,Carolina Panthers,1,0,0,71,66,60,0,0,"Tampa, FL",Carolina Panthers,Tampa Bay Buccaneers,2013,October 24
+66,Minnesota Vikings,1,0,0,59,46,36,0,0,"Minneapolis, MN",Minnesota Vikings,Washington Redskins,2014,November 2
+67,Philadelphia Eagles,1,0,0,69,66,62,1,0,"Philadelphia, PA",Philadelphia Eagles,Chicago Bears,2013,December 22
+68,Indianapolis Colts,1,0,0,26,22,18,0,1,"Kansas City, MO",Indianapolis Colts,Kansas City Chiefs,2013,December 22
+69,Seattle Seahawks,1,0,0,73,64,55,0,0,"Seattle, WA",Seattle Seahawks,Green Bay Packers,2014,September 4
+70,San Francisco 49ers,1,1,0,64,50,35,0,0,"Nashville, TN",San Francisco 49ers,Tennessee Titans,2013,October 20
+71,Philadelphia Eagles,1,0,0,54,42,30,0,0,"Philadelphia, PA",Philadelphia Eagles,New York Giants,2015,October 19
+72,Cincinnati Bengals,1,0,0,69,57,46,0,0,"Cincinnati, OH",Cincinnati Bengals,Green Bay Packers,2013,September 22
+73,New England Patriots,1,0,0,61,48,35,0,0,"Orchard Park, NY",New England Patriots,Buffalo Bills,2014,October 12
+74,Seattle Seahawks,1,0,0,57,51,45,1,0,"Seattle, WA",Seattle Seahawks,Oakland Raiders,2014,November 2
+75,Seattle Seahawks,1,1,0,57,47,37,0,0,"Seattle, WA",Seattle Seahawks,San Francisco 49ers,2014,December 14
+76,Green Bay Packers,1,0,0,28,22,16,0,0,"Green Bay, WI",Green Bay Packers,Detroit Lions,2014,December 28
+77,Green Bay Packers,1,0,0,88,82,75,0,0,"Miami Gardens, FL",Green Bay Packers,Miami Dolphins,2014,October 12
+78,Indianapolis Colts,1,0,0,59,41,23,0,0,"Nashville, TN",Indianapolis Colts,Tennessee Titans,2013,November 14
+79,Baltimore Ravens,1,0,0,32,27,22,0,0,"Baltimore, MD",Baltimore Ravens,New York Jets,2013,November 24
+80,San Diego Chargers,1,0,0,63,51,38,0,0,"Baltimore, MD",San Diego Chargers,Baltimore Ravens,2014,November 30
+81,Cincinnati Bengals,1,0,0,75,68,60,1,0,"Baltimore, MD",Cincinnati Bengals,Baltimore Ravens,2015,September 27
+82,Denver Broncos,1,0,0,75,62,50,0,0,"Arlington, TX",Denver Broncos,Dallas Cowboys,2013,October 6
+83,New England Patriots,1,0,0,60,45,30,0,0,"Indianapolis, IN",New England Patriots,Indianapolis Colts,2015,October 18
+84,New York Jets,1,0,0,80,76,73,1,0,"Miami Gardens, FL",New York Jets,Miami Dolphins,2013,December 29
+85,New York Giants,1,0,0,50,45,40,0,0,"Nashville, TN",New York Giants,Tennessee Titans,2014,December 7
+86,Green Bay Packers,1,0,0,82,72,61,1,0,"Green Bay, WI",Green Bay Packers,Kansas City Chiefs,2015,September 28
+87,New York Giants,1,0,0,62,52,44,0,0,"East Rutherford, NJ",New York Giants,Atlanta Falcons,2014,October 5
+88,Carolina Panthers,1,0,0,75,67,58,0,0,"Charlotte, NC",Carolina Panthers,Philadelphia Eagles,2015,October 25
+89,Buffalo Bills,1,1,0,73,59,45,0,0,"Nashville, TN",Buffalo Bills,Tennessee Titans,2015,October 11
+90,Detroit Lions,1,0,0,82,67,51,0,0,"Atlanta, GA",Detroit Lions,Atlanta Falcons,2014,October 26
+91,Miami Dolphins,1,0,0,78,64,50,1,0,"Indianapolis, IN",Miami Dolphins,Indianapolis Colts,2013,September 15
+92,Jacksonville Jaguars,1,0,0,50,46,42,0,0,"Houston, TX",Jacksonville Jaguars,Houston Texans,2013,November 24
+93,Houston Texans,1,0,0,80,71,61,0,0,"Houston, TX",Houston Texans,Tennessee Titans,2014,November 30
+94,Houston Texans,1,0,0,78,74,69,1,0,"Houston, TX",Houston Texans,Tampa Bay Buccaneers,2015,September 27
+95,Carolina Panthers,1,0,0,80,69,58,1,0,"Charlotte, NC",Carolina Panthers,New York Giants,2013,September 22
+96,Indianapolis Colts,1,0,0,50,44,37,1,0,"Nashville, TN",Indianapolis Colts,Tennessee Titans,2014,December 28
+97,Tennessee Titans,1,0,0,59,47,35,0,0,"St. Louis, MO",Tennessee Titans,St. Louis Rams,2013,November 3
+98,St. Louis Rams,1,0,0,37,30,22,0,0,"St. Louis, MO",St. Louis Rams,New Orleans Saints,2013,December 15
+99,New York Giants,1,0,0,45,43,41,0,0,"St. Louis, MO",New York Giants,St. Louis Rams,2014,December 21
+100,Minnesota Vikings,1,0,0,36,30,23,0,0,"Minneapolis, MN",Minnesota Vikings,Washington Redskins,2013,November 7
+101,Arizona Cardinals,1,0,0,82,68,55,0,0,"Glendale, AZ",Arizona Cardinals,Houston Texans,2013,November 10
+102,San Francisco 49ers,1,0,0,90,74,58,0,0,"Santa Clara, CA",San Francisco 49ers,Kansas City Chiefs,2014,October 5
+103,Washington Redskins,1,0,0,84,75,66,0,0,"Arlington, TX",Washington Redskins,Dallas Cowboys,2014,October 27
+104,Kansas City Chiefs,1,0,0,71,58,45,0,0,"Kansas City, MO",Kansas City Chiefs,Oakland Raiders,2013,October 13
+105,Buffalo Bills,1,0,0,66,58,50,1,0,"Jacksonville, FL",Buffalo Bills,Jacksonville Jaguars,2013,December 15
+106,Seattle Seahawks,1,0,0,62,52,42,0,0,"Glendale, AZ",Seattle Seahawks,Arizona Cardinals,2014,December 21
+107,Miami Dolphins,1,0,0,72,67,61,0,0,"Oakland, CA",Miami Dolphins,Oakland Raiders,2014,September 28
+108,Denver Broncos,1,0,0,71,55,39,0,0,"Denver, CO",Denver Broncos,Arizona Cardinals,2014,October 5
+109,Dallas Cowboys,1,0,0,66,52,37,0,0,"Arlington, TX",Dallas Cowboys,Minnesota Vikings,2013,November 3
+110,Tampa Bay Buccaneers,1,0,0,46,38,30,0,0,"Landover, MD",Tampa Bay Buccaneers,Washington Redskins,2014,November 16
+111,Minnesota Vikings,1,0,0,77,60,44,0,0,"Minneapolis, MN",Minnesota Vikings,Pittsburgh Steelers,2013,September 29
+112,Carolina Panthers,1,0,0,65,64,62,1,0,"Charlotte, NC",Carolina Panthers,Indianapolis Colts,2015,November 2
+113,New York Jets,1,0,0,50,42,35,0,0,"East Rutherford, NJ",New York Jets,Washington Redskins,2015,October 18
+114,Seattle Seahawks,1,0,0,89,75,61,0,0,"Charlotte, NC",Seattle Seahawks,Carolina Panthers,2013,September 8
+115,Carolina Panthers,1,0,0,59,54,48,0,0,"New Orleans, LA",Carolina Panthers,New Orleans Saints,2014,December 7
+116,New Orleans Saints,1,0,0,67,58,48,1,0,"Chicago, IL",New Orleans Saints,Chicago Bears,2013,October 6
+117,Denver Broncos,1,0,0,73,60,48,0,0,"East Rutherford, NJ",Denver Broncos,New York Giants,2013,September 15
+118,New York Giants,1,0,0,80,72,66,1,0,"East Rutherford, NJ",New York Giants,Houston Texans,2014,September 21
+119,Cincinnati Bengals,1,1,0,64,50,37,1,0,"Cincinnati, OH",Cincinnati Bengals,Carolina Panthers,2014,October 12
+120,Denver Broncos,1,0,0,67,52,37,0,0,"Denver, CO",Denver Broncos,Washington Redskins,2013,October 27
+121,Indianapolis Colts,1,0,0,63,51,38,0,0,"Indianapolis, IN",Indianapolis Colts,Denver Broncos,2013,October 20
+122,Green Bay Packers,1,1,0,48,40,33,1,1,"Minneapolis, MN",Green Bay Packers,Minnesota Vikings,2014,November 23
+123,Atlanta Falcons,1,0,0,40,36,32,1,0,"Orchard Park, NY",Atlanta Falcons,Buffalo Bills,2013,December 1
+124,St. Louis Rams,1,0,0,65,55,45,0,0,"Santa Clara, CA",St. Louis Rams,San Francisco 49ers,2014,November 2
+125,Cincinnati Bengals,1,0,0,64,50,37,1,0,"Cincinnati, OH",Cincinnati Bengals,Baltimore Ravens,2013,December 29
+126,Seattle Seahawks,1,0,0,53,49,45,1,0,"Seattle, WA",Seattle Seahawks,Minnesota Vikings,2013,November 17
+127,Seattle Seahawks,1,0,0,57,50,44,1,0,"Seattle, WA",Seattle Seahawks,Arizona Cardinals,2014,November 23
+128,Arizona Cardinals,1,0,0,55,50,46,0,0,"Glendale, AZ",Arizona Cardinals,St. Louis Rams,2013,December 8
+129,Cleveland Browns,1,0,0,0,0,0,0,0,"Cleveland, OH",Cleveland Browns,Baltimore Ravens,2013,November 3
+130,Chicago Bears,1,0,0,0,0,0,0,0,"Cleveland, OH",Chicago Bears,Cleveland Browns,2013,December 15
+131,Buffalo Bills,1,0,0,42,37,31,1,0,"Orchard Park, NY",Buffalo Bills,Miami Dolphins,2013,December 22
+132,San Francisco 49ers,1,0,0,74,67,59,0,0,"Santa Clara, CA",San Francisco 49ers,Minnesota Vikings,2015,September 14
+133,Oakland Raiders,1,0,0,60,56,51,0,0,"Oakland, CA",Oakland Raiders,Pittsburgh Steelers,2013,October 27
+134,New York Giants,1,0,0,39,36,34,1,0,"Detroit, MI",New York Giants,Detroit Lions,2013,December 22
+135,San Diego Chargers,1,0,0,71,64,56,0,0,"San Diego, CA",San Diego Chargers,St. Louis Rams,2014,November 23
+136,Philadelphia Eagles,1,0,0,63,51,41,0,0,"Philadelphia, PA",Philadelphia Eagles,St. Louis Rams,2014,October 5
+137,Arizona Cardinals,1,0,0,36,32,28,0,0,"Nashville, TN",Arizona Cardinals,Tennessee Titans,2013,December 15
+138,St. Louis Rams,1,0,0,30,23,15,0,0,"St. Louis, MO",St. Louis Rams,Chicago Bears,2013,November 24
+139,St. Louis Rams,1,0,0,72,51,30,1,0,"St. Louis, MO",St. Louis Rams,Oakland Raiders,2014,November 30
+140,Pittsburgh Steelers,1,0,0,77,73,68,1,0,"St. Louis, MO",Pittsburgh Steelers,St. Louis Rams,2015,September 27
+141,New York Jets,1,0,0,81,72,64,1,0,"East Rutherford, NJ",New York Jets,Oakland Raiders,2014,September 7
+142,Detroit Lions,1,0,0,38,36,34,0,0,"Chicago, IL",Detroit Lions,Chicago Bears,2014,December 21
+143,Green Bay Packers,1,0,0,14,9,3,0,1,"Green Bay, WI",Green Bay Packers,Atlanta Falcons,2013,December 8
+144,New York Jets,1,0,0,66,57,48,0,0,"East Rutherford, NJ",New York Jets,New England Patriots,2013,October 20
+145,Jacksonville Jaguars,1,0,0,75,62,50,0,0,"Jacksonville, FL",Jacksonville Jaguars,New York Giants,2014,November 30
+146,Arizona Cardinals,1,0,0,102,93,84,0,0,"Glendale, AZ",Arizona Cardinals,San Francisco 49ers,2015,September 27
+147,Arizona Cardinals,1,0,0,87,78,69,0,0,"Tampa, FL",Arizona Cardinals,Tampa Bay Buccaneers,2013,September 29
+148,New York Giants,1,0,0,60,52,44,0,0,"Philadelphia, PA",New York Giants,Philadelphia Eagles,2013,October 27
+149,Oakland Raiders,1,0,0,73,67,60,0,0,"Oakland, CA",Oakland Raiders,Jacksonville Jaguars,2013,September 15
+150,Atlanta Falcons,1,0,0,91,80,69,0,0,"Arlington, TX",Atlanta Falcons,Dallas Cowboys,2015,September 27
+151,Cleveland Browns,1,0,0,73,58,43,0,0,"Minneapolis, MN",Cleveland Browns,Minnesota Vikings,2013,September 22
+152,Denver Broncos,1,0,0,81,66,50,0,0,"Denver, CO",Denver Broncos,Indianapolis Colts,2014,September 7
+153,New York Giants,1,1,0,64,56,48,1,0,"East Rutherford, NJ",New York Giants,Green Bay Packers,2013,November 17
+154,Dallas Cowboys,1,0,0,57,49,41,0,0,"East Rutherford, NJ",Dallas Cowboys,New York Giants,2014,November 23
+155,New York Giants,1,1,0,71,58,44,0,0,"East Rutherford, NJ",New York Giants,San Francisco 49ers,2015,October 11
+156,Green Bay Packers,1,0,0,65,61,57,1,0,"Baltimore, MD",Green Bay Packers,Baltimore Ravens,2013,October 13
+157,Philadelphia Eagles,1,0,0,48,39,30,1,0,"Arlington, TX",Philadelphia Eagles,Dallas Cowboys,2013,December 29
+158,Seattle Seahawks,1,0,0,63,60,57,1,0,"Seattle, WA",Seattle Seahawks,Jacksonville Jaguars,2013,September 22
+159,Seattle Seahawks,1,0,0,46,42,37,1,0,"Seattle, WA",Seattle Seahawks,New Orleans Saints,2013,December 2
+160,Kansas City Chiefs,1,0,0,66,57,48,1,0,"Kansas City, MO",Kansas City Chiefs,New York Jets,2014,November 2
+161,Philadelphia Eagles,1,0,0,54,48,42,1,0,"East Rutherford, NJ",Philadelphia Eagles,New York Giants,2014,December 28
+162,Pittsburgh Steelers,1,0,0,46,40,34,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Baltimore Ravens,2014,November 2
+163,St. Louis Rams,1,0,0,93,84,75,0,0,"Glendale, AZ",St. Louis Rams,Arizona Cardinals,2015,October 4
+164,Detroit Lions,1,0,0,75,65,55,0,0,"Detroit, MI",Detroit Lions,New York Giants,2014,September 8
+165,San Diego Chargers,1,0,0,75,60,48,0,0,"Philadelphia, PA",San Diego Chargers,Philadelphia Eagles,2013,September 15
+166,Philadelphia Eagles,1,0,0,79,72,66,0,0,"Philadelphia, PA",Philadelphia Eagles,Washington Redskins,2014,September 21
+167,St. Louis Rams,1,0,0,76,74,71,1,0,"Houston, TX",St. Louis Rams,Houston Texans,2013,October 13
+168,San Francisco 49ers,1,0,0,65,55,45,0,0,"Santa Clara, CA",San Francisco 49ers,Washington Redskins,2014,November 23
+169,Cincinnati Bengals,1,0,0,62,52,41,1,0,"Cincinnati, OH",Cincinnati Bengals,Minnesota Vikings,2013,December 22
+170,Minnesota Vikings,1,0,0,25,17,8,0,0,"Green Bay, WI",Minnesota Vikings,Green Bay Packers,2013,November 24
+171,Green Bay Packers,1,1,0,36,25,13,0,0,"Green Bay, WI",Green Bay Packers,New England Patriots,2014,November 30
+172,Pittsburgh Steelers,1,0,0,0,0,0,0,0,"Cleveland, OH",Pittsburgh Steelers,Cleveland Browns,2013,November 24
+173,Oakland Raiders,1,0,0,79,70,63,1,0,"Cleveland, OH",Oakland Raiders,Cleveland Browns,2015,September 27
+174,Denver Broncos,1,0,0,59,44,29,0,0,"Denver, CO",Denver Broncos,Buffalo Bills,2014,December 7
+175,Washington Redskins,1,0,0,64,54,43,0,0,"Landover, MD",Washington Redskins,Chicago Bears,2013,October 20
+176,Baltimore Ravens,1,1,0,58,47,36,0,0,"Baltimore, MD",Baltimore Ravens,Tennessee Titans,2014,November 9
+177,New Orleans Saints,1,0,0,81,77,73,1,0,"New Orleans, LA",New Orleans Saints,Arizona Cardinals,2013,September 22
+178,Carolina Panthers,1,0,0,57,42,26,0,0,"Charlotte, NC",Carolina Panthers,Tampa Bay Buccaneers,2013,December 1
+179,Cincinnati Bengals,1,0,0,73,63,54,1,0,"Cincinnati, OH",Cincinnati Bengals,Pittsburgh Steelers,2013,September 16
+180,Miami Dolphins,1,0,0,82,68,55,0,0,"Jacksonville, FL",Miami Dolphins,Jacksonville Jaguars,2014,October 26
+181,Arizona Cardinals,1,0,0,87,78,68,0,0,"Glendale, AZ",Arizona Cardinals,Philadelphia Eagles,2014,October 26
+182,Denver Broncos,1,0,0,38,23,7,0,0,"Denver, CO",Denver Broncos,Oakland Raiders,2014,December 28
+183,Indianapolis Colts,1,0,0,27,22,17,0,1,"Indianapolis, IN",Indianapolis Colts,Houston Texans,2013,December 15
+184,St. Louis Rams,1,0,0,48,42,33,0,0,"Landover, MD",St. Louis Rams,Washington Redskins,2014,December 7
+185,Denver Broncos,1,0,0,78,69,59,0,0,"San Diego, CA",Denver Broncos,San Diego Chargers,2013,November 10
+186,Oakland Raiders,1,1,0,59,55,51,1,0,"Oakland, CA",Oakland Raiders,Kansas City Chiefs,2014,November 20
+187,Carolina Panthers,1,1,0,71,67,63,1,0,"Charlotte, NC",Carolina Panthers,New Orleans Saints,2013,December 22
+188,Indianapolis Colts,1,0,0,81,74,67,0,0,"Nashville, TN",Indianapolis Colts,Tennessee Titans,2015,September 27
+189,Philadelphia Eagles,1,0,0,82,74,66,0,0,"Philadelphia, PA",Philadelphia Eagles,Jacksonville Jaguars,2014,September 7
+190,Oakland Raiders,1,1,0,64,58,52,0,0,"Oakland, CA",Oakland Raiders,San Francisco 49ers,2014,December 7
+191,Philadelphia Eagles,1,0,0,65,57,49,1,0,"Indianapolis, IN",Philadelphia Eagles,Indianapolis Colts,2014,September 15
+192,New York Jets,1,0,0,76,64,52,0,0,"Indianapolis, IN",New York Jets,Indianapolis Colts,2015,September 21
+193,Dallas Cowboys,1,0,0,59,47,35,0,0,"Landover, MD",Dallas Cowboys,Washington Redskins,2014,December 28
+194,Denver Broncos,1,0,0,76,66,56,0,0,"Oakland, CA",Denver Broncos,Oakland Raiders,2015,October 11
+195,Jacksonville Jaguars,1,0,0,93,84,75,0,0,"Jacksonville, FL",Jacksonville Jaguars,Miami Dolphins,2015,September 20
+196,Detroit Lions,1,0,0,64,52,42,0,0,"Minneapolis, MN",Detroit Lions,Minnesota Vikings,2014,October 12
+197,Dallas Cowboys,1,0,0,64,54,46,0,0,"Philadelphia, PA",Dallas Cowboys,Philadelphia Eagles,2013,October 20
+198,Pittsburgh Steelers,1,0,0,54,43,31,0,0,"Atlanta, GA",Pittsburgh Steelers,Atlanta Falcons,2014,December 14
+199,New Orleans Saints,1,0,0,91,82,72,0,0,"New Orleans, LA",New Orleans Saints,Atlanta Falcons,2013,September 8
+200,Kansas City Chiefs,1,1,0,75,62,51,0,0,"Kansas City, MO",Kansas City Chiefs,New York Giants,2013,September 29
+201,San Francisco 49ers,1,0,0,38,30,23,0,0,"Landover, MD",San Francisco 49ers,Washington Redskins,2013,November 25
+202,Dallas Cowboys,1,0,0,66,60,55,1,0,"Seattle, WA",Dallas Cowboys,Seattle Seahawks,2014,October 12
+203,Cleveland Browns,1,0,0,57,52,48,0,0,"Cleveland, OH",Cleveland Browns,Oakland Raiders,2014,October 26
+204,Minnesota Vikings,1,0,0,17,3,-11,0,0,"Minneapolis, MN",Minnesota Vikings,Detroit Lions,2013,December 29
+205,Cleveland Browns,1,0,0,52,47,42,1,0,"Cincinnati, OH",Cleveland Browns,Cincinnati Bengals,2014,November 6
+206,New York Giants,1,0,0,62,50,39,1,0,"East Rutherford, NJ",New York Giants,Oakland Raiders,2013,November 10
+207,Indianapolis Colts,1,0,0,72,63,53,0,0,"Santa Clara, CA",Indianapolis Colts,San Francisco 49ers,2013,September 22
+208,Atlanta Falcons,1,0,0,78,63,48,0,0,"Atlanta, GA",Atlanta Falcons,Philadelphia Eagles,2015,September 14
+209,Seattle Seahawks,1,1,0,46,42,37,0,0,"Seattle, WA",Seattle Seahawks,St. Louis Rams,2013,December 29
+210,Tennessee Titans,1,0,0,87,82,77,1,0,"Tampa, FL",Tennessee Titans,Tampa Bay Buccaneers,2015,September 13
+211,Philadelphia Eagles,1,0,0,68,60,52,0,0,"Philadelphia, PA",Philadelphia Eagles,Washington Redskins,2013,November 17
+212,Philadelphia Eagles,1,0,0,55,46,37,0,0,"Philadelphia, PA",Philadelphia Eagles,Tennessee Titans,2014,November 23
+213,Philadelphia Eagles,1,0,0,71,56,42,0,0,"Philadelphia, PA",Philadelphia Eagles,New Orleans Saints,2015,October 11
+214,Seattle Seahawks,1,0,0,39,34,30,1,0,"East Rutherford, NJ",Seattle Seahawks,New York Giants,2013,December 15
+215,San Diego Chargers,1,0,0,57,55,53,0,0,"San Diego, CA",San Diego Chargers,New York Giants,2013,December 8
+216,Pittsburgh Steelers,1,0,0,62,57,52,1,0,"Pittsburgh, PA",Pittsburgh Steelers,Detroit Lions,2013,November 17
+217,New England Patriots,1,0,0,36,33,30,0,1,"East Rutherford, NJ",New England Patriots,New York Jets,2014,December 21
+218,Detroit Lions,1,0,0,51,42,35,0,0,"Detroit, MI",Detroit Lions,Dallas Cowboys,2013,October 27
+219,San Francisco 49ers,1,0,0,63,51,38,0,0,"Santa Clara, CA",San Francisco 49ers,Atlanta Falcons,2013,December 23
+220,Kansas City Chiefs,1,0,0,41,30,19,0,0,"Kansas City, MO",Kansas City Chiefs,San Diego Chargers,2014,December 28
+221,Detroit Lions,1,0,0,36,32,25,0,0,"Detroit, MI",Detroit Lions,Chicago Bears,2014,November 27
+222,Houston Texans,1,1,0,82,68,53,0,0,"Nashville, TN",Houston Texans,Tennessee Titans,2014,October 26
+223,Carolina Panthers,1,1,0,65,55,45,0,0,"Santa Clara, CA",Carolina Panthers,San Francisco 49ers,2013,November 10
+224,Cincinnati Bengals,1,0,0,45,39,33,1,0,"Orchard Park, NY",Cincinnati Bengals,Buffalo Bills,2015,October 18
+225,Green Bay Packers,1,0,0,65,55,45,0,0,"Green Bay, WI",Green Bay Packers,New York Jets,2014,September 14
+226,Green Bay Packers,1,0,0,71,59,47,0,0,"Green Bay, WI",Green Bay Packers,Seattle Seahawks,2015,September 20
+227,Cleveland Browns,1,0,0,64,56,48,0,0,"Cleveland, OH",Cleveland Browns,New Orleans Saints,2014,September 14
+228,Cleveland Browns,1,0,0,69,64,59,0,0,"Cleveland, OH",Cleveland Browns,Tennessee Titans,2015,September 20
+229,Oakland Raiders,1,0,0,84,66,48,0,0,"Oakland, CA",Oakland Raiders,San Diego Chargers,2013,October 6
+230,Baltimore Ravens,1,0,0,52,41,29,0,0,"Baltimore, MD",Baltimore Ravens,Jacksonville Jaguars,2014,December 14
+231,Buffalo Bills,1,0,0,67,57,46,1,0,"Orchard Park, NY",Buffalo Bills,Carolina Panthers,2013,September 15
+232,San Diego Chargers,1,0,0,74,63,52,1,0,"Orchard Park, NY",San Diego Chargers,Buffalo Bills,2014,September 21
+233,New Orleans Saints,1,1,0,59,53,46,0,0,"New Orleans, LA",New Orleans Saints,Tampa Bay Buccaneers,2013,December 29
+234,Detroit Lions,1,0,0,51,42,33,0,0,"Detroit, MI",Detroit Lions,Chicago Bears,2015,October 18
+235,Kansas City Chiefs,1,0,0,89,80,73,1,0,"Miami Gardens, FL",Kansas City Chiefs,Miami Dolphins,2014,September 21
+236,Denver Broncos,1,0,0,92,78,64,1,0,"Denver, CO",Denver Broncos,Baltimore Ravens,2013,September 5
+237,San Diego Chargers,1,0,0,74,65,55,0,0,"San Diego, CA",San Diego Chargers,Indianapolis Colts,2013,October 14
+238,San Francisco 49ers,1,0,0,88,74,60,0,0,"Santa Clara, CA",San Francisco 49ers,Green Bay Packers,2013,September 8
+239,Indianapolis Colts,1,0,0,64,52,39,1,0,"Indianapolis, IN",Indianapolis Colts,Washington Redskins,2014,November 30
+240,Detroit Lions,1,0,0,70,62,53,1,0,"Detroit, MI",Detroit Lions,Green Bay Packers,2014,September 21
+241,Dallas Cowboys,1,0,0,75,70,66,1,0,"Arlington, TX",Dallas Cowboys,Washington Redskins,2013,October 13
+242,Philadelphia Eagles,1,0,0,72,57,41,0,0,"Houston, TX",Philadelphia Eagles,Houston Texans,2014,November 2
+243,Dallas Cowboys,1,0,0,80,67,53,0,0,"Nashville, TN",Dallas Cowboys,Tennessee Titans,2014,September 14
+244,New England Patriots,1,0,0,74,65,56,0,0,"Atlanta, GA",New England Patriots,Atlanta Falcons,2013,September 29
+245,New York Jets,1,0,0,34,31,28,0,1,"East Rutherford, NJ",New York Jets,Oakland Raiders,2013,December 8
+246,Arizona Cardinals,1,0,0,72,63,53,0,0,"Chicago, IL",Arizona Cardinals,Chicago Bears,2015,September 20
+247,Arizona Cardinals,1,0,0,69,63,57,0,0,"Glendale, AZ",Arizona Cardinals,Detroit Lions,2014,November 16
+248,Washington Redskins,1,0,0,58,50,41,0,0,"Landover, MD",Washington Redskins,San Diego Chargers,2013,November 3
+249,Baltimore Ravens,1,0,0,19,14,10,0,1,"Detroit, MI",Baltimore Ravens,Detroit Lions,2013,December 16
+250,Baltimore Ravens,1,0,0,89,81,72,0,0,"Tampa, FL",Baltimore Ravens,Tampa Bay Buccaneers,2014,October 12
+251,Cincinnati Bengals,1,0,0,80,68,57,0,0,"Tampa, FL",Cincinnati Bengals,Tampa Bay Buccaneers,2014,November 30
+252,Kansas City Chiefs,1,0,0,66,52,39,0,0,"Kansas City, MO",Kansas City Chiefs,Pittsburgh Steelers,2015,October 25
+253,Minnesota Vikings,1,0,0,34,25,16,0,0,"Minneapolis, MN",Minnesota Vikings,Chicago Bears,2013,December 1
+254,Dallas Cowboys,1,0,0,71,66,60,1,0,"Jacksonville, FL",Dallas Cowboys,Jacksonville Jaguars,2014,November 9
+255,New Orleans Saints,1,0,0,48,46,43,1,0,"Chicago, IL",New Orleans Saints,Chicago Bears,2014,December 15
+256,Atlanta Falcons,1,0,0,53,41,29,0,0,"Charlotte, NC",Atlanta Falcons,Carolina Panthers,2014,November 16
+257,San Francisco 49ers,1,0,0,47,39,31,0,0,"Santa Clara, CA",San Francisco 49ers,Seattle Seahawks,2013,December 8
+258,Philadelphia Eagles,1,0,0,63,54,44,0,0,"Oakland, CA",Philadelphia Eagles,Oakland Raiders,2013,November 3
+259,Cleveland Browns,1,0,0,59,51,43,1,0,"Atlanta, GA",Cleveland Browns,Atlanta Falcons,2014,November 23
+260,Indianapolis Colts,1,0,0,76,63,50,0,0,"Indianapolis, IN",Indianapolis Colts,Jacksonville Jaguars,2015,October 4
+261,Miami Dolphins,1,0,0,91,84,78,1,0,"Miami Gardens, FL",Miami Dolphins,New England Patriots,2014,September 7
+262,Cincinnati Bengals,1,1,0,57,44,32,0,0,"Cincinnati, OH",Cincinnati Bengals,New York Jets,2013,October 27
+263,Chicago Bears,1,1,0,62,56,52,0,0,"Pittsburgh, PA",Chicago Bears,Pittsburgh Steelers,2013,September 22
+264,Green Bay Packers,1,0,0,35,34,32,0,1,"Green Bay, WI",Green Bay Packers,Atlanta Falcons,2014,December 8
+265,Detroit Lions,1,0,0,0,0,0,1,0,"Cleveland, OH",Detroit Lions,Cleveland Browns,2013,October 13
+266,San Diego Chargers,1,0,0,73,71,68,1,0,"San Diego, CA",San Diego Chargers,Cleveland Browns,2015,October 4
+267,Arizona Cardinals,1,0,0,52,49,46,1,0,"Seattle, WA",Arizona Cardinals,Seattle Seahawks,2013,December 22
+268,Buffalo Bills,1,0,0,91,83,75,1,0,"Miami Gardens, FL",Buffalo Bills,Miami Dolphins,2013,October 20
+269,Green Bay Packers,1,0,0,67,62,56,1,0,"Green Bay, WI",Green Bay Packers,Minnesota Vikings,2014,October 2
+270,Cincinnati Bengals,1,0,0,74,65,55,0,0,"San Diego, CA",Cincinnati Bengals,San Diego Chargers,2013,December 1
+271,Pittsburgh Steelers,1,0,0,53,45,37,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Buffalo Bills,2013,November 10
+272,Philadelphia Eagles,1,0,0,71,62,53,0,0,"East Rutherford, NJ",Philadelphia Eagles,New York Jets,2015,September 27
+273,Cincinnati Bengals,1,0,0,57,48,39,1,0,"Detroit, MI",Cincinnati Bengals,Detroit Lions,2013,October 20
+274,Baltimore Ravens,1,0,0,80,72,63,0,0,"Miami Gardens, FL",Baltimore Ravens,Miami Dolphins,2014,December 7
+275,Cincinnati Bengals,1,0,0,79,70,57,0,0,"Cincinnati, OH",Cincinnati Bengals,Tennessee Titans,2014,September 21
+276,Green Bay Packers,1,0,0,38,35,32,1,1,"Green Bay, WI",Green Bay Packers,Chicago Bears,2014,November 9
+277,Seattle Seahawks,1,0,0,83,79,74,1,0,"Houston, TX",Seattle Seahawks,Houston Texans,2013,September 29
+278,Detroit Lions,1,0,0,35,30,24,0,0,"Detroit, MI",Detroit Lions,Tampa Bay Buccaneers,2014,December 7
+279,Tennessee Titans,1,0,0,79,71,63,0,0,"Pittsburgh, PA",Tennessee Titans,Pittsburgh Steelers,2013,September 8
+280,Dallas Cowboys,1,0,0,84,72,61,0,0,"Arlington, TX",Dallas Cowboys,Houston Texans,2014,October 5
+281,Arizona Cardinals,1,0,0,73,62,50,0,0,"Detroit, MI",Arizona Cardinals,Detroit Lions,2015,October 11
+282,New York Jets,1,0,0,82,73,64,0,0,"Miami Gardens, FL",New York Jets,Miami Dolphins,2014,December 28
+283,Cincinnati Bengals,1,0,0,51,37,23,1,0,"Cincinnati, OH",Cincinnati Bengals,Denver Broncos,2014,December 22
+284,Miami Dolphins,1,0,0,86,80,73,0,0,"Miami Gardens, FL",Miami Dolphins,Cincinnati Bengals,2013,October 31
+285,Oakland Raiders,1,1,0,85,77,69,0,0,"Houston, TX",Oakland Raiders,Houston Texans,2013,November 17
+286,Cincinnati Bengals,1,0,0,80,71,61,1,0,"Houston, TX",Cincinnati Bengals,Houston Texans,2014,November 23
+287,Pittsburgh Steelers,1,0,0,85,71,57,0,0,"Charlotte, NC",Pittsburgh Steelers,Carolina Panthers,2014,September 21
+288,Miami Dolphins,1,0,0,51,43,35,0,0,"East Rutherford, NJ",Miami Dolphins,New York Jets,2013,December 1
+289,Arizona Cardinals,1,0,0,89,74,60,0,0,"Glendale, AZ",Arizona Cardinals,Baltimore Ravens,2015,October 26
+290,San Diego Chargers,1,0,0,86,80,73,0,0,"San Diego, CA",San Diego Chargers,Seattle Seahawks,2014,September 14
+291,Philadelphia Eagles,1,1,0,32,30,27,1,1,"Philadelphia, PA",Philadelphia Eagles,Detroit Lions,2013,December 8
+292,Green Bay Packers,1,0,0,81,67,52,0,0,"Santa Clara, CA",Green Bay Packers,San Francisco 49ers,2015,October 4
+293,Miami Dolphins,1,1,0,30,24,19,1,1,"Pittsburgh, PA",Miami Dolphins,Pittsburgh Steelers,2013,December 8
+294,Buffalo Bills,1,0,0,63,57,52,1,0,"East Rutherford, NJ",Buffalo Bills,New York Jets,2014,October 26
+295,Baltimore Ravens,1,0,0,38,31,24,0,0,"Baltimore, MD",Baltimore Ravens,Pittsburgh Steelers,2013,November 28
+296,San Francisco 49ers,1,0,0,67,55,42,0,0,"Santa Clara, CA",San Francisco 49ers,St. Louis Rams,2013,December 1
+297,Tennessee Titans,1,1,0,61,50,38,0,0,"Oakland, CA",Tennessee Titans,Oakland Raiders,2013,November 24
+298,Seattle Seahawks,1,0,0,70,57,43,0,0,"Atlanta, GA",Seattle Seahawks,Atlanta Falcons,2013,November 10
+299,Denver Broncos,1,0,0,65,56,46,1,0,"Denver, CO",Denver Broncos,Minnesota Vikings,2015,October 4
+300,Pittsburgh Steelers,1,1,0,44,42,39,1,0,"Pittsburgh, PA",Pittsburgh Steelers,Cleveland Browns,2013,December 29
+301,Arizona Cardinals,1,0,0,70,58,46,0,0,"Arlington, TX",Arizona Cardinals,Dallas Cowboys,2014,November 2
+302,Minnesota Vikings,1,0,0,84,70,57,0,0,"Minneapolis, MN",Minnesota Vikings,Atlanta Falcons,2014,September 28
+303,Denver Broncos,1,0,0,72,53,34,0,0,"Oakland, CA",Denver Broncos,Oakland Raiders,2013,December 29
+304,Baltimore Ravens,1,0,0,59,49,38,0,0,"Baltimore, MD",Baltimore Ravens,Atlanta Falcons,2014,October 19
+305,Kansas City Chiefs,1,0,0,86,72,61,0,0,"Kansas City, MO",Kansas City Chiefs,New England Patriots,2014,September 29
+306,Washington Redskins,1,0,0,59,56,53,0,0,"Landover, MD",Washington Redskins,Philadelphia Eagles,2015,October 4
+307,Arizona Cardinals,1,0,0,73,61,51,0,0,"East Rutherford, NJ",Arizona Cardinals,New York Giants,2014,September 14
+308,Atlanta Falcons,1,0,0,78,70,63,0,0,"East Rutherford, NJ",Atlanta Falcons,New York Giants,2015,September 20
+309,Baltimore Ravens,1,0,0,73,63,53,0,0,"Baltimore, MD",Baltimore Ravens,Houston Texans,2013,September 22
+310,Cincinnati Bengals,1,1,0,72,57,42,0,0,"Cincinnati, OH",Cincinnati Bengals,Seattle Seahawks,2015,October 11
+311,Carolina Panthers,1,0,0,68,57,45,0,0,"Charlotte, NC",Carolina Panthers,St. Louis Rams,2013,October 20
+312,San Francisco 49ers,1,0,0,68,60,51,0,0,"New Orleans, LA",San Francisco 49ers,New Orleans Saints,2014,November 9
+313,Houston Texans,1,0,0,66,62,57,1,0,"Jacksonville, FL",Houston Texans,Jacksonville Jaguars,2014,December 7
+314,Arizona Cardinals,1,0,0,75,63,51,0,0,"Glendale, AZ",Arizona Cardinals,Kansas City Chiefs,2014,December 7
+315,Cleveland Browns,1,0,0,0,0,0,0,0,"Cleveland, OH",Cleveland Browns,Tampa Bay Buccaneers,2014,November 2
+316,Cincinnati Bengals,1,0,0,46,42,39,0,0,"Cleveland, OH",Cincinnati Bengals,Cleveland Browns,2014,December 14
+317,New Orleans Saints,1,0,0,54,51,47,0,0,"Atlanta, GA",New Orleans Saints,Atlanta Falcons,2013,November 21
+318,Atlanta Falcons,1,0,0,85,73,60,0,0,"Atlanta, GA",Atlanta Falcons,Tampa Bay Buccaneers,2014,September 18
+319,Baltimore Ravens,1,0,0,61,50,39,0,0,"Baltimore, MD",Baltimore Ravens,Cincinnati Bengals,2013,November 10
+320,Kansas City Chiefs,1,0,0,39,34,28,0,0,"Orchard Park, NY",Kansas City Chiefs,Buffalo Bills,2013,November 3
+321,Miami Dolphins,1,0,0,84,78,73,0,0,"Miami Gardens, FL",Miami Dolphins,New England Patriots,2013,December 15
+322,Miami Dolphins,1,0,0,79,70,61,0,0,"Miami Gardens, FL",Miami Dolphins,Minnesota Vikings,2014,December 21
+323,San Francisco 49ers,1,1,0,71,66,61,1,0,"St. Louis, MO",San Francisco 49ers,St. Louis Rams,2014,October 13
+324,Baltimore Ravens,1,1,0,70,63,56,0,0,"New Orleans, LA",Baltimore Ravens,New Orleans Saints,2014,November 24
+325,Chicago Bears,1,0,0,84,73,61,1,0,"Atlanta, GA",Chicago Bears,Atlanta Falcons,2014,October 12
+326,Denver Broncos,1,0,0,83,66,48,0,0,"Denver, CO",Denver Broncos,Kansas City Chiefs,2014,September 14
+327,Washington Redskins,1,0,0,37,30,24,0,0,"Landover, MD",Washington Redskins,Philadelphia Eagles,2014,December 20
+328,San Diego Chargers,1,0,0,73,66,59,0,0,"San Diego, CA",San Diego Chargers,Oakland Raiders,2014,November 16
+329,Indianapolis Colts,1,0,0,82,76,69,1,0,"Jacksonville, FL",Indianapolis Colts,Jacksonville Jaguars,2013,September 29
+330,Kansas City Chiefs,1,0,0,84,72,59,0,0,"Houston, TX",Kansas City Chiefs,Houston Texans,2015,September 13
+331,Green Bay Packers,1,0,0,57,44,30,0,0,"Minneapolis, MN",Green Bay Packers,Minnesota Vikings,2013,October 27
+332,New York Jets,1,0,0,52,44,35,0,0,"Nashville, TN",New York Jets,Tennessee Titans,2014,December 14
+333,Carolina Panthers,1,0,0,47,43,39,1,0,"Atlanta, GA",Carolina Panthers,Atlanta Falcons,2013,December 29
+334,Philadelphia Eagles,1,0,0,48,39,30,0,0,"Philadelphia, PA",Philadelphia Eagles,Arizona Cardinals,2013,December 1
+335,Denver Broncos,1,0,0,55,41,27,0,0,"Kansas City, MO",Denver Broncos,Kansas City Chiefs,2013,December 1
+336,Washington Redskins,1,0,0,69,60,50,0,0,"Landover, MD",Washington Redskins,Jacksonville Jaguars,2014,September 14
+337,Washington Redskins,1,0,0,78,72,64,0,0,"Landover, MD",Washington Redskins,St. Louis Rams,2015,September 20
+338,Atlanta Falcons,1,0,0,69,64,59,1,0,"Tampa, FL",Atlanta Falcons,Tampa Bay Buccaneers,2014,November 9
+339,St. Louis Rams,1,0,0,60,55,50,1,0,"St. Louis, MO",St. Louis Rams,Jacksonville Jaguars,2013,October 6
+340,New Orleans Saints,1,0,0,70,0,70,0,0,"New Orleans, LA",New Orleans Saints,Tampa Bay Buccaneers,2014,October 5
+341,Pittsburgh Steelers,1,0,0,66,62,57,0,0,"East Rutherford, NJ",Pittsburgh Steelers,New York Jets,2013,October 13
+342,Arizona Cardinals,1,0,0,80,74,68,1,0,"Jacksonville, FL",Arizona Cardinals,Jacksonville Jaguars,2013,November 17
+343,Minnesota Vikings,1,0,0,64,48,32,0,0,"Minneapolis, MN",Minnesota Vikings,Kansas City Chiefs,2015,October 18
+344,Houston Texans,1,0,0,74,67,60,0,0,"Oakland, CA",Houston Texans,Oakland Raiders,2014,September 14
+345,Oakland Raiders,1,0,0,91,74,56,0,0,"Oakland, CA",Oakland Raiders,Baltimore Ravens,2015,September 20
+346,Carolina Panthers,1,0,0,62,60,59,1,0,"Seattle, WA",Carolina Panthers,Seattle Seahawks,2015,October 18
+347,Dallas Cowboys,1,0,0,37,31,25,0,0,"Chicago, IL",Dallas Cowboys,Chicago Bears,2014,December 4
+348,Arizona Cardinals,1,0,0,91,78,66,0,0,"Glendale, AZ",Arizona Cardinals,Carolina Panthers,2013,October 6
+349,San Francisco 49ers,1,0,0,43,36,30,1,0,"East Rutherford, NJ",San Francisco 49ers,New York Giants,2014,November 16
+350,San Francisco 49ers,1,0,0,75,67,58,0,0,"Santa Clara, CA",San Francisco 49ers,Philadelphia Eagles,2014,September 28
+351,New Orleans Saints,1,0,0,73,64,55,1,0,"New Orleans, LA",New Orleans Saints,Buffalo Bills,2013,October 27
+352,Seattle Seahawks,1,0,0,68,64,59,1,0,"Seattle, WA",Seattle Seahawks,San Francisco 49ers,2013,September 15
+353,Seattle Seahawks,1,0,0,82,70,57,0,0,"Seattle, WA",Seattle Seahawks,Denver Broncos,2014,September 21
+354,Cleveland Browns,1,0,0,0,0,0,0,0,"Cleveland, OH",Cleveland Browns,Cincinnati Bengals,2013,September 29
+355,Kansas City Chiefs,1,0,0,77,59,43,0,0,"Kansas City, MO",Kansas City Chiefs,Detroit Lions,2015,November 1
+356,Cincinnati Bengals,1,0,0,64,58,53,1,0,"Pittsburgh, PA",Cincinnati Bengals,Pittsburgh Steelers,2015,November 1
+357,Denver Broncos,1,0,0,64,49,34,1,0,"Denver, CO",Denver Broncos,Jacksonville Jaguars,2013,October 13
+358,New York Giants,1,0,0,66,63,60,0,0,"Landover, MD",New York Giants,Washington Redskins,2014,September 25
+359,Dallas Cowboys,1,0,0,80,72,63,0,0,"Philadelphia, PA",Dallas Cowboys,Philadelphia Eagles,2015,September 20
+360,Cleveland Browns,1,0,0,0,0,0,1,0,"Cleveland, OH",Cleveland Browns,Buffalo Bills,2013,October 3
+361,Philadelphia Eagles,1,0,0,63,49,35,0,0,"Philadelphia, PA",Philadelphia Eagles,Carolina Panthers,2014,November 10
+362,St. Louis Rams,1,0,0,64,53,41,0,0,"St. Louis, MO",St. Louis Rams,Seattle Seahawks,2014,October 19
+363,St. Louis Rams,1,0,0,64,56,47,0,0,"St. Louis, MO",St. Louis Rams,Cleveland Browns,2015,October 25
+364,Atlanta Falcons,1,0,0,70,67,63,1,0,"Atlanta, GA",Atlanta Falcons,Houston Texans,2015,October 4
+365,Tennessee Titans,1,0,0,75,67,58,1,0,"Nashville, TN",Tennessee Titans,New York Jets,2013,September 29
+366,Buffalo Bills,1,0,0,60,53,46,1,0,"Orchard Park, NY",Buffalo Bills,Cleveland Browns,2014,November 30
+367,New Orleans Saints,1,0,0,88,81,73,0,0,"New Orleans, LA",New Orleans Saints,Minnesota Vikings,2014,September 21
+368,Dallas Cowboys,1,0,0,52,38,25,0,0,"Arlington, TX",Dallas Cowboys,Oakland Raiders,2013,November 28
+369,Green Bay Packers,1,0,0,64,57,49,1,0,"Green Bay, WI",Green Bay Packers,Detroit Lions,2013,October 6
+370,Chicago Bears,1,0,0,26,15,3,0,1,"Chicago, IL",Chicago Bears,Dallas Cowboys,2013,December 9
+371,Carolina Panthers,1,0,0,82,75,68,1,0,"Miami Gardens, FL",Carolina Panthers,Miami Dolphins,2013,November 24
+372,Buffalo Bills,1,0,0,88,82,77,0,0,"Miami Gardens, FL",Buffalo Bills,Miami Dolphins,2015,September 27
+373,Jacksonville Jaguars,1,0,0,80,72,66,0,0,"Jacksonville, FL",Jacksonville Jaguars,Cleveland Browns,2014,October 19
+374,Jacksonville Jaguars,1,0,0,86,78,71,0,0,"Jacksonville, FL",Jacksonville Jaguars,Buffalo Bills,2015,October 25
+375,Indianapolis Colts,1,0,0,48,45,41,1,0,"Indianapolis, IN",Indianapolis Colts,Houston Texans,2014,December 14
+376,Tampa Bay Buccaneers,1,0,0,24,20,15,0,0,"Detroit, MI",Tampa Bay Buccaneers,Detroit Lions,2013,November 24
+377,Denver Broncos,1,0,0,75,67,59,0,0,"Detroit, MI",Denver Broncos,Detroit Lions,2015,September 27
+378,Dallas Cowboys,1,0,0,77,68,61,0,0,"Arlington, TX",Dallas Cowboys,New York Giants,2014,October 19
+379,Carolina Panthers,1,0,0,62,49,36,0,0,"Charlotte, NC",Carolina Panthers,Atlanta Falcons,2013,November 3
+380,Carolina Panthers,1,1,0,55,43,31,1,0,"Charlotte, NC",Carolina Panthers,New York Jets,2013,December 15
+381,Carolina Panthers,1,0,0,51,47,42,0,0,"Charlotte, NC",Carolina Panthers,Cleveland Browns,2014,December 21
+382,St. Louis Rams,1,0,0,75,63,51,0,0,"St. Louis, MO",St. Louis Rams,Seattle Seahawks,2015,September 13
+383,Chicago Bears,1,0,0,69,56,43,1,0,"Chicago, IL",Chicago Bears,Baltimore Ravens,2013,November 17
+384,Chicago Bears,1,0,0,54,52,50,1,0,"Chicago, IL",Chicago Bears,Tampa Bay Buccaneers,2014,November 23
+385,Denver Broncos,1,0,0,65,58,50,0,0,"San Diego, CA",Denver Broncos,San Diego Chargers,2014,December 14
+386,Kansas City Chiefs,1,0,0,75,62,48,0,0,"Philadelphia, PA",Kansas City Chiefs,Philadelphia Eagles,2013,September 19
+387,Dallas Cowboys,1,0,0,82,68,54,0,0,"Arlington, TX",Dallas Cowboys,St. Louis Rams,2013,September 22
+388,Kansas City Chiefs,1,0,0,75,65,55,1,0,"Nashville, TN",Kansas City Chiefs,Tennessee Titans,2013,October 6
+389,Seattle Seahawks,1,0,0,69,56,43,0,0,"Santa Clara, CA",Seattle Seahawks,San Francisco 49ers,2014,November 27
+390,Cincinnati Bengals,1,1,0,32,26,21,1,1,"Cincinnati, OH",Cincinnati Bengals,Indianapolis Colts,2013,December 8
+391,New York Giants,1,0,0,65,55,45,0,0,"Orchard Park, NY",New York Giants,Buffalo Bills,2015,October 4
+392,Jacksonville Jaguars,1,1,0,82,72,63,0,0,"Jacksonville, FL",Jacksonville Jaguars,Houston Texans,2013,December 5
+393,New York Jets,1,0,0,90,80,71,0,0,"Miami Gardens, FL",New York Jets,Miami Dolphins,2015,October 4
+394,Minnesota Vikings,1,0,0,36,32,27,0,1,"Minneapolis, MN",Minnesota Vikings,New York Jets,2014,December 7
+395,Miami Dolphins,1,0,0,64,53,41,1,0,"East Rutherford, NJ",Miami Dolphins,New York Jets,2014,December 1
+396,Carolina Panthers,1,0,0,86,80,75,0,0,"Jacksonville, FL",Carolina Panthers,Jacksonville Jaguars,2015,September 13
+397,Arizona Cardinals,1,0,0,102,94,87,0,0,"Glendale, AZ",Arizona Cardinals,New Orleans Saints,2015,September 13
+398,Baltimore Ravens,1,0,0,89,79,68,0,0,"Baltimore, MD",Baltimore Ravens,Pittsburgh Steelers,2014,September 11
+399,New Orleans Saints,1,0,0,91,81,71,1,0,"Tampa, FL",New Orleans Saints,Tampa Bay Buccaneers,2013,September 15
+400,Denver Broncos,1,1,0,70,59,48,0,0,"Oakland, CA",Denver Broncos,Oakland Raiders,2014,November 9
+401,Tampa Bay Buccaneers,1,0,0,64,60,55,1,0,"Atlanta, GA",Tampa Bay Buccaneers,Atlanta Falcons,2015,November 1
+402,St. Louis Rams,1,0,0,85,79,73,1,0,"St. Louis, MO",St. Louis Rams,Arizona Cardinals,2013,September 8
+403,Tampa Bay Buccaneers,1,0,0,82,72,62,0,0,"Tampa, FL",Tampa Bay Buccaneers,Miami Dolphins,2013,November 11
+404,San Francisco 49ers,1,0,0,71,64,57,0,0,"Santa Clara, CA",San Francisco 49ers,Baltimore Ravens,2015,October 18
+405,Tampa Bay Buccaneers,1,0,0,73,64,55,0,0,"Pittsburgh, PA",Tampa Bay Buccaneers,Pittsburgh Steelers,2014,September 28
+406,Dallas Cowboys,1,0,0,93,76,61,0,0,"Arlington, TX",Dallas Cowboys,New York Giants,2015,September 13
+407,Green Bay Packers,1,0,0,55,43,31,0,0,"Green Bay, WI",Green Bay Packers,Carolina Panthers,2014,October 19
+408,Minnesota Vikings,1,0,0,24,14,5,0,0,"Minneapolis, MN",Minnesota Vikings,Chicago Bears,2014,December 28
+409,Green Bay Packers,1,0,0,60,42,24,0,0,"Arlington, TX",Green Bay Packers,Dallas Cowboys,2013,December 15
+410,Dallas Cowboys,1,0,0,54,50,48,0,0,"Arlington, TX",Dallas Cowboys,Indianapolis Colts,2014,December 21
+411,Seattle Seahawks,1,0,0,46,44,41,1,0,"Seattle, WA",Seattle Seahawks,St. Louis Rams,2014,December 28
+412,Kansas City Chiefs,1,0,0,89,80,73,0,0,"Jacksonville, FL",Kansas City Chiefs,Jacksonville Jaguars,2013,September 8
+413,Houston Texans,1,0,0,75,72,68,0,0,"San Diego, CA",Houston Texans,San Diego Chargers,2013,September 9
+414,Kansas City Chiefs,1,0,0,32,25,18,0,1,"Kansas City, MO",Kansas City Chiefs,Seattle Seahawks,2014,November 16
+415,New York Giants,1,0,0,46,40,35,0,0,"East Rutherford, NJ",New York Giants,Washington Redskins,2014,December 14
+416,New England Patriots,1,0,0,71,67,62,1,0,"Baltimore, MD",New England Patriots,Baltimore Ravens,2013,December 22
+417,New England Patriots,1,1,0,77,67,56,0,0,"San Diego, CA",New England Patriots,San Diego Chargers,2014,December 7
+418,Dallas Cowboys,1,0,0,96,83,70,0,0,"Arlington, TX",Dallas Cowboys,New York Giants,2013,September 8
+419,New England Patriots,1,1,0,70,59,48,0,0,"Houston, TX",New England Patriots,Houston Texans,2013,December 1
+420,Atlanta Falcons,1,0,0,69,63,57,1,0,"Nashville, TN",Atlanta Falcons,Tennessee Titans,2015,October 25
+421,New Orleans Saints,1,0,0,82,77,71,1,0,"New Orleans, LA",New Orleans Saints,San Francisco 49ers,2013,November 17
+422,Philadelphia Eagles,1,0,0,47,42,37,1,0,"Green Bay, WI",Philadelphia Eagles,Green Bay Packers,2013,November 10
+423,Miami Dolphins,1,0,0,57,47,36,0,0,"Chicago, IL",Miami Dolphins,Chicago Bears,2014,October 19
+424,Carolina Panthers,1,0,0,88,82,76,0,0,"Tampa, FL",Carolina Panthers,Tampa Bay Buccaneers,2014,September 7
+425,Denver Broncos,1,0,0,60,49,37,0,0,"Houston, TX",Denver Broncos,Houston Texans,2013,December 22
+426,Baltimore Ravens,1,0,0,67,60,52,1,0,"Baltimore, MD",Baltimore Ravens,San Diego Chargers,2015,November 1
+427,Tennessee Titans,1,1,0,77,64,51,0,0,"Nashville, TN",Tennessee Titans,San Diego Chargers,2013,September 22
+428,Buffalo Bills,1,0,0,62,53,43,0,0,"Orchard Park, NY",Buffalo Bills,Miami Dolphins,2014,September 14
+429,New England Patriots,1,0,0,67,59,50,0,0,"Orchard Park, NY",New England Patriots,Buffalo Bills,2015,September 20
+430,San Diego Chargers,1,0,0,81,71,60,0,0,"San Diego, CA",San Diego Chargers,Dallas Cowboys,2013,September 29
+431,Denver Broncos,1,0,0,64,54,44,1,0,"Denver, CO",Denver Broncos,Oakland Raiders,2013,September 23
+432,Arizona Cardinals,1,0,0,62,56,51,0,0,"Glendale, AZ",Arizona Cardinals,Indianapolis Colts,2013,November 24
+433,Arizona Cardinals,1,0,0,93,80,66,0,0,"Glendale, AZ",Arizona Cardinals,Washington Redskins,2014,October 12
+434,Kansas City Chiefs,1,0,0,64,49,34,0,0,"Kansas City, MO",Kansas City Chiefs,Cleveland Browns,2013,October 27
+435,Indianapolis Colts,1,0,0,90,79,68,0,0,"Houston, TX",Indianapolis Colts,Houston Texans,2014,October 9
+436,Indianapolis Colts,1,0,0,55,50,44,1,0,"Indianapolis, IN",Indianapolis Colts,Jacksonville Jaguars,2014,November 23
+437,Miami Dolphins,1,0,0,75,69,62,0,0,"Cleveland, OH",Miami Dolphins,Cleveland Browns,2013,September 8
+438,Seattle Seahawks,1,0,0,73,62,52,0,0,"Seattle, WA",Seattle Seahawks,Detroit Lions,2015,October 5
+439,Houston Texans,1,0,0,69,66,63,1,0,"Houston, TX",Houston Texans,Tennessee Titans,2015,November 1
+440,San Francisco 49ers,1,0,0,68,52,37,0,0,"Glendale, AZ",San Francisco 49ers,Arizona Cardinals,2013,December 29
+441,Carolina Panthers,1,0,0,71,67,63,1,0,"Charlotte, NC",Carolina Panthers,New Orleans Saints,2015,September 27
+442,Jacksonville Jaguars,1,0,0,67,53,38,0,0,"Nashville, TN",Jacksonville Jaguars,Tennessee Titans,2013,November 10
+443,Cincinnati Bengals,1,0,0,75,64,53,0,0,"Cincinnati, OH",Cincinnati Bengals,Kansas City Chiefs,2015,October 4
+444,Detroit Lions,1,0,0,49,42,35,0,0,"Chicago, IL",Detroit Lions,Chicago Bears,2013,November 10
+445,Green Bay Packers,1,0,0,71,61,50,0,0,"Chicago, IL",Green Bay Packers,Chicago Bears,2015,September 13
+446,Indianapolis Colts,1,0,0,65,55,44,1,0,"Indianapolis, IN",Indianapolis Colts,Seattle Seahawks,2013,October 6
+447,Tampa Bay Buccaneers,1,0,0,82,75,68,0,0,"Tampa, FL",Tampa Bay Buccaneers,Atlanta Falcons,2013,November 17
+448,Tampa Bay Buccaneers,1,0,0,87,79,71,0,0,"Tampa, FL",Tampa Bay Buccaneers,Jacksonville Jaguars,2015,October 11
+449,Pittsburgh Steelers,1,0,0,44,38,33,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Arizona Cardinals,2015,October 18
+450,New Orleans Saints,1,1,0,80,72,64,0,0,"Tampa, FL",New Orleans Saints,Tampa Bay Buccaneers,2014,December 28
+451,Kansas City Chiefs,1,0,0,86,74,64,1,0,"Kansas City, MO",Kansas City Chiefs,Dallas Cowboys,2013,September 15
+452,Chicago Bears,1,0,0,78,75,71,0,0,"Chicago, IL",Chicago Bears,Cincinnati Bengals,2013,September 8
+453,Cincinnati Bengals,1,0,0,68,54,41,0,0,"Cincinnati, OH",Cincinnati Bengals,Baltimore Ravens,2014,October 26
+454,Seattle Seahawks,1,0,0,82,68,53,0,0,"Glendale, AZ",Seattle Seahawks,Arizona Cardinals,2013,October 17
+455,Cleveland Browns,1,0,0,66,52,39,0,0,"Cleveland, OH",Cleveland Browns,Pittsburgh Steelers,2014,October 12
+456,Minnesota Vikings,1,0,0,1,0,-2,0,0,"Minneapolis, MN",Minnesota Vikings,Philadelphia Eagles,2013,December 15
+457,San Francisco 49ers,1,0,0,57,47,37,0,0,"Santa Clara, CA",San Francisco 49ers,Arizona Cardinals,2014,December 28
+458,Cincinnati Bengals,1,0,0,68,63,57,1,0,"Orchard Park, NY",Cincinnati Bengals,Buffalo Bills,2013,October 13
+459,Seattle Seahawks,1,0,0,53,46,39,1,0,"Seattle, WA",Seattle Seahawks,Tampa Bay Buccaneers,2013,November 3
+460,Philadelphia Eagles,1,0,0,80,72,63,0,0,"Landover, MD",Philadelphia Eagles,Washington Redskins,2013,September 9
+461,Baltimore Ravens,1,0,0,81,68,54,0,0,"Baltimore, MD",Baltimore Ravens,Carolina Panthers,2014,September 28
+462,Miami Dolphins,1,0,0,82,74,66,0,0,"Miami Gardens, FL",Miami Dolphins,Buffalo Bills,2014,November 13
+463,Indianapolis Colts,1,0,0,56,50,43,0,0,"Indianapolis, IN",Indianapolis Colts,Cincinnati Bengals,2014,October 19
+464,New Orleans Saints,1,0,0,62,54,46,0,0,"Indianapolis, IN",New Orleans Saints,Indianapolis Colts,2015,October 25
+465,Dallas Cowboys,1,0,0,48,42,37,0,0,"Philadelphia, PA",Dallas Cowboys,Philadelphia Eagles,2014,December 14
+466,Seattle Seahawks,1,0,0,69,53,36,0,0,"St. Louis, MO",Seattle Seahawks,St. Louis Rams,2013,October 28
+467,Kansas City Chiefs,1,0,0,64,58,51,1,0,"Kansas City, MO",Kansas City Chiefs,Oakland Raiders,2014,December 14
+468,Philadelphia Eagles,1,0,0,73,69,66,1,0,"East Rutherford, NJ",Philadelphia Eagles,New York Giants,2013,October 6
+469,Seattle Seahawks,1,0,0,83,66,48,0,0,"Charlotte, NC",Seattle Seahawks,Carolina Panthers,2014,October 26
+470,Tennessee Titans,1,1,0,77,68,58,1,0,"Nashville, TN",Tennessee Titans,Jacksonville Jaguars,2014,October 12
+471,Cincinnati Bengals,1,1,0,71,56,43,0,0,"Cincinnati, OH",Cincinnati Bengals,Atlanta Falcons,2014,September 14
+472,Cincinnati Bengals,1,0,0,73,62,51,0,0,"Cincinnati, OH",Cincinnati Bengals,San Diego Chargers,2015,September 20
+473,New York Jets,1,0,0,73,65,57,1,0,"Atlanta, GA",New York Jets,Atlanta Falcons,2013,October 7
+474,Denver Broncos,1,0,0,76,58,40,0,0,"Denver, CO",Denver Broncos,Philadelphia Eagles,2013,September 29
+475,New Orleans Saints,1,0,0,75,67,58,0,0,"New Orleans, LA",New Orleans Saints,Dallas Cowboys,2013,November 10
+476,Kansas City Chiefs,1,0,0,75,71,67,0,0,"San Diego, CA",Kansas City Chiefs,San Diego Chargers,2014,October 19
+477,Oakland Raiders,1,0,0,78,73,67,0,0,"San Diego, CA",Oakland Raiders,San Diego Chargers,2015,October 25
+478,New Orleans Saints,1,0,0,85,80,74,0,0,"New Orleans, LA",New Orleans Saints,Miami Dolphins,2013,September 30
+479,Tennessee Titans,1,0,0,79,68,57,0,0,"Kansas City, MO",Tennessee Titans,Kansas City Chiefs,2014,September 7
+480,Houston Texans,1,0,0,89,81,72,1,0,"Houston, TX",Houston Texans,Buffalo Bills,2014,September 28
+481,Tennessee Titans,1,0,0,55,45,34,1,0,"Nashville, TN",Tennessee Titans,Houston Texans,2013,December 29
+482,Seattle Seahawks,1,0,0,77,65,53,0,0,"Santa Clara, CA",Seattle Seahawks,San Francisco 49ers,2015,October 22
+483,Pittsburgh Steelers,1,0,0,73,62,53,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Cleveland Browns,2014,September 7
+484,Kansas City Chiefs,1,0,0,49,42,35,1,0,"Orchard Park, NY",Kansas City Chiefs,Buffalo Bills,2014,November 9
+485,St. Louis Rams,1,0,0,36,32,27,1,1,"St. Louis, MO",St. Louis Rams,Tampa Bay Buccaneers,2013,December 22
+486,Atlanta Falcons,1,0,0,58,55,52,0,0,"New Orleans, LA",Atlanta Falcons,New Orleans Saints,2014,December 21
+487,Green Bay Packers,1,0,0,39,26,12,0,1,"Chicago, IL",Green Bay Packers,Chicago Bears,2013,December 29
+488,San Francisco 49ers,1,0,0,83,67,51,0,0,"Santa Clara, CA",San Francisco 49ers,Houston Texans,2013,October 6
+489,Denver Broncos,1,0,0,53,41,28,0,0,"Denver, CO",Denver Broncos,Kansas City Chiefs,2013,November 17
+490,Denver Broncos,1,1,0,44,36,27,1,1,"Denver, CO",Denver Broncos,Miami Dolphins,2014,November 23
+491,Kansas City Chiefs,1,0,0,72,58,46,0,0,"Kansas City, MO",Kansas City Chiefs,Houston Texans,2013,October 20
+492,St. Louis Rams,1,0,0,48,41,33,0,0,"Indianapolis, IN",St. Louis Rams,Indianapolis Colts,2013,November 10
+493,Detroit Lions,1,0,0,45,40,36,0,0,"Detroit, MI",Detroit Lions,Miami Dolphins,2014,November 9
+494,Pittsburgh Steelers,1,0,0,57,47,39,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Baltimore Ravens,2013,October 20
+495,Buffalo Bills,1,0,0,65,54,42,1,0,"Orchard Park, NY",Buffalo Bills,New York Jets,2014,November 24
+496,Denver Broncos,1,0,0,91,83,75,0,0,"Kansas City, MO",Denver Broncos,Kansas City Chiefs,2015,September 17
+497,Tennessee Titans,1,0,0,82,76,69,0,0,"Jacksonville, FL",Tennessee Titans,Jacksonville Jaguars,2013,December 22
+498,Carolina Panthers,1,0,0,69,66,62,1,0,"Charlotte, NC",Carolina Panthers,Detroit Lions,2014,September 14
+499,Carolina Panthers,1,0,0,91,75,59,0,0,"Charlotte, NC",Carolina Panthers,Houston Texans,2015,September 20
+500,Washington Redskins,1,0,0,75,67,59,0,0,"Oakland, CA",Washington Redskins,Oakland Raiders,2013,September 29
+501,Atlanta Falcons,1,0,0,82,73,63,0,0,"Atlanta, GA",Atlanta Falcons,St. Louis Rams,2013,September 15
+502,St. Louis Rams,1,0,0,72,60,47,0,0,"St. Louis, MO",St. Louis Rams,San Francisco 49ers,2015,November 1
+503,San Diego Chargers,1,0,0,85,80,75,0,0,"San Diego, CA",San Diego Chargers,Detroit Lions,2015,September 13
+504,Seattle Seahawks,1,0,0,46,40,30,1,0,"Philadelphia, PA",Seattle Seahawks,Philadelphia Eagles,2014,December 7
+505,Chicago Bears,1,0,0,86,73,60,0,0,"Kansas City, MO",Chicago Bears,Kansas City Chiefs,2015,October 11
+506,Indianapolis Colts,1,1,0,89,79,69,0,0,"Indianapolis, IN",Indianapolis Colts,Oakland Raiders,2013,September 8
+507,New York Giants,1,0,0,71,61,50,1,0,"East Rutherford, NJ",New York Giants,Dallas Cowboys,2015,October 25
+508,Pittsburgh Steelers,1,0,0,40,32,23,1,1,"Nashville, TN",Pittsburgh Steelers,Tennessee Titans,2014,November 17
+509,New York Jets,1,0,0,53,46,37,0,0,"East Rutherford, NJ",New York Jets,New Orleans Saints,2013,November 3
+510,San Francisco 49ers,1,0,0,71,64,57,1,0,"Tampa, FL",San Francisco 49ers,Tampa Bay Buccaneers,2013,December 15
+511,Green Bay Packers,1,0,0,78,70,62,1,0,"Tampa, FL",Green Bay Packers,Tampa Bay Buccaneers,2014,December 21
+512,New Orleans Saints,1,1,0,52,48,44,0,0,"New Orleans, LA",New Orleans Saints,Carolina Panthers,2013,December 8
+513,Jacksonville Jaguars,1,0,0,0,0,0,0,0,"Cleveland, OH",Jacksonville Jaguars,Cleveland Browns,2013,December 1
+514,Pittsburgh Steelers,1,0,0,50,42,34,1,0,"Pittsburgh, PA",Pittsburgh Steelers,Cincinnati Bengals,2014,December 28
+515,Seattle Seahawks,1,0,0,66,62,57,1,0,"Arlington, TX",Seattle Seahawks,Dallas Cowboys,2015,November 1
+516,New York Jets,1,0,0,71,64,55,1,0,"East Rutherford, NJ",New York Jets,Buffalo Bills,2013,September 22
+517,Minnesota Vikings,1,0,0,21,14,6,0,0,"Minneapolis, MN",Minnesota Vikings,Carolina Panthers,2014,November 30
+518,Minnesota Vikings,1,0,0,82,71,60,0,0,"Minneapolis, MN",Minnesota Vikings,San Diego Chargers,2015,September 27
+519,San Diego Chargers,1,0,0,54,37,20,0,0,"Denver, CO",San Diego Chargers,Denver Broncos,2013,December 12
+520,Buffalo Bills,1,0,0,55,50,45,0,0,"Detroit, MI",Buffalo Bills,Detroit Lions,2014,October 5
+521,Seattle Seahawks,1,0,0,64,55,46,0,0,"Seattle, WA",Seattle Seahawks,Chicago Bears,2015,September 27
+522,Pittsburgh Steelers,1,1,0,26,23,20,0,1,"Green Bay, WI",Pittsburgh Steelers,Green Bay Packers,2013,December 22
+523,Atlanta Falcons,1,0,0,90,80,70,1,0,"Atlanta, GA",Atlanta Falcons,New Orleans Saints,2014,September 7
+524,Chicago Bears,1,0,0,60,56,51,0,0,"Chicago, IL",Chicago Bears,Oakland Raiders,2015,October 4
+525,Baltimore Ravens,1,0,0,76,62,47,0,0,"Baltimore, MD",Baltimore Ravens,Cleveland Browns,2013,September 15
+526,Denver Broncos,1,0,0,72,57,41,0,0,"Denver, CO",Denver Broncos,San Francisco 49ers,2014,October 19
+527,New York Jets,1,0,0,79,70,61,1,0,"East Rutherford, NJ",New York Jets,Cleveland Browns,2015,September 13
+528,Arizona Cardinals,1,0,0,87,79,71,1,0,"Glendale, AZ",Arizona Cardinals,San Diego Chargers,2014,September 8
+529,Atlanta Falcons,1,0,0,69,57,44,0,0,"Atlanta, GA",Atlanta Falcons,Tampa Bay Buccaneers,2013,October 20
+530,Jacksonville Jaguars,1,0,0,64,56,48,0,0,"Jacksonville, FL",Jacksonville Jaguars,Tennessee Titans,2014,December 18
+531,Indianapolis Colts,1,0,0,45,35,25,0,1,"Indianapolis, IN",Indianapolis Colts,Jacksonville Jaguars,2013,December 29
+532,Arizona Cardinals,1,0,0,64,58,53,1,0,"Cleveland, OH",Arizona Cardinals,Cleveland Browns,2015,November 1
+533,Tampa Bay Buccaneers,1,0,0,82,73,64,0,0,"Tampa, FL",Tampa Bay Buccaneers,Buffalo Bills,2013,December 8
+534,Houston Texans,1,0,0,91,83,74,0,0,"Houston, TX",Houston Texans,Tennessee Titans,2013,September 15
+535,Washington Redskins,1,0,0,59,50,41,0,0,"Landover, MD",Washington Redskins,Tennessee Titans,2014,October 19
+536,Washington Redskins,1,0,0,69,60,51,0,0,"Landover, MD",Washington Redskins,Tampa Bay Buccaneers,2015,October 25
+537,Buffalo Bills,1,0,0,38,37,35,1,0,"Orchard Park, NY",Buffalo Bills,Green Bay Packers,2014,December 14
+538,New York Jets,1,0,0,84,73,62,0,0,"East Rutherford, NJ",New York Jets,Tampa Bay Buccaneers,2013,September 8
+539,San Diego Chargers,1,0,0,70,59,47,0,0,"San Diego, CA",San Diego Chargers,Kansas City Chiefs,2013,December 29
+540,Miami Dolphins,1,0,0,71,61,51,0,0,"Miami Gardens, FL",Miami Dolphins,San Diego Chargers,2014,November 2
+541,Arizona Cardinals,1,0,0,84,70,55,0,0,"Glendale, AZ",Arizona Cardinals,St. Louis Rams,2014,November 9
+542,Detroit Lions,1,0,0,74,64,55,0,0,"Landover, MD",Detroit Lions,Washington Redskins,2013,September 22
+543,Arizona Cardinals,1,0,0,71,63,55,0,0,"Oakland, CA",Arizona Cardinals,Oakland Raiders,2014,October 19
+544,Atlanta Falcons,1,0,0,74,65,56,0,0,"Atlanta, GA",Atlanta Falcons,Washington Redskins,2015,October 11
+545,Denver Broncos,1,0,0,89,72,54,0,0,"Denver, CO",Denver Broncos,Baltimore Ravens,2015,September 13
+546,Detroit Lions,1,1,0,52,48,45,0,0,"Detroit, MI",Detroit Lions,Minnesota Vikings,2014,December 14
+547,New York Giants,1,0,0,82,68,55,0,0,"East Rutherford, NJ",New York Giants,Washington Redskins,2015,September 24
+548,Cincinnati Bengals,1,0,0,81,73,65,0,0,"Baltimore, MD",Cincinnati Bengals,Baltimore Ravens,2014,September 7
+549,Carolina Panthers,1,0,0,61,56,51,1,0,"Atlanta, GA",Carolina Panthers,Atlanta Falcons,2014,December 28
+550,St. Louis Rams,1,1,0,35,30,25,0,1,"St. Louis, MO",St. Louis Rams,Denver Broncos,2014,November 16
+551,Minnesota Vikings,1,0,0,65,56,46,0,0,"Chicago, IL",Minnesota Vikings,Chicago Bears,2015,November 1
+552,Dallas Cowboys,1,0,0,88,75,63,0,0,"Arlington, TX",Dallas Cowboys,New Orleans Saints,2014,September 28
+553,Miami Dolphins,1,0,0,73,66,60,0,0,"Landover, MD",Miami Dolphins,Washington Redskins,2015,September 13
+554,New Orleans Saints,1,0,0,68,57,45,0,0,"Charlotte, NC",New Orleans Saints,Carolina Panthers,2014,October 30
+555,New Orleans Saints,1,0,0,66,63,60,0,0,"New Orleans, LA",New Orleans Saints,Dallas Cowboys,2015,October 4
+556,Chicago Bears,1,0,0,75,63,51,0,0,"Chicago, IL",Chicago Bears,New York Giants,2013,October 10
+557,Dallas Cowboys,1,0,0,30,27,24,0,0,"East Rutherford, NJ",Dallas Cowboys,New York Giants,2013,November 24
+558,Carolina Panthers,1,0,0,78,66,53,1,0,"Charlotte, NC",Carolina Panthers,New England Patriots,2013,November 18
+559,Denver Broncos,1,1,0,64,54,45,0,0,"East Rutherford, NJ",Denver Broncos,New York Jets,2014,October 12
+560,Houston Texans,1,0,0,95,84,73,1,0,"Houston, TX",Houston Texans,Washington Redskins,2014,September 7
+561,Cincinnati Bengals,1,0,0,76,68,59,1,0,"Oakland, CA",Cincinnati Bengals,Oakland Raiders,2015,September 13
+562,New York Giants,1,0,0,46,41,36,1,0,"East Rutherford, NJ",New York Giants,Washington Redskins,2013,December 29
+563,Pittsburgh Steelers,1,0,0,39,30,21,1,1,"Pittsburgh, PA",Pittsburgh Steelers,Cincinnati Bengals,2013,December 15
+564,Pittsburgh Steelers,1,0,0,34,30,26,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Kansas City Chiefs,2014,December 21
+565,Pittsburgh Steelers,1,0,0,75,68,60,0,0,"Jacksonville, FL",Pittsburgh Steelers,Jacksonville Jaguars,2014,October 5
+566,New England Patriots,1,0,0,64,58,52,0,0,"Minneapolis, MN",New England Patriots,Minnesota Vikings,2014,September 14
+567,Minnesota Vikings,1,0,0,73,60,48,1,0,"Minneapolis, MN",Minnesota Vikings,Detroit Lions,2015,September 20
+568,Kansas City Chiefs,1,0,0,58,46,33,0,0,"Oakland, CA",Kansas City Chiefs,Oakland Raiders,2013,December 15
+569,Oakland Raiders,1,1,0,64,60,55,1,0,"Oakland, CA",Oakland Raiders,Buffalo Bills,2014,December 21
+570,Cleveland Browns,1,0,0,70,55,40,0,0,"Baltimore, MD",Cleveland Browns,Baltimore Ravens,2015,October 11
+571,New Orleans Saints,1,0,0,84,71,58,0,0,"New Orleans, LA",New Orleans Saints,Green Bay Packers,2014,October 26
+572,Carolina Panthers,1,0,0,65,52,38,0,0,"Charlotte, NC",Carolina Panthers,Chicago Bears,2014,October 5
+573,Arizona Cardinals,1,0,0,42,37,32,0,1,"St. Louis, MO",Arizona Cardinals,St. Louis Rams,2014,December 11
+574,Denver Broncos,1,0,0,18,8,-3,0,1,"Denver, CO",Denver Broncos,Tennessee Titans,2013,December 8
+575,Indianapolis Colts,1,0,0,52,42,32,0,0,"Indianapolis, IN",Indianapolis Colts,Tennessee Titans,2013,December 1
+576,Baltimore Ravens,1,0,0,60,48,35,1,0,"Baltimore, MD",Baltimore Ravens,Cleveland Browns,2014,December 28
+577,Buffalo Bills,1,0,0,75,63,51,0,0,"Orchard Park, NY",Buffalo Bills,Baltimore Ravens,2013,September 29
+578,Carolina Panthers,1,0,0,78,73,68,0,0,"Tampa, FL",Carolina Panthers,Tampa Bay Buccaneers,2015,October 4
+579,San Francisco 49ers,1,0,0,75,62,52,0,0,"Jacksonville, FL",San Francisco 49ers,Jacksonville Jaguars,2013,October 27
+580,Arizona Cardinals,1,0,0,87,74,60,0,0,"Glendale, AZ",Arizona Cardinals,Atlanta Falcons,2013,October 27
+581,Cincinnati Bengals,1,0,0,48,36,23,0,0,"Cincinnati, OH",Cincinnati Bengals,Jacksonville Jaguars,2014,November 2
+582,New Orleans Saints,1,0,0,71,70,68,1,0,"New Orleans, LA",New Orleans Saints,New York Giants,2015,November 1
+583,Green Bay Packers,1,0,0,28,22,16,0,1,"Green Bay, WI",Green Bay Packers,Philadelphia Eagles,2014,November 16
+584,Kansas City Chiefs,1,0,0,33,30,29,0,0,"Landover, MD",Kansas City Chiefs,Washington Redskins,2013,December 8
+585,Houston Texans,1,0,0,35,32,30,0,1,"Cleveland, OH",Houston Texans,Cleveland Browns,2014,November 16
+586,Detroit Lions,1,0,0,66,63,60,1,0,"Detroit, MI",Detroit Lions,Chicago Bears,2013,September 29
+587,Houston Texans,1,0,0,46,44,41,1,0,"Houston, TX",Houston Texans,Jacksonville Jaguars,2014,December 28
+588,Buffalo Bills,1,0,0,64,58,52,1,0,"Orchard Park, NY",Buffalo Bills,New York Jets,2013,November 17
+589,Dallas Cowboys,1,0,0,79,68,57,0,0,"St. Louis, MO",Dallas Cowboys,St. Louis Rams,2014,September 21
+590,Tampa Bay Buccaneers,1,0,0,96,85,74,0,0,"New Orleans, LA",Tampa Bay Buccaneers,New Orleans Saints,2015,September 20
+591,Philadelphia Eagles,1,0,0,59,48,37,0,0,"Arlington, TX",Philadelphia Eagles,Dallas Cowboys,2014,November 27
+592,Green Bay Packers,1,0,0,79,69,58,0,0,"Chicago, IL",Green Bay Packers,Chicago Bears,2014,September 28
+593,San Diego Chargers,1,0,0,67,58,48,0,0,"San Diego, CA",San Diego Chargers,Oakland Raiders,2013,December 22
+594,Miami Dolphins,1,0,0,84,78,72,0,0,"Miami Gardens, FL",Miami Dolphins,San Diego Chargers,2013,November 17
+595,Houston Texans,1,0,0,75,70,66,0,0,"Jacksonville, FL",Houston Texans,Jacksonville Jaguars,2015,October 18
+596,Minnesota Vikings,1,0,0,81,69,57,0,0,"Tampa, FL",Minnesota Vikings,Tampa Bay Buccaneers,2014,October 26
+597,San Diego Chargers,1,0,0,86,69,51,0,0,"Oakland, CA",San Diego Chargers,Oakland Raiders,2014,October 12
+598,Baltimore Ravens,1,0,0,89,82,75,0,0,"Miami Gardens, FL",Baltimore Ravens,Miami Dolphins,2013,October 6
+599,Indianapolis Colts,1,0,0,91,80,70,0,0,"Jacksonville, FL",Indianapolis Colts,Jacksonville Jaguars,2014,September 21
+600,Arizona Cardinals,1,0,0,102,91,80,0,0,"Glendale, AZ",Arizona Cardinals,Detroit Lions,2013,September 15
+601,Arizona Cardinals,1,0,0,98,86,75,0,0,"Glendale, AZ",Arizona Cardinals,San Francisco 49ers,2014,September 21
+602,Carolina Panthers,1,0,0,63,46,29,0,0,"Charlotte, NC",Carolina Panthers,Tampa Bay Buccaneers,2014,December 14
+603,Carolina Panthers,1,0,0,60,48,35,0,0,"Minneapolis, MN",Carolina Panthers,Minnesota Vikings,2013,October 13
+604,Atlanta Falcons,1,0,0,49,40,31,1,0,"Atlanta, GA",Atlanta Falcons,Washington Redskins,2013,December 15
+605,Denver Broncos,1,0,0,72,56,39,0,0,"Denver, CO",Denver Broncos,San Diego Chargers,2014,October 23
+606,Chicago Bears,1,0,0,33,29,25,0,1,"Chicago, IL",Chicago Bears,Minnesota Vikings,2014,November 16
+607,Seattle Seahawks,1,0,0,59,52,44,0,0,"Seattle, WA",Seattle Seahawks,Tennessee Titans,2013,October 13
+608,Cleveland Browns,1,0,0,74,56,37,0,0,"Nashville, TN",Cleveland Browns,Tennessee Titans,2014,October 5
+609,Pittsburgh Steelers,1,0,0,43,36,28,0,0,"Cincinnati, OH",Pittsburgh Steelers,Cincinnati Bengals,2014,December 7
+610,Pittsburgh Steelers,1,0,0,57,48,41,1,0,"Pittsburgh, PA",Pittsburgh Steelers,Houston Texans,2014,October 20
+611,Tampa Bay Buccaneers,0,0,0,90,83,75,1,0,"Tampa, FL",St. Louis Rams,Tampa Bay Buccaneers,2014,September 14
+612,San Francisco 49ers,0,0,0,62,58,54,1,0,"Santa Clara, CA",San Diego Chargers,San Francisco 49ers,2014,December 20
+613,New York Giants,0,0,0,64,54,43,0,0,"Philadelphia, PA",Philadelphia Eagles,New York Giants,2014,October 12
+614,St. Louis Rams,0,0,0,85,74,62,0,0,"St. Louis, MO",San Francisco 49ers,St. Louis Rams,2013,September 26
+615,St. Louis Rams,0,0,0,78,67,56,0,0,"St. Louis, MO",Minnesota Vikings,St. Louis Rams,2014,September 7
+616,Kansas City Chiefs,0,0,0,30,22,14,0,0,"Kansas City, MO",San Diego Chargers,Kansas City Chiefs,2013,November 24
+617,Kansas City Chiefs,0,0,0,57,40,23,0,0,"Kansas City, MO",Denver Broncos,Kansas City Chiefs,2014,November 30
+618,Pittsburgh Steelers,0,0,0,62,56,51,1,0,"Pittsburgh, PA",New Orleans Saints,Pittsburgh Steelers,2014,November 30
+619,Cleveland Browns,0,0,0,72,62,53,1,0,"East Rutherford, NJ",New York Jets,Cleveland Browns,2013,December 22
+620,San Diego Chargers,0,0,0,54,39,24,0,0,"Green Bay, WI",Green Bay Packers,San Diego Chargers,2015,October 18
+621,New York Giants,0,0,0,63,50,37,0,0,"East Rutherford, NJ",Indianapolis Colts,New York Giants,2014,November 3
+622,Cleveland Browns,0,0,0,48,44,39,1,0,"Cleveland, OH",Denver Broncos,Cleveland Browns,2015,October 18
+623,Washington Redskins,0,0,0,75,58,41,0,0,"Landover, MD",Seattle Seahawks,Washington Redskins,2014,October 6
+624,Green Bay Packers,0,0,0,28,23,16,0,1,"Detroit, MI",Detroit Lions,Green Bay Packers,2013,November 28
+625,San Francisco 49ers,0,0,0,79,69,59,0,0,"Santa Clara, CA",Chicago Bears,San Francisco 49ers,2014,September 14
+626,Minnesota Vikings,0,0,0,47,43,38,1,0,"Orchard Park, NY",Buffalo Bills,Minnesota Vikings,2014,October 19
+627,New York Giants,0,0,0,57,52,48,1,0,"Seattle, WA",Seattle Seahawks,New York Giants,2014,November 9
+628,Washington Redskins,0,0,0,66,55,43,1,0,"Green Bay, WI",Green Bay Packers,Washington Redskins,2013,September 15
+629,Cleveland Browns,0,0,0,73,64,57,1,0,"Cleveland, OH",Baltimore Ravens,Cleveland Browns,2014,September 21
+630,Houston Texans,0,0,0,84,78,73,0,0,"Miami Gardens, FL",Miami Dolphins,Houston Texans,2015,October 25
+631,Pittsburgh Steelers,0,0,0,63,56,51,0,0,"Pittsburgh, PA",Baltimore Ravens,Pittsburgh Steelers,2015,October 1
+632,New York Jets,0,0,0,72,63,54,1,0,"East Rutherford, NJ",Chicago Bears,New York Jets,2014,September 22
+633,Dallas Cowboys,0,0,0,88,80,72,0,0,"Arlington, TX",San Francisco 49ers,Dallas Cowboys,2014,September 7
+634,New Orleans Saints,0,0,0,53,44,35,0,0,"Detroit, MI",Detroit Lions,New Orleans Saints,2014,October 19
+635,Detroit Lions,0,0,0,61,54,45,0,0,"Detroit, MI",Minnesota Vikings,Detroit Lions,2015,October 25
+636,Atlanta Falcons,0,0,0,91,83,77,1,0,"Miami Gardens, FL",Miami Dolphins,Atlanta Falcons,2013,September 22
+637,Green Bay Packers,0,0,0,52,48,44,1,0,"Green Bay, WI",Chicago Bears,Green Bay Packers,2013,November 4
+638,Jacksonville Jaguars,0,0,0,79,74,69,1,0,"Jacksonville, FL",San Diego Chargers,Jacksonville Jaguars,2013,October 20
+639,Tennessee Titans,0,0,0,63,51,38,0,0,"Nashville, TN",Miami Dolphins,Tennessee Titans,2015,October 18
+640,Cleveland Browns,0,0,0,64,59,53,1,0,"Cincinnati, OH",Cincinnati Bengals,Cleveland Browns,2013,November 17
+641,New Orleans Saints,0,0,0,77,67,56,0,0,"New Orleans, LA",Cincinnati Bengals,New Orleans Saints,2014,November 16
+642,Tennessee Titans,0,0,0,83,71,58,0,0,"Indianapolis, IN",Indianapolis Colts,Tennessee Titans,2014,September 28
+643,Washington Redskins,0,0,0,50,38,25,0,0,"Landover, MD",New York Giants,Washington Redskins,2013,December 1
+644,Houston Texans,0,0,0,69,57,45,0,0,"Houston, TX",Indianapolis Colts,Houston Texans,2013,November 3
+645,Baltimore Ravens,0,0,0,61,55,48,0,0,"Houston, TX",Houston Texans,Baltimore Ravens,2014,December 21
+646,New England Patriots,0,0,0,73,64,55,1,0,"Cincinnati, OH",Cincinnati Bengals,New England Patriots,2013,October 6
+647,Indianapolis Colts,0,0,0,56,54,51,1,0,"Orchard Park, NY",Buffalo Bills,Indianapolis Colts,2015,September 13
+648,Minnesota Vikings,0,0,0,62,60,58,1,0,"Chicago, IL",Chicago Bears,Minnesota Vikings,2013,September 15
+649,Jacksonville Jaguars,0,0,0,74,70,66,0,0,"San Diego, CA",San Diego Chargers,Jacksonville Jaguars,2014,September 28
+650,Washington Redskins,0,0,0,72,67,62,0,0,"Landover, MD",Dallas Cowboys,Washington Redskins,2013,December 22
+651,San Diego Chargers,0,0,0,94,85,75,0,0,"San Diego, CA",Pittsburgh Steelers,San Diego Chargers,2015,October 12
+652,Tampa Bay Buccaneers,0,0,0,86,76,66,0,0,"Tampa, FL",Philadelphia Eagles,Tampa Bay Buccaneers,2013,October 13
+653,Green Bay Packers,0,0,0,71,57,43,0,0,"Denver, CO",Denver Broncos,Green Bay Packers,2015,November 1
+654,St. Louis Rams,0,0,0,87,71,55,1,0,"Kansas City, MO",Kansas City Chiefs,St. Louis Rams,2014,October 26
+655,Houston Texans,0,0,0,87,78,69,0,0,"Houston, TX",Indianapolis Colts,Houston Texans,2015,October 8
+656,Indianapolis Colts,0,1,0,35,32,28,0,1,"Indianapolis, IN",New England Patriots,Indianapolis Colts,2014,November 16
+657,Indianapolis Colts,0,0,0,62,54,46,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Indianapolis Colts,2014,October 26
+658,Dallas Cowboys,0,0,0,96,80,64,0,0,"Arlington, TX",New England Patriots,Dallas Cowboys,2015,October 11
+659,Minnesota Vikings,0,1,0,31,29,27,1,1,"Baltimore, MD",Baltimore Ravens,Minnesota Vikings,2013,December 8
+660,Arizona Cardinals,0,0,0,68,54,40,0,0,"Atlanta, GA",Atlanta Falcons,Arizona Cardinals,2014,November 30
+661,Buffalo Bills,0,0,0,68,60,51,1,0,"Orchard Park, NY",New England Patriots,Buffalo Bills,2013,September 8
+662,Baltimore Ravens,0,0,0,59,50,40,1,0,"Indianapolis, IN",Indianapolis Colts,Baltimore Ravens,2014,October 5
+663,Arizona Cardinals,0,0,0,73,60,47,0,0,"Santa Clara, CA",San Francisco 49ers,Arizona Cardinals,2013,October 13
+664,Cleveland Browns,0,1,0,48,40,31,1,0,"Green Bay, WI",Green Bay Packers,Cleveland Browns,2013,October 20
+665,Minnesota Vikings,0,1,0,73,57,44,0,0,"East Rutherford, NJ",New York Giants,Minnesota Vikings,2013,October 21
+666,Atlanta Falcons,0,0,0,90,75,60,0,0,"New Orleans, LA",New Orleans Saints,Atlanta Falcons,2015,October 15
+667,Minnesota Vikings,0,0,0,73,66,59,0,0,"Detroit, MI",Detroit Lions,Minnesota Vikings,2013,September 8
+668,New York Jets,0,1,0,89,76,63,0,0,"San Diego, CA",San Diego Chargers,New York Jets,2014,October 5
+669,Pittsburgh Steelers,0,0,0,57,50,42,0,0,"East Rutherford, NJ",New York Jets,Pittsburgh Steelers,2014,November 9
+670,New York Jets,0,0,0,70,63,55,1,0,"Oakland, CA",Oakland Raiders,New York Jets,2015,November 1
+671,Chicago Bears,0,0,0,79,69,58,0,0,"Chicago, IL",Buffalo Bills,Chicago Bears,2014,September 7
+672,Cleveland Browns,0,0,0,37,34,30,0,0,"Cleveland, OH",Indianapolis Colts,Cleveland Browns,2014,December 7
+673,San Francisco 49ers,0,0,0,69,60,51,0,0,"Pittsburgh, PA",Pittsburgh Steelers,San Francisco 49ers,2015,September 20
+674,New York Jets,0,1,0,89,72,57,0,0,"East Rutherford, NJ",Detroit Lions,New York Jets,2014,September 28
+675,St. Louis Rams,0,0,0,80,67,53,0,0,"Green Bay, WI",Green Bay Packers,St. Louis Rams,2015,October 11
+676,Tampa Bay Buccaneers,0,0,0,71,66,60,0,0,"Tampa, FL",Carolina Panthers,Tampa Bay Buccaneers,2013,October 24
+677,Washington Redskins,0,0,0,59,46,36,0,0,"Minneapolis, MN",Minnesota Vikings,Washington Redskins,2014,November 2
+678,Chicago Bears,0,0,0,69,66,62,1,0,"Philadelphia, PA",Philadelphia Eagles,Chicago Bears,2013,December 22
+679,Kansas City Chiefs,0,0,0,26,22,18,0,1,"Kansas City, MO",Indianapolis Colts,Kansas City Chiefs,2013,December 22
+680,Green Bay Packers,0,0,0,73,64,55,0,0,"Seattle, WA",Seattle Seahawks,Green Bay Packers,2014,September 4
+681,Tennessee Titans,0,1,0,64,50,35,0,0,"Nashville, TN",San Francisco 49ers,Tennessee Titans,2013,October 20
+682,New York Giants,0,0,0,54,42,30,0,0,"Philadelphia, PA",Philadelphia Eagles,New York Giants,2015,October 19
+683,Green Bay Packers,0,0,0,69,57,46,0,0,"Cincinnati, OH",Cincinnati Bengals,Green Bay Packers,2013,September 22
+684,Buffalo Bills,0,0,0,61,48,35,0,0,"Orchard Park, NY",New England Patriots,Buffalo Bills,2014,October 12
+685,Oakland Raiders,0,0,0,57,51,45,1,0,"Seattle, WA",Seattle Seahawks,Oakland Raiders,2014,November 2
+686,San Francisco 49ers,0,1,0,57,47,37,0,0,"Seattle, WA",Seattle Seahawks,San Francisco 49ers,2014,December 14
+687,Detroit Lions,0,0,0,28,22,16,0,0,"Green Bay, WI",Green Bay Packers,Detroit Lions,2014,December 28
+688,Miami Dolphins,0,0,0,88,82,75,0,0,"Miami Gardens, FL",Green Bay Packers,Miami Dolphins,2014,October 12
+689,Tennessee Titans,0,0,0,59,41,23,0,0,"Nashville, TN",Indianapolis Colts,Tennessee Titans,2013,November 14
+690,New York Jets,0,0,0,32,27,22,0,0,"Baltimore, MD",Baltimore Ravens,New York Jets,2013,November 24
+691,Baltimore Ravens,0,0,0,63,51,38,0,0,"Baltimore, MD",San Diego Chargers,Baltimore Ravens,2014,November 30
+692,Baltimore Ravens,0,0,0,75,68,60,1,0,"Baltimore, MD",Cincinnati Bengals,Baltimore Ravens,2015,September 27
+693,Dallas Cowboys,0,0,0,75,62,50,0,0,"Arlington, TX",Denver Broncos,Dallas Cowboys,2013,October 6
+694,Indianapolis Colts,0,0,0,60,45,30,0,0,"Indianapolis, IN",New England Patriots,Indianapolis Colts,2015,October 18
+695,Miami Dolphins,0,0,0,80,76,73,1,0,"Miami Gardens, FL",New York Jets,Miami Dolphins,2013,December 29
+696,Tennessee Titans,0,0,0,50,45,40,0,0,"Nashville, TN",New York Giants,Tennessee Titans,2014,December 7
+697,Kansas City Chiefs,0,0,0,82,72,61,1,0,"Green Bay, WI",Green Bay Packers,Kansas City Chiefs,2015,September 28
+698,Atlanta Falcons,0,0,0,62,52,44,0,0,"East Rutherford, NJ",New York Giants,Atlanta Falcons,2014,October 5
+699,Philadelphia Eagles,0,0,0,75,67,58,0,0,"Charlotte, NC",Carolina Panthers,Philadelphia Eagles,2015,October 25
+700,Tennessee Titans,0,1,0,73,59,45,0,0,"Nashville, TN",Buffalo Bills,Tennessee Titans,2015,October 11
+701,Atlanta Falcons,0,0,0,82,67,51,0,0,"Atlanta, GA",Detroit Lions,Atlanta Falcons,2014,October 26
+702,Indianapolis Colts,0,0,0,78,64,50,1,0,"Indianapolis, IN",Miami Dolphins,Indianapolis Colts,2013,September 15
+703,Houston Texans,0,0,0,50,46,42,0,0,"Houston, TX",Jacksonville Jaguars,Houston Texans,2013,November 24
+704,Tennessee Titans,0,0,0,80,71,61,0,0,"Houston, TX",Houston Texans,Tennessee Titans,2014,November 30
+705,Tampa Bay Buccaneers,0,0,0,78,74,69,1,0,"Houston, TX",Houston Texans,Tampa Bay Buccaneers,2015,September 27
+706,New York Giants,0,0,0,80,69,58,1,0,"Charlotte, NC",Carolina Panthers,New York Giants,2013,September 22
+707,Tennessee Titans,0,0,0,50,44,37,1,0,"Nashville, TN",Indianapolis Colts,Tennessee Titans,2014,December 28
+708,St. Louis Rams,0,0,0,59,47,35,0,0,"St. Louis, MO",Tennessee Titans,St. Louis Rams,2013,November 3
+709,New Orleans Saints,0,0,0,37,30,22,0,0,"St. Louis, MO",St. Louis Rams,New Orleans Saints,2013,December 15
+710,St. Louis Rams,0,0,0,45,43,41,0,0,"St. Louis, MO",New York Giants,St. Louis Rams,2014,December 21
+711,Washington Redskins,0,0,0,36,30,23,0,0,"Minneapolis, MN",Minnesota Vikings,Washington Redskins,2013,November 7
+712,Houston Texans,0,0,0,82,68,55,0,0,"Glendale, AZ",Arizona Cardinals,Houston Texans,2013,November 10
+713,Kansas City Chiefs,0,0,0,90,74,58,0,0,"Santa Clara, CA",San Francisco 49ers,Kansas City Chiefs,2014,October 5
+714,Dallas Cowboys,0,0,0,84,75,66,0,0,"Arlington, TX",Washington Redskins,Dallas Cowboys,2014,October 27
+715,Oakland Raiders,0,0,0,71,58,45,0,0,"Kansas City, MO",Kansas City Chiefs,Oakland Raiders,2013,October 13
+716,Jacksonville Jaguars,0,0,0,66,58,50,1,0,"Jacksonville, FL",Buffalo Bills,Jacksonville Jaguars,2013,December 15
+717,Arizona Cardinals,0,0,0,62,52,42,0,0,"Glendale, AZ",Seattle Seahawks,Arizona Cardinals,2014,December 21
+718,Oakland Raiders,0,0,0,72,67,61,0,0,"Oakland, CA",Miami Dolphins,Oakland Raiders,2014,September 28
+719,Arizona Cardinals,0,0,0,71,55,39,0,0,"Denver, CO",Denver Broncos,Arizona Cardinals,2014,October 5
+720,Minnesota Vikings,0,0,0,66,52,37,0,0,"Arlington, TX",Dallas Cowboys,Minnesota Vikings,2013,November 3
+721,Washington Redskins,0,0,0,46,38,30,0,0,"Landover, MD",Tampa Bay Buccaneers,Washington Redskins,2014,November 16
+722,Pittsburgh Steelers,0,0,0,77,60,44,0,0,"Minneapolis, MN",Minnesota Vikings,Pittsburgh Steelers,2013,September 29
+723,Indianapolis Colts,0,0,0,65,64,62,1,0,"Charlotte, NC",Carolina Panthers,Indianapolis Colts,2015,November 2
+724,Washington Redskins,0,0,0,50,42,35,0,0,"East Rutherford, NJ",New York Jets,Washington Redskins,2015,October 18
+725,Carolina Panthers,0,0,0,89,75,61,0,0,"Charlotte, NC",Seattle Seahawks,Carolina Panthers,2013,September 8
+726,New Orleans Saints,0,0,0,59,54,48,0,0,"New Orleans, LA",Carolina Panthers,New Orleans Saints,2014,December 7
+727,Chicago Bears,0,0,0,67,58,48,1,0,"Chicago, IL",New Orleans Saints,Chicago Bears,2013,October 6
+728,New York Giants,0,0,0,73,60,48,0,0,"East Rutherford, NJ",Denver Broncos,New York Giants,2013,September 15
+729,Houston Texans,0,0,0,80,72,66,1,0,"East Rutherford, NJ",New York Giants,Houston Texans,2014,September 21
+730,Carolina Panthers,0,1,0,64,50,37,1,0,"Cincinnati, OH",Cincinnati Bengals,Carolina Panthers,2014,October 12
+731,Washington Redskins,0,0,0,67,52,37,0,0,"Denver, CO",Denver Broncos,Washington Redskins,2013,October 27
+732,Denver Broncos,0,0,0,63,51,38,0,0,"Indianapolis, IN",Indianapolis Colts,Denver Broncos,2013,October 20
+733,Minnesota Vikings,0,1,0,48,40,33,1,1,"Minneapolis, MN",Green Bay Packers,Minnesota Vikings,2014,November 23
+734,Buffalo Bills,0,0,0,40,36,32,1,0,"Orchard Park, NY",Atlanta Falcons,Buffalo Bills,2013,December 1
+735,San Francisco 49ers,0,0,0,65,55,45,0,0,"Santa Clara, CA",St. Louis Rams,San Francisco 49ers,2014,November 2
+736,Baltimore Ravens,0,0,0,64,50,37,1,0,"Cincinnati, OH",Cincinnati Bengals,Baltimore Ravens,2013,December 29
+737,Minnesota Vikings,0,0,0,53,49,45,1,0,"Seattle, WA",Seattle Seahawks,Minnesota Vikings,2013,November 17
+738,Arizona Cardinals,0,0,0,57,50,44,1,0,"Seattle, WA",Seattle Seahawks,Arizona Cardinals,2014,November 23
+739,St. Louis Rams,0,0,0,55,50,46,0,0,"Glendale, AZ",Arizona Cardinals,St. Louis Rams,2013,December 8
+740,Baltimore Ravens,0,0,0,0,0,0,0,0,"Cleveland, OH",Cleveland Browns,Baltimore Ravens,2013,November 3
+741,Cleveland Browns,0,0,0,0,0,0,0,0,"Cleveland, OH",Chicago Bears,Cleveland Browns,2013,December 15
+742,Miami Dolphins,0,0,0,42,37,31,1,0,"Orchard Park, NY",Buffalo Bills,Miami Dolphins,2013,December 22
+743,Minnesota Vikings,0,0,0,74,67,59,0,0,"Santa Clara, CA",San Francisco 49ers,Minnesota Vikings,2015,September 14
+744,Pittsburgh Steelers,0,0,0,60,56,51,0,0,"Oakland, CA",Oakland Raiders,Pittsburgh Steelers,2013,October 27
+745,Detroit Lions,0,0,0,39,36,34,1,0,"Detroit, MI",New York Giants,Detroit Lions,2013,December 22
+746,St. Louis Rams,0,0,0,71,64,56,0,0,"San Diego, CA",San Diego Chargers,St. Louis Rams,2014,November 23
+747,St. Louis Rams,0,0,0,63,51,41,0,0,"Philadelphia, PA",Philadelphia Eagles,St. Louis Rams,2014,October 5
+748,Tennessee Titans,0,0,0,36,32,28,0,0,"Nashville, TN",Arizona Cardinals,Tennessee Titans,2013,December 15
+749,Chicago Bears,0,0,0,30,23,15,0,0,"St. Louis, MO",St. Louis Rams,Chicago Bears,2013,November 24
+750,Oakland Raiders,0,0,0,72,51,30,1,0,"St. Louis, MO",St. Louis Rams,Oakland Raiders,2014,November 30
+751,St. Louis Rams,0,0,0,77,73,68,1,0,"St. Louis, MO",Pittsburgh Steelers,St. Louis Rams,2015,September 27
+752,Oakland Raiders,0,0,0,81,72,64,1,0,"East Rutherford, NJ",New York Jets,Oakland Raiders,2014,September 7
+753,Chicago Bears,0,0,0,38,36,34,0,0,"Chicago, IL",Detroit Lions,Chicago Bears,2014,December 21
+754,Atlanta Falcons,0,0,0,14,9,3,0,1,"Green Bay, WI",Green Bay Packers,Atlanta Falcons,2013,December 8
+755,New England Patriots,0,0,0,66,57,48,0,0,"East Rutherford, NJ",New York Jets,New England Patriots,2013,October 20
+756,New York Giants,0,0,0,75,62,50,0,0,"Jacksonville, FL",Jacksonville Jaguars,New York Giants,2014,November 30
+757,San Francisco 49ers,0,0,0,102,93,84,0,0,"Glendale, AZ",Arizona Cardinals,San Francisco 49ers,2015,September 27
+758,Tampa Bay Buccaneers,0,0,0,87,78,69,0,0,"Tampa, FL",Arizona Cardinals,Tampa Bay Buccaneers,2013,September 29
+759,Philadelphia Eagles,0,0,0,60,52,44,0,0,"Philadelphia, PA",New York Giants,Philadelphia Eagles,2013,October 27
+760,Jacksonville Jaguars,0,0,0,73,67,60,0,0,"Oakland, CA",Oakland Raiders,Jacksonville Jaguars,2013,September 15
+761,Dallas Cowboys,0,0,0,91,80,69,0,0,"Arlington, TX",Atlanta Falcons,Dallas Cowboys,2015,September 27
+762,Minnesota Vikings,0,0,0,73,58,43,0,0,"Minneapolis, MN",Cleveland Browns,Minnesota Vikings,2013,September 22
+763,Indianapolis Colts,0,0,0,81,66,50,0,0,"Denver, CO",Denver Broncos,Indianapolis Colts,2014,September 7
+764,Green Bay Packers,0,1,0,64,56,48,1,0,"East Rutherford, NJ",New York Giants,Green Bay Packers,2013,November 17
+765,New York Giants,0,0,0,57,49,41,0,0,"East Rutherford, NJ",Dallas Cowboys,New York Giants,2014,November 23
+766,San Francisco 49ers,0,1,0,71,58,44,0,0,"East Rutherford, NJ",New York Giants,San Francisco 49ers,2015,October 11
+767,Baltimore Ravens,0,0,0,65,61,57,1,0,"Baltimore, MD",Green Bay Packers,Baltimore Ravens,2013,October 13
+768,Dallas Cowboys,0,0,0,48,39,30,1,0,"Arlington, TX",Philadelphia Eagles,Dallas Cowboys,2013,December 29
+769,Jacksonville Jaguars,0,0,0,63,60,57,1,0,"Seattle, WA",Seattle Seahawks,Jacksonville Jaguars,2013,September 22
+770,New Orleans Saints,0,0,0,46,42,37,1,0,"Seattle, WA",Seattle Seahawks,New Orleans Saints,2013,December 2
+771,New York Jets,0,0,0,66,57,48,1,0,"Kansas City, MO",Kansas City Chiefs,New York Jets,2014,November 2
+772,New York Giants,0,0,0,54,48,42,1,0,"East Rutherford, NJ",Philadelphia Eagles,New York Giants,2014,December 28
+773,Baltimore Ravens,0,0,0,46,40,34,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Baltimore Ravens,2014,November 2
+774,Arizona Cardinals,0,0,0,93,84,75,0,0,"Glendale, AZ",St. Louis Rams,Arizona Cardinals,2015,October 4
+775,New York Giants,0,0,0,75,65,55,0,0,"Detroit, MI",Detroit Lions,New York Giants,2014,September 8
+776,Philadelphia Eagles,0,0,0,75,60,48,0,0,"Philadelphia, PA",San Diego Chargers,Philadelphia Eagles,2013,September 15
+777,Washington Redskins,0,0,0,79,72,66,0,0,"Philadelphia, PA",Philadelphia Eagles,Washington Redskins,2014,September 21
+778,Houston Texans,0,0,0,76,74,71,1,0,"Houston, TX",St. Louis Rams,Houston Texans,2013,October 13
+779,Washington Redskins,0,0,0,65,55,45,0,0,"Santa Clara, CA",San Francisco 49ers,Washington Redskins,2014,November 23
+780,Minnesota Vikings,0,0,0,62,52,41,1,0,"Cincinnati, OH",Cincinnati Bengals,Minnesota Vikings,2013,December 22
+781,Green Bay Packers,0,0,0,25,17,8,0,0,"Green Bay, WI",Minnesota Vikings,Green Bay Packers,2013,November 24
+782,New England Patriots,0,1,0,36,25,13,0,0,"Green Bay, WI",Green Bay Packers,New England Patriots,2014,November 30
+783,Cleveland Browns,0,0,0,0,0,0,0,0,"Cleveland, OH",Pittsburgh Steelers,Cleveland Browns,2013,November 24
+784,Cleveland Browns,0,0,0,79,70,63,1,0,"Cleveland, OH",Oakland Raiders,Cleveland Browns,2015,September 27
+785,Buffalo Bills,0,0,0,59,44,29,0,0,"Denver, CO",Denver Broncos,Buffalo Bills,2014,December 7
+786,Chicago Bears,0,0,0,64,54,43,0,0,"Landover, MD",Washington Redskins,Chicago Bears,2013,October 20
+787,Tennessee Titans,0,1,0,58,47,36,0,0,"Baltimore, MD",Baltimore Ravens,Tennessee Titans,2014,November 9
+788,Arizona Cardinals,0,0,0,81,77,73,1,0,"New Orleans, LA",New Orleans Saints,Arizona Cardinals,2013,September 22
+789,Tampa Bay Buccaneers,0,0,0,57,42,26,0,0,"Charlotte, NC",Carolina Panthers,Tampa Bay Buccaneers,2013,December 1
+790,Pittsburgh Steelers,0,0,0,73,63,54,1,0,"Cincinnati, OH",Cincinnati Bengals,Pittsburgh Steelers,2013,September 16
+791,Jacksonville Jaguars,0,0,0,82,68,55,0,0,"Jacksonville, FL",Miami Dolphins,Jacksonville Jaguars,2014,October 26
+792,Philadelphia Eagles,0,0,0,87,78,68,0,0,"Glendale, AZ",Arizona Cardinals,Philadelphia Eagles,2014,October 26
+793,Oakland Raiders,0,0,0,38,23,7,0,0,"Denver, CO",Denver Broncos,Oakland Raiders,2014,December 28
+794,Houston Texans,0,0,0,27,22,17,0,1,"Indianapolis, IN",Indianapolis Colts,Houston Texans,2013,December 15
+795,Washington Redskins,0,0,0,48,42,33,0,0,"Landover, MD",St. Louis Rams,Washington Redskins,2014,December 7
+796,San Diego Chargers,0,0,0,78,69,59,0,0,"San Diego, CA",Denver Broncos,San Diego Chargers,2013,November 10
+797,Kansas City Chiefs,0,1,0,59,55,51,1,0,"Oakland, CA",Oakland Raiders,Kansas City Chiefs,2014,November 20
+798,New Orleans Saints,0,1,0,71,67,63,1,0,"Charlotte, NC",Carolina Panthers,New Orleans Saints,2013,December 22
+799,Tennessee Titans,0,0,0,81,74,67,0,0,"Nashville, TN",Indianapolis Colts,Tennessee Titans,2015,September 27
+800,Jacksonville Jaguars,0,0,0,82,74,66,0,0,"Philadelphia, PA",Philadelphia Eagles,Jacksonville Jaguars,2014,September 7
+801,San Francisco 49ers,0,1,0,64,58,52,0,0,"Oakland, CA",Oakland Raiders,San Francisco 49ers,2014,December 7
+802,Indianapolis Colts,0,0,0,65,57,49,1,0,"Indianapolis, IN",Philadelphia Eagles,Indianapolis Colts,2014,September 15
+803,Indianapolis Colts,0,0,0,76,64,52,0,0,"Indianapolis, IN",New York Jets,Indianapolis Colts,2015,September 21
+804,Washington Redskins,0,0,0,59,47,35,0,0,"Landover, MD",Dallas Cowboys,Washington Redskins,2014,December 28
+805,Oakland Raiders,0,0,0,76,66,56,0,0,"Oakland, CA",Denver Broncos,Oakland Raiders,2015,October 11
+806,Miami Dolphins,0,0,0,93,84,75,0,0,"Jacksonville, FL",Jacksonville Jaguars,Miami Dolphins,2015,September 20
+807,Minnesota Vikings,0,0,0,64,52,42,0,0,"Minneapolis, MN",Detroit Lions,Minnesota Vikings,2014,October 12
+808,Philadelphia Eagles,0,0,0,64,54,46,0,0,"Philadelphia, PA",Dallas Cowboys,Philadelphia Eagles,2013,October 20
+809,Atlanta Falcons,0,0,0,54,43,31,0,0,"Atlanta, GA",Pittsburgh Steelers,Atlanta Falcons,2014,December 14
+810,Atlanta Falcons,0,0,0,91,82,72,0,0,"New Orleans, LA",New Orleans Saints,Atlanta Falcons,2013,September 8
+811,New York Giants,0,1,0,75,62,51,0,0,"Kansas City, MO",Kansas City Chiefs,New York Giants,2013,September 29
+812,Washington Redskins,0,0,0,38,30,23,0,0,"Landover, MD",San Francisco 49ers,Washington Redskins,2013,November 25
+813,Seattle Seahawks,0,0,0,66,60,55,1,0,"Seattle, WA",Dallas Cowboys,Seattle Seahawks,2014,October 12
+814,Oakland Raiders,0,0,0,57,52,48,0,0,"Cleveland, OH",Cleveland Browns,Oakland Raiders,2014,October 26
+815,Detroit Lions,0,0,0,17,3,-11,0,0,"Minneapolis, MN",Minnesota Vikings,Detroit Lions,2013,December 29
+816,Cincinnati Bengals,0,0,0,52,47,42,1,0,"Cincinnati, OH",Cleveland Browns,Cincinnati Bengals,2014,November 6
+817,Oakland Raiders,0,0,0,62,50,39,1,0,"East Rutherford, NJ",New York Giants,Oakland Raiders,2013,November 10
+818,San Francisco 49ers,0,0,0,72,63,53,0,0,"Santa Clara, CA",Indianapolis Colts,San Francisco 49ers,2013,September 22
+819,Philadelphia Eagles,0,0,0,78,63,48,0,0,"Atlanta, GA",Atlanta Falcons,Philadelphia Eagles,2015,September 14
+820,St. Louis Rams,0,1,0,46,42,37,0,0,"Seattle, WA",Seattle Seahawks,St. Louis Rams,2013,December 29
+821,Tampa Bay Buccaneers,0,0,0,87,82,77,1,0,"Tampa, FL",Tennessee Titans,Tampa Bay Buccaneers,2015,September 13
+822,Washington Redskins,0,0,0,68,60,52,0,0,"Philadelphia, PA",Philadelphia Eagles,Washington Redskins,2013,November 17
+823,Tennessee Titans,0,0,0,55,46,37,0,0,"Philadelphia, PA",Philadelphia Eagles,Tennessee Titans,2014,November 23
+824,New Orleans Saints,0,0,0,71,56,42,0,0,"Philadelphia, PA",Philadelphia Eagles,New Orleans Saints,2015,October 11
+825,New York Giants,0,0,0,39,34,30,1,0,"East Rutherford, NJ",Seattle Seahawks,New York Giants,2013,December 15
+826,New York Giants,0,0,0,57,55,53,0,0,"San Diego, CA",San Diego Chargers,New York Giants,2013,December 8
+827,Detroit Lions,0,0,0,62,57,52,1,0,"Pittsburgh, PA",Pittsburgh Steelers,Detroit Lions,2013,November 17
+828,New York Jets,0,0,0,36,33,30,0,1,"East Rutherford, NJ",New England Patriots,New York Jets,2014,December 21
+829,Dallas Cowboys,0,0,0,51,42,35,0,0,"Detroit, MI",Detroit Lions,Dallas Cowboys,2013,October 27
+830,Atlanta Falcons,0,0,0,63,51,38,0,0,"Santa Clara, CA",San Francisco 49ers,Atlanta Falcons,2013,December 23
+831,San Diego Chargers,0,0,0,41,30,19,0,0,"Kansas City, MO",Kansas City Chiefs,San Diego Chargers,2014,December 28
+832,Chicago Bears,0,0,0,36,32,25,0,0,"Detroit, MI",Detroit Lions,Chicago Bears,2014,November 27
+833,Tennessee Titans,0,1,0,82,68,53,0,0,"Nashville, TN",Houston Texans,Tennessee Titans,2014,October 26
+834,San Francisco 49ers,0,1,0,65,55,45,0,0,"Santa Clara, CA",Carolina Panthers,San Francisco 49ers,2013,November 10
+835,Buffalo Bills,0,0,0,45,39,33,1,0,"Orchard Park, NY",Cincinnati Bengals,Buffalo Bills,2015,October 18
+836,New York Jets,0,0,0,65,55,45,0,0,"Green Bay, WI",Green Bay Packers,New York Jets,2014,September 14
+837,Seattle Seahawks,0,0,0,71,59,47,0,0,"Green Bay, WI",Green Bay Packers,Seattle Seahawks,2015,September 20
+838,New Orleans Saints,0,0,0,64,56,48,0,0,"Cleveland, OH",Cleveland Browns,New Orleans Saints,2014,September 14
+839,Tennessee Titans,0,0,0,69,64,59,0,0,"Cleveland, OH",Cleveland Browns,Tennessee Titans,2015,September 20
+840,San Diego Chargers,0,0,0,84,66,48,0,0,"Oakland, CA",Oakland Raiders,San Diego Chargers,2013,October 6
+841,Jacksonville Jaguars,0,0,0,52,41,29,0,0,"Baltimore, MD",Baltimore Ravens,Jacksonville Jaguars,2014,December 14
+842,Carolina Panthers,0,0,0,67,57,46,1,0,"Orchard Park, NY",Buffalo Bills,Carolina Panthers,2013,September 15
+843,Buffalo Bills,0,0,0,74,63,52,1,0,"Orchard Park, NY",San Diego Chargers,Buffalo Bills,2014,September 21
+844,Tampa Bay Buccaneers,0,1,0,59,53,46,0,0,"New Orleans, LA",New Orleans Saints,Tampa Bay Buccaneers,2013,December 29
+845,Chicago Bears,0,0,0,51,42,33,0,0,"Detroit, MI",Detroit Lions,Chicago Bears,2015,October 18
+846,Miami Dolphins,0,0,0,89,80,73,1,0,"Miami Gardens, FL",Kansas City Chiefs,Miami Dolphins,2014,September 21
+847,Baltimore Ravens,0,0,0,92,78,64,1,0,"Denver, CO",Denver Broncos,Baltimore Ravens,2013,September 5
+848,Indianapolis Colts,0,0,0,74,65,55,0,0,"San Diego, CA",San Diego Chargers,Indianapolis Colts,2013,October 14
+849,Green Bay Packers,0,0,0,88,74,60,0,0,"Santa Clara, CA",San Francisco 49ers,Green Bay Packers,2013,September 8
+850,Washington Redskins,0,0,0,64,52,39,1,0,"Indianapolis, IN",Indianapolis Colts,Washington Redskins,2014,November 30
+851,Green Bay Packers,0,0,0,70,62,53,1,0,"Detroit, MI",Detroit Lions,Green Bay Packers,2014,September 21
+852,Washington Redskins,0,0,0,75,70,66,1,0,"Arlington, TX",Dallas Cowboys,Washington Redskins,2013,October 13
+853,Houston Texans,0,0,0,72,57,41,0,0,"Houston, TX",Philadelphia Eagles,Houston Texans,2014,November 2
+854,Tennessee Titans,0,0,0,80,67,53,0,0,"Nashville, TN",Dallas Cowboys,Tennessee Titans,2014,September 14
+855,Atlanta Falcons,0,0,0,74,65,56,0,0,"Atlanta, GA",New England Patriots,Atlanta Falcons,2013,September 29
+856,Oakland Raiders,0,0,0,34,31,28,0,1,"East Rutherford, NJ",New York Jets,Oakland Raiders,2013,December 8
+857,Chicago Bears,0,0,0,72,63,53,0,0,"Chicago, IL",Arizona Cardinals,Chicago Bears,2015,September 20
+858,Detroit Lions,0,0,0,69,63,57,0,0,"Glendale, AZ",Arizona Cardinals,Detroit Lions,2014,November 16
+859,San Diego Chargers,0,0,0,58,50,41,0,0,"Landover, MD",Washington Redskins,San Diego Chargers,2013,November 3
+860,Detroit Lions,0,0,0,19,14,10,0,1,"Detroit, MI",Baltimore Ravens,Detroit Lions,2013,December 16
+861,Tampa Bay Buccaneers,0,0,0,89,81,72,0,0,"Tampa, FL",Baltimore Ravens,Tampa Bay Buccaneers,2014,October 12
+862,Tampa Bay Buccaneers,0,0,0,80,68,57,0,0,"Tampa, FL",Cincinnati Bengals,Tampa Bay Buccaneers,2014,November 30
+863,Pittsburgh Steelers,0,0,0,66,52,39,0,0,"Kansas City, MO",Kansas City Chiefs,Pittsburgh Steelers,2015,October 25
+864,Chicago Bears,0,0,0,34,25,16,0,0,"Minneapolis, MN",Minnesota Vikings,Chicago Bears,2013,December 1
+865,Jacksonville Jaguars,0,0,0,71,66,60,1,0,"Jacksonville, FL",Dallas Cowboys,Jacksonville Jaguars,2014,November 9
+866,Chicago Bears,0,0,0,48,46,43,1,0,"Chicago, IL",New Orleans Saints,Chicago Bears,2014,December 15
+867,Carolina Panthers,0,0,0,53,41,29,0,0,"Charlotte, NC",Atlanta Falcons,Carolina Panthers,2014,November 16
+868,Seattle Seahawks,0,0,0,47,39,31,0,0,"Santa Clara, CA",San Francisco 49ers,Seattle Seahawks,2013,December 8
+869,Oakland Raiders,0,0,0,63,54,44,0,0,"Oakland, CA",Philadelphia Eagles,Oakland Raiders,2013,November 3
+870,Atlanta Falcons,0,0,0,59,51,43,1,0,"Atlanta, GA",Cleveland Browns,Atlanta Falcons,2014,November 23
+871,Jacksonville Jaguars,0,0,0,76,63,50,0,0,"Indianapolis, IN",Indianapolis Colts,Jacksonville Jaguars,2015,October 4
+872,New England Patriots,0,0,0,91,84,78,1,0,"Miami Gardens, FL",Miami Dolphins,New England Patriots,2014,September 7
+873,New York Jets,0,1,0,57,44,32,0,0,"Cincinnati, OH",Cincinnati Bengals,New York Jets,2013,October 27
+874,Pittsburgh Steelers,0,1,0,62,56,52,0,0,"Pittsburgh, PA",Chicago Bears,Pittsburgh Steelers,2013,September 22
+875,Atlanta Falcons,0,0,0,35,34,32,0,1,"Green Bay, WI",Green Bay Packers,Atlanta Falcons,2014,December 8
+876,Cleveland Browns,0,0,0,0,0,0,1,0,"Cleveland, OH",Detroit Lions,Cleveland Browns,2013,October 13
+877,Cleveland Browns,0,0,0,73,71,68,1,0,"San Diego, CA",San Diego Chargers,Cleveland Browns,2015,October 4
+878,Seattle Seahawks,0,0,0,52,49,46,1,0,"Seattle, WA",Arizona Cardinals,Seattle Seahawks,2013,December 22
+879,Miami Dolphins,0,0,0,91,83,75,1,0,"Miami Gardens, FL",Buffalo Bills,Miami Dolphins,2013,October 20
+880,Minnesota Vikings,0,0,0,67,62,56,1,0,"Green Bay, WI",Green Bay Packers,Minnesota Vikings,2014,October 2
+881,San Diego Chargers,0,0,0,74,65,55,0,0,"San Diego, CA",Cincinnati Bengals,San Diego Chargers,2013,December 1
+882,Buffalo Bills,0,0,0,53,45,37,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Buffalo Bills,2013,November 10
+883,New York Jets,0,0,0,71,62,53,0,0,"East Rutherford, NJ",Philadelphia Eagles,New York Jets,2015,September 27
+884,Detroit Lions,0,0,0,57,48,39,1,0,"Detroit, MI",Cincinnati Bengals,Detroit Lions,2013,October 20
+885,Miami Dolphins,0,0,0,80,72,63,0,0,"Miami Gardens, FL",Baltimore Ravens,Miami Dolphins,2014,December 7
+886,Tennessee Titans,0,0,0,79,70,57,0,0,"Cincinnati, OH",Cincinnati Bengals,Tennessee Titans,2014,September 21
+887,Chicago Bears,0,0,0,38,35,32,1,1,"Green Bay, WI",Green Bay Packers,Chicago Bears,2014,November 9
+888,Houston Texans,0,0,0,83,79,74,1,0,"Houston, TX",Seattle Seahawks,Houston Texans,2013,September 29
+889,Tampa Bay Buccaneers,0,0,0,35,30,24,0,0,"Detroit, MI",Detroit Lions,Tampa Bay Buccaneers,2014,December 7
+890,Pittsburgh Steelers,0,0,0,79,71,63,0,0,"Pittsburgh, PA",Tennessee Titans,Pittsburgh Steelers,2013,September 8
+891,Houston Texans,0,0,0,84,72,61,0,0,"Arlington, TX",Dallas Cowboys,Houston Texans,2014,October 5
+892,Detroit Lions,0,0,0,73,62,50,0,0,"Detroit, MI",Arizona Cardinals,Detroit Lions,2015,October 11
+893,Miami Dolphins,0,0,0,82,73,64,0,0,"Miami Gardens, FL",New York Jets,Miami Dolphins,2014,December 28
+894,Denver Broncos,0,0,0,51,37,23,1,0,"Cincinnati, OH",Cincinnati Bengals,Denver Broncos,2014,December 22
+895,Cincinnati Bengals,0,0,0,86,80,73,0,0,"Miami Gardens, FL",Miami Dolphins,Cincinnati Bengals,2013,October 31
+896,Houston Texans,0,1,0,85,77,69,0,0,"Houston, TX",Oakland Raiders,Houston Texans,2013,November 17
+897,Houston Texans,0,0,0,80,71,61,1,0,"Houston, TX",Cincinnati Bengals,Houston Texans,2014,November 23
+898,Carolina Panthers,0,0,0,85,71,57,0,0,"Charlotte, NC",Pittsburgh Steelers,Carolina Panthers,2014,September 21
+899,New York Jets,0,0,0,51,43,35,0,0,"East Rutherford, NJ",Miami Dolphins,New York Jets,2013,December 1
+900,Baltimore Ravens,0,0,0,89,74,60,0,0,"Glendale, AZ",Arizona Cardinals,Baltimore Ravens,2015,October 26
+901,Seattle Seahawks,0,0,0,86,80,73,0,0,"San Diego, CA",San Diego Chargers,Seattle Seahawks,2014,September 14
+902,Detroit Lions,0,1,0,32,30,27,1,1,"Philadelphia, PA",Philadelphia Eagles,Detroit Lions,2013,December 8
+903,San Francisco 49ers,0,0,0,81,67,52,0,0,"Santa Clara, CA",Green Bay Packers,San Francisco 49ers,2015,October 4
+904,Pittsburgh Steelers,0,1,0,30,24,19,1,1,"Pittsburgh, PA",Miami Dolphins,Pittsburgh Steelers,2013,December 8
+905,New York Jets,0,0,0,63,57,52,1,0,"East Rutherford, NJ",Buffalo Bills,New York Jets,2014,October 26
+906,Pittsburgh Steelers,0,0,0,38,31,24,0,0,"Baltimore, MD",Baltimore Ravens,Pittsburgh Steelers,2013,November 28
+907,St. Louis Rams,0,0,0,67,55,42,0,0,"Santa Clara, CA",San Francisco 49ers,St. Louis Rams,2013,December 1
+908,Oakland Raiders,0,1,0,61,50,38,0,0,"Oakland, CA",Tennessee Titans,Oakland Raiders,2013,November 24
+909,Atlanta Falcons,0,0,0,70,57,43,0,0,"Atlanta, GA",Seattle Seahawks,Atlanta Falcons,2013,November 10
+910,Minnesota Vikings,0,0,0,65,56,46,1,0,"Denver, CO",Denver Broncos,Minnesota Vikings,2015,October 4
+911,Cleveland Browns,0,1,0,44,42,39,1,0,"Pittsburgh, PA",Pittsburgh Steelers,Cleveland Browns,2013,December 29
+912,Dallas Cowboys,0,0,0,70,58,46,0,0,"Arlington, TX",Arizona Cardinals,Dallas Cowboys,2014,November 2
+913,Atlanta Falcons,0,0,0,84,70,57,0,0,"Minneapolis, MN",Minnesota Vikings,Atlanta Falcons,2014,September 28
+914,Oakland Raiders,0,0,0,72,53,34,0,0,"Oakland, CA",Denver Broncos,Oakland Raiders,2013,December 29
+915,Atlanta Falcons,0,0,0,59,49,38,0,0,"Baltimore, MD",Baltimore Ravens,Atlanta Falcons,2014,October 19
+916,New England Patriots,0,0,0,86,72,61,0,0,"Kansas City, MO",Kansas City Chiefs,New England Patriots,2014,September 29
+917,Philadelphia Eagles,0,0,0,59,56,53,0,0,"Landover, MD",Washington Redskins,Philadelphia Eagles,2015,October 4
+918,New York Giants,0,0,0,73,61,51,0,0,"East Rutherford, NJ",Arizona Cardinals,New York Giants,2014,September 14
+919,New York Giants,0,0,0,78,70,63,0,0,"East Rutherford, NJ",Atlanta Falcons,New York Giants,2015,September 20
+920,Houston Texans,0,0,0,73,63,53,0,0,"Baltimore, MD",Baltimore Ravens,Houston Texans,2013,September 22
+921,Seattle Seahawks,0,1,0,72,57,42,0,0,"Cincinnati, OH",Cincinnati Bengals,Seattle Seahawks,2015,October 11
+922,St. Louis Rams,0,0,0,68,57,45,0,0,"Charlotte, NC",Carolina Panthers,St. Louis Rams,2013,October 20
+923,New Orleans Saints,0,0,0,68,60,51,0,0,"New Orleans, LA",San Francisco 49ers,New Orleans Saints,2014,November 9
+924,Jacksonville Jaguars,0,0,0,66,62,57,1,0,"Jacksonville, FL",Houston Texans,Jacksonville Jaguars,2014,December 7
+925,Kansas City Chiefs,0,0,0,75,63,51,0,0,"Glendale, AZ",Arizona Cardinals,Kansas City Chiefs,2014,December 7
+926,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,"Cleveland, OH",Cleveland Browns,Tampa Bay Buccaneers,2014,November 2
+927,Cleveland Browns,0,0,0,46,42,39,0,0,"Cleveland, OH",Cincinnati Bengals,Cleveland Browns,2014,December 14
+928,Atlanta Falcons,0,0,0,54,51,47,0,0,"Atlanta, GA",New Orleans Saints,Atlanta Falcons,2013,November 21
+929,Tampa Bay Buccaneers,0,0,0,85,73,60,0,0,"Atlanta, GA",Atlanta Falcons,Tampa Bay Buccaneers,2014,September 18
+930,Cincinnati Bengals,0,0,0,61,50,39,0,0,"Baltimore, MD",Baltimore Ravens,Cincinnati Bengals,2013,November 10
+931,Buffalo Bills,0,0,0,39,34,28,0,0,"Orchard Park, NY",Kansas City Chiefs,Buffalo Bills,2013,November 3
+932,New England Patriots,0,0,0,84,78,73,0,0,"Miami Gardens, FL",Miami Dolphins,New England Patriots,2013,December 15
+933,Minnesota Vikings,0,0,0,79,70,61,0,0,"Miami Gardens, FL",Miami Dolphins,Minnesota Vikings,2014,December 21
+934,St. Louis Rams,0,1,0,71,66,61,1,0,"St. Louis, MO",San Francisco 49ers,St. Louis Rams,2014,October 13
+935,New Orleans Saints,0,1,0,70,63,56,0,0,"New Orleans, LA",Baltimore Ravens,New Orleans Saints,2014,November 24
+936,Atlanta Falcons,0,0,0,84,73,61,1,0,"Atlanta, GA",Chicago Bears,Atlanta Falcons,2014,October 12
+937,Kansas City Chiefs,0,0,0,83,66,48,0,0,"Denver, CO",Denver Broncos,Kansas City Chiefs,2014,September 14
+938,Philadelphia Eagles,0,0,0,37,30,24,0,0,"Landover, MD",Washington Redskins,Philadelphia Eagles,2014,December 20
+939,Oakland Raiders,0,0,0,73,66,59,0,0,"San Diego, CA",San Diego Chargers,Oakland Raiders,2014,November 16
+940,Jacksonville Jaguars,0,0,0,82,76,69,1,0,"Jacksonville, FL",Indianapolis Colts,Jacksonville Jaguars,2013,September 29
+941,Houston Texans,0,0,0,84,72,59,0,0,"Houston, TX",Kansas City Chiefs,Houston Texans,2015,September 13
+942,Minnesota Vikings,0,0,0,57,44,30,0,0,"Minneapolis, MN",Green Bay Packers,Minnesota Vikings,2013,October 27
+943,Tennessee Titans,0,0,0,52,44,35,0,0,"Nashville, TN",New York Jets,Tennessee Titans,2014,December 14
+944,Atlanta Falcons,0,0,0,47,43,39,1,0,"Atlanta, GA",Carolina Panthers,Atlanta Falcons,2013,December 29
+945,Arizona Cardinals,0,0,0,48,39,30,0,0,"Philadelphia, PA",Philadelphia Eagles,Arizona Cardinals,2013,December 1
+946,Kansas City Chiefs,0,0,0,55,41,27,0,0,"Kansas City, MO",Denver Broncos,Kansas City Chiefs,2013,December 1
+947,Jacksonville Jaguars,0,0,0,69,60,50,0,0,"Landover, MD",Washington Redskins,Jacksonville Jaguars,2014,September 14
+948,St. Louis Rams,0,0,0,78,72,64,0,0,"Landover, MD",Washington Redskins,St. Louis Rams,2015,September 20
+949,Tampa Bay Buccaneers,0,0,0,69,64,59,1,0,"Tampa, FL",Atlanta Falcons,Tampa Bay Buccaneers,2014,November 9
+950,Jacksonville Jaguars,0,0,0,60,55,50,1,0,"St. Louis, MO",St. Louis Rams,Jacksonville Jaguars,2013,October 6
+951,Tampa Bay Buccaneers,0,0,0,70,0,70,0,0,"New Orleans, LA",New Orleans Saints,Tampa Bay Buccaneers,2014,October 5
+952,New York Jets,0,0,0,66,62,57,0,0,"East Rutherford, NJ",Pittsburgh Steelers,New York Jets,2013,October 13
+953,Jacksonville Jaguars,0,0,0,80,74,68,1,0,"Jacksonville, FL",Arizona Cardinals,Jacksonville Jaguars,2013,November 17
+954,Kansas City Chiefs,0,0,0,64,48,32,0,0,"Minneapolis, MN",Minnesota Vikings,Kansas City Chiefs,2015,October 18
+955,Oakland Raiders,0,0,0,74,67,60,0,0,"Oakland, CA",Houston Texans,Oakland Raiders,2014,September 14
+956,Baltimore Ravens,0,0,0,91,74,56,0,0,"Oakland, CA",Oakland Raiders,Baltimore Ravens,2015,September 20
+957,Seattle Seahawks,0,0,0,62,60,59,1,0,"Seattle, WA",Carolina Panthers,Seattle Seahawks,2015,October 18
+958,Chicago Bears,0,0,0,37,31,25,0,0,"Chicago, IL",Dallas Cowboys,Chicago Bears,2014,December 4
+959,Carolina Panthers,0,0,0,91,78,66,0,0,"Glendale, AZ",Arizona Cardinals,Carolina Panthers,2013,October 6
+960,New York Giants,0,0,0,43,36,30,1,0,"East Rutherford, NJ",San Francisco 49ers,New York Giants,2014,November 16
+961,Philadelphia Eagles,0,0,0,75,67,58,0,0,"Santa Clara, CA",San Francisco 49ers,Philadelphia Eagles,2014,September 28
+962,Buffalo Bills,0,0,0,73,64,55,1,0,"New Orleans, LA",New Orleans Saints,Buffalo Bills,2013,October 27
+963,San Francisco 49ers,0,0,0,68,64,59,1,0,"Seattle, WA",Seattle Seahawks,San Francisco 49ers,2013,September 15
+964,Denver Broncos,0,0,0,82,70,57,0,0,"Seattle, WA",Seattle Seahawks,Denver Broncos,2014,September 21
+965,Cincinnati Bengals,0,0,0,0,0,0,0,0,"Cleveland, OH",Cleveland Browns,Cincinnati Bengals,2013,September 29
+966,Detroit Lions,0,0,0,77,59,43,0,0,"Kansas City, MO",Kansas City Chiefs,Detroit Lions,2015,November 1
+967,Pittsburgh Steelers,0,0,0,64,58,53,1,0,"Pittsburgh, PA",Cincinnati Bengals,Pittsburgh Steelers,2015,November 1
+968,Jacksonville Jaguars,0,0,0,64,49,34,1,0,"Denver, CO",Denver Broncos,Jacksonville Jaguars,2013,October 13
+969,Washington Redskins,0,0,0,66,63,60,0,0,"Landover, MD",New York Giants,Washington Redskins,2014,September 25
+970,Philadelphia Eagles,0,0,0,80,72,63,0,0,"Philadelphia, PA",Dallas Cowboys,Philadelphia Eagles,2015,September 20
+971,Buffalo Bills,0,0,0,0,0,0,1,0,"Cleveland, OH",Cleveland Browns,Buffalo Bills,2013,October 3
+972,Carolina Panthers,0,0,0,63,49,35,0,0,"Philadelphia, PA",Philadelphia Eagles,Carolina Panthers,2014,November 10
+973,Seattle Seahawks,0,0,0,64,53,41,0,0,"St. Louis, MO",St. Louis Rams,Seattle Seahawks,2014,October 19
+974,Cleveland Browns,0,0,0,64,56,47,0,0,"St. Louis, MO",St. Louis Rams,Cleveland Browns,2015,October 25
+975,Houston Texans,0,0,0,70,67,63,1,0,"Atlanta, GA",Atlanta Falcons,Houston Texans,2015,October 4
+976,New York Jets,0,0,0,75,67,58,1,0,"Nashville, TN",Tennessee Titans,New York Jets,2013,September 29
+977,Cleveland Browns,0,0,0,60,53,46,1,0,"Orchard Park, NY",Buffalo Bills,Cleveland Browns,2014,November 30
+978,Minnesota Vikings,0,0,0,88,81,73,0,0,"New Orleans, LA",New Orleans Saints,Minnesota Vikings,2014,September 21
+979,Oakland Raiders,0,0,0,52,38,25,0,0,"Arlington, TX",Dallas Cowboys,Oakland Raiders,2013,November 28
+980,Detroit Lions,0,0,0,64,57,49,1,0,"Green Bay, WI",Green Bay Packers,Detroit Lions,2013,October 6
+981,Dallas Cowboys,0,0,0,26,15,3,0,1,"Chicago, IL",Chicago Bears,Dallas Cowboys,2013,December 9
+982,Miami Dolphins,0,0,0,82,75,68,1,0,"Miami Gardens, FL",Carolina Panthers,Miami Dolphins,2013,November 24
+983,Miami Dolphins,0,0,0,88,82,77,0,0,"Miami Gardens, FL",Buffalo Bills,Miami Dolphins,2015,September 27
+984,Cleveland Browns,0,0,0,80,72,66,0,0,"Jacksonville, FL",Jacksonville Jaguars,Cleveland Browns,2014,October 19
+985,Buffalo Bills,0,0,0,86,78,71,0,0,"Jacksonville, FL",Jacksonville Jaguars,Buffalo Bills,2015,October 25
+986,Houston Texans,0,0,0,48,45,41,1,0,"Indianapolis, IN",Indianapolis Colts,Houston Texans,2014,December 14
+987,Detroit Lions,0,0,0,24,20,15,0,0,"Detroit, MI",Tampa Bay Buccaneers,Detroit Lions,2013,November 24
+988,Detroit Lions,0,0,0,75,67,59,0,0,"Detroit, MI",Denver Broncos,Detroit Lions,2015,September 27
+989,New York Giants,0,0,0,77,68,61,0,0,"Arlington, TX",Dallas Cowboys,New York Giants,2014,October 19
+990,Atlanta Falcons,0,0,0,62,49,36,0,0,"Charlotte, NC",Carolina Panthers,Atlanta Falcons,2013,November 3
+991,New York Jets,0,1,0,55,43,31,1,0,"Charlotte, NC",Carolina Panthers,New York Jets,2013,December 15
+992,Cleveland Browns,0,0,0,51,47,42,0,0,"Charlotte, NC",Carolina Panthers,Cleveland Browns,2014,December 21
+993,Seattle Seahawks,0,0,0,75,63,51,0,0,"St. Louis, MO",St. Louis Rams,Seattle Seahawks,2015,September 13
+994,Baltimore Ravens,0,0,0,69,56,43,1,0,"Chicago, IL",Chicago Bears,Baltimore Ravens,2013,November 17
+995,Tampa Bay Buccaneers,0,0,0,54,52,50,1,0,"Chicago, IL",Chicago Bears,Tampa Bay Buccaneers,2014,November 23
+996,San Diego Chargers,0,0,0,65,58,50,0,0,"San Diego, CA",Denver Broncos,San Diego Chargers,2014,December 14
+997,Philadelphia Eagles,0,0,0,75,62,48,0,0,"Philadelphia, PA",Kansas City Chiefs,Philadelphia Eagles,2013,September 19
+998,St. Louis Rams,0,0,0,82,68,54,0,0,"Arlington, TX",Dallas Cowboys,St. Louis Rams,2013,September 22
+999,Tennessee Titans,0,0,0,75,65,55,1,0,"Nashville, TN",Kansas City Chiefs,Tennessee Titans,2013,October 6
+1000,San Francisco 49ers,0,0,0,69,56,43,0,0,"Santa Clara, CA",Seattle Seahawks,San Francisco 49ers,2014,November 27
+1001,Indianapolis Colts,0,1,0,32,26,21,1,1,"Cincinnati, OH",Cincinnati Bengals,Indianapolis Colts,2013,December 8
+1002,Buffalo Bills,0,0,0,65,55,45,0,0,"Orchard Park, NY",New York Giants,Buffalo Bills,2015,October 4
+1003,Houston Texans,0,1,0,82,72,63,0,0,"Jacksonville, FL",Jacksonville Jaguars,Houston Texans,2013,December 5
+1004,Miami Dolphins,0,0,0,90,80,71,0,0,"Miami Gardens, FL",New York Jets,Miami Dolphins,2015,October 4
+1005,New York Jets,0,0,0,36,32,27,0,1,"Minneapolis, MN",Minnesota Vikings,New York Jets,2014,December 7
+1006,New York Jets,0,0,0,64,53,41,1,0,"East Rutherford, NJ",Miami Dolphins,New York Jets,2014,December 1
+1007,Jacksonville Jaguars,0,0,0,86,80,75,0,0,"Jacksonville, FL",Carolina Panthers,Jacksonville Jaguars,2015,September 13
+1008,New Orleans Saints,0,0,0,102,94,87,0,0,"Glendale, AZ",Arizona Cardinals,New Orleans Saints,2015,September 13
+1009,Pittsburgh Steelers,0,0,0,89,79,68,0,0,"Baltimore, MD",Baltimore Ravens,Pittsburgh Steelers,2014,September 11
+1010,Tampa Bay Buccaneers,0,0,0,91,81,71,1,0,"Tampa, FL",New Orleans Saints,Tampa Bay Buccaneers,2013,September 15
+1011,Oakland Raiders,0,1,0,70,59,48,0,0,"Oakland, CA",Denver Broncos,Oakland Raiders,2014,November 9
+1012,Atlanta Falcons,0,0,0,64,60,55,1,0,"Atlanta, GA",Tampa Bay Buccaneers,Atlanta Falcons,2015,November 1
+1013,Arizona Cardinals,0,0,0,85,79,73,1,0,"St. Louis, MO",St. Louis Rams,Arizona Cardinals,2013,September 8
+1014,Miami Dolphins,0,0,0,82,72,62,0,0,"Tampa, FL",Tampa Bay Buccaneers,Miami Dolphins,2013,November 11
+1015,Baltimore Ravens,0,0,0,71,64,57,0,0,"Santa Clara, CA",San Francisco 49ers,Baltimore Ravens,2015,October 18
+1016,Pittsburgh Steelers,0,0,0,73,64,55,0,0,"Pittsburgh, PA",Tampa Bay Buccaneers,Pittsburgh Steelers,2014,September 28
+1017,New York Giants,0,0,0,93,76,61,0,0,"Arlington, TX",Dallas Cowboys,New York Giants,2015,September 13
+1018,Carolina Panthers,0,0,0,55,43,31,0,0,"Green Bay, WI",Green Bay Packers,Carolina Panthers,2014,October 19
+1019,Chicago Bears,0,0,0,24,14,5,0,0,"Minneapolis, MN",Minnesota Vikings,Chicago Bears,2014,December 28
+1020,Dallas Cowboys,0,0,0,60,42,24,0,0,"Arlington, TX",Green Bay Packers,Dallas Cowboys,2013,December 15
+1021,Indianapolis Colts,0,0,0,54,50,48,0,0,"Arlington, TX",Dallas Cowboys,Indianapolis Colts,2014,December 21
+1022,St. Louis Rams,0,0,0,46,44,41,1,0,"Seattle, WA",Seattle Seahawks,St. Louis Rams,2014,December 28
+1023,Jacksonville Jaguars,0,0,0,89,80,73,0,0,"Jacksonville, FL",Kansas City Chiefs,Jacksonville Jaguars,2013,September 8
+1024,San Diego Chargers,0,0,0,75,72,68,0,0,"San Diego, CA",Houston Texans,San Diego Chargers,2013,September 9
+1025,Seattle Seahawks,0,0,0,32,25,18,0,1,"Kansas City, MO",Kansas City Chiefs,Seattle Seahawks,2014,November 16
+1026,Washington Redskins,0,0,0,46,40,35,0,0,"East Rutherford, NJ",New York Giants,Washington Redskins,2014,December 14
+1027,Baltimore Ravens,0,0,0,71,67,62,1,0,"Baltimore, MD",New England Patriots,Baltimore Ravens,2013,December 22
+1028,San Diego Chargers,0,1,0,77,67,56,0,0,"San Diego, CA",New England Patriots,San Diego Chargers,2014,December 7
+1029,New York Giants,0,0,0,96,83,70,0,0,"Arlington, TX",Dallas Cowboys,New York Giants,2013,September 8
+1030,Houston Texans,0,1,0,70,59,48,0,0,"Houston, TX",New England Patriots,Houston Texans,2013,December 1
+1031,Tennessee Titans,0,0,0,69,63,57,1,0,"Nashville, TN",Atlanta Falcons,Tennessee Titans,2015,October 25
+1032,San Francisco 49ers,0,0,0,82,77,71,1,0,"New Orleans, LA",New Orleans Saints,San Francisco 49ers,2013,November 17
+1033,Green Bay Packers,0,0,0,47,42,37,1,0,"Green Bay, WI",Philadelphia Eagles,Green Bay Packers,2013,November 10
+1034,Chicago Bears,0,0,0,57,47,36,0,0,"Chicago, IL",Miami Dolphins,Chicago Bears,2014,October 19
+1035,Tampa Bay Buccaneers,0,0,0,88,82,76,0,0,"Tampa, FL",Carolina Panthers,Tampa Bay Buccaneers,2014,September 7
+1036,Houston Texans,0,0,0,60,49,37,0,0,"Houston, TX",Denver Broncos,Houston Texans,2013,December 22
+1037,San Diego Chargers,0,0,0,67,60,52,1,0,"Baltimore, MD",Baltimore Ravens,San Diego Chargers,2015,November 1
+1038,San Diego Chargers,0,1,0,77,64,51,0,0,"Nashville, TN",Tennessee Titans,San Diego Chargers,2013,September 22
+1039,Miami Dolphins,0,0,0,62,53,43,0,0,"Orchard Park, NY",Buffalo Bills,Miami Dolphins,2014,September 14
+1040,Buffalo Bills,0,0,0,67,59,50,0,0,"Orchard Park, NY",New England Patriots,Buffalo Bills,2015,September 20
+1041,Dallas Cowboys,0,0,0,81,71,60,0,0,"San Diego, CA",San Diego Chargers,Dallas Cowboys,2013,September 29
+1042,Oakland Raiders,0,0,0,64,54,44,1,0,"Denver, CO",Denver Broncos,Oakland Raiders,2013,September 23
+1043,Indianapolis Colts,0,0,0,62,56,51,0,0,"Glendale, AZ",Arizona Cardinals,Indianapolis Colts,2013,November 24
+1044,Washington Redskins,0,0,0,93,80,66,0,0,"Glendale, AZ",Arizona Cardinals,Washington Redskins,2014,October 12
+1045,Cleveland Browns,0,0,0,64,49,34,0,0,"Kansas City, MO",Kansas City Chiefs,Cleveland Browns,2013,October 27
+1046,Houston Texans,0,0,0,90,79,68,0,0,"Houston, TX",Indianapolis Colts,Houston Texans,2014,October 9
+1047,Jacksonville Jaguars,0,0,0,55,50,44,1,0,"Indianapolis, IN",Indianapolis Colts,Jacksonville Jaguars,2014,November 23
+1048,Cleveland Browns,0,0,0,75,69,62,0,0,"Cleveland, OH",Miami Dolphins,Cleveland Browns,2013,September 8
+1049,Detroit Lions,0,0,0,73,62,52,0,0,"Seattle, WA",Seattle Seahawks,Detroit Lions,2015,October 5
+1050,Tennessee Titans,0,0,0,69,66,63,1,0,"Houston, TX",Houston Texans,Tennessee Titans,2015,November 1
+1051,Arizona Cardinals,0,0,0,68,52,37,0,0,"Glendale, AZ",San Francisco 49ers,Arizona Cardinals,2013,December 29
+1052,New Orleans Saints,0,0,0,71,67,63,1,0,"Charlotte, NC",Carolina Panthers,New Orleans Saints,2015,September 27
+1053,Tennessee Titans,0,0,0,67,53,38,0,0,"Nashville, TN",Jacksonville Jaguars,Tennessee Titans,2013,November 10
+1054,Kansas City Chiefs,0,0,0,75,64,53,0,0,"Cincinnati, OH",Cincinnati Bengals,Kansas City Chiefs,2015,October 4
+1055,Chicago Bears,0,0,0,49,42,35,0,0,"Chicago, IL",Detroit Lions,Chicago Bears,2013,November 10
+1056,Chicago Bears,0,0,0,71,61,50,0,0,"Chicago, IL",Green Bay Packers,Chicago Bears,2015,September 13
+1057,Seattle Seahawks,0,0,0,65,55,44,1,0,"Indianapolis, IN",Indianapolis Colts,Seattle Seahawks,2013,October 6
+1058,Atlanta Falcons,0,0,0,82,75,68,0,0,"Tampa, FL",Tampa Bay Buccaneers,Atlanta Falcons,2013,November 17
+1059,Jacksonville Jaguars,0,0,0,87,79,71,0,0,"Tampa, FL",Tampa Bay Buccaneers,Jacksonville Jaguars,2015,October 11
+1060,Arizona Cardinals,0,0,0,44,38,33,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Arizona Cardinals,2015,October 18
+1061,Tampa Bay Buccaneers,0,1,0,80,72,64,0,0,"Tampa, FL",New Orleans Saints,Tampa Bay Buccaneers,2014,December 28
+1062,Dallas Cowboys,0,0,0,86,74,64,1,0,"Kansas City, MO",Kansas City Chiefs,Dallas Cowboys,2013,September 15
+1063,Cincinnati Bengals,0,0,0,78,75,71,0,0,"Chicago, IL",Chicago Bears,Cincinnati Bengals,2013,September 8
+1064,Baltimore Ravens,0,0,0,68,54,41,0,0,"Cincinnati, OH",Cincinnati Bengals,Baltimore Ravens,2014,October 26
+1065,Arizona Cardinals,0,0,0,82,68,53,0,0,"Glendale, AZ",Seattle Seahawks,Arizona Cardinals,2013,October 17
+1066,Pittsburgh Steelers,0,0,0,66,52,39,0,0,"Cleveland, OH",Cleveland Browns,Pittsburgh Steelers,2014,October 12
+1067,Philadelphia Eagles,0,0,0,1,0,-2,0,0,"Minneapolis, MN",Minnesota Vikings,Philadelphia Eagles,2013,December 15
+1068,Arizona Cardinals,0,0,0,57,47,37,0,0,"Santa Clara, CA",San Francisco 49ers,Arizona Cardinals,2014,December 28
+1069,Buffalo Bills,0,0,0,68,63,57,1,0,"Orchard Park, NY",Cincinnati Bengals,Buffalo Bills,2013,October 13
+1070,Tampa Bay Buccaneers,0,0,0,53,46,39,1,0,"Seattle, WA",Seattle Seahawks,Tampa Bay Buccaneers,2013,November 3
+1071,Washington Redskins,0,0,0,80,72,63,0,0,"Landover, MD",Philadelphia Eagles,Washington Redskins,2013,September 9
+1072,Carolina Panthers,0,0,0,81,68,54,0,0,"Baltimore, MD",Baltimore Ravens,Carolina Panthers,2014,September 28
+1073,Buffalo Bills,0,0,0,82,74,66,0,0,"Miami Gardens, FL",Miami Dolphins,Buffalo Bills,2014,November 13
+1074,Cincinnati Bengals,0,0,0,56,50,43,0,0,"Indianapolis, IN",Indianapolis Colts,Cincinnati Bengals,2014,October 19
+1075,Indianapolis Colts,0,0,0,62,54,46,0,0,"Indianapolis, IN",New Orleans Saints,Indianapolis Colts,2015,October 25
+1076,Philadelphia Eagles,0,0,0,48,42,37,0,0,"Philadelphia, PA",Dallas Cowboys,Philadelphia Eagles,2014,December 14
+1077,St. Louis Rams,0,0,0,69,53,36,0,0,"St. Louis, MO",Seattle Seahawks,St. Louis Rams,2013,October 28
+1078,Oakland Raiders,0,0,0,64,58,51,1,0,"Kansas City, MO",Kansas City Chiefs,Oakland Raiders,2014,December 14
+1079,New York Giants,0,0,0,73,69,66,1,0,"East Rutherford, NJ",Philadelphia Eagles,New York Giants,2013,October 6
+1080,Carolina Panthers,0,0,0,83,66,48,0,0,"Charlotte, NC",Seattle Seahawks,Carolina Panthers,2014,October 26
+1081,Jacksonville Jaguars,0,1,0,77,68,58,1,0,"Nashville, TN",Tennessee Titans,Jacksonville Jaguars,2014,October 12
+1082,Atlanta Falcons,0,1,0,71,56,43,0,0,"Cincinnati, OH",Cincinnati Bengals,Atlanta Falcons,2014,September 14
+1083,San Diego Chargers,0,0,0,73,62,51,0,0,"Cincinnati, OH",Cincinnati Bengals,San Diego Chargers,2015,September 20
+1084,Atlanta Falcons,0,0,0,73,65,57,1,0,"Atlanta, GA",New York Jets,Atlanta Falcons,2013,October 7
+1085,Philadelphia Eagles,0,0,0,76,58,40,0,0,"Denver, CO",Denver Broncos,Philadelphia Eagles,2013,September 29
+1086,Dallas Cowboys,0,0,0,75,67,58,0,0,"New Orleans, LA",New Orleans Saints,Dallas Cowboys,2013,November 10
+1087,San Diego Chargers,0,0,0,75,71,67,0,0,"San Diego, CA",Kansas City Chiefs,San Diego Chargers,2014,October 19
+1088,San Diego Chargers,0,0,0,78,73,67,0,0,"San Diego, CA",Oakland Raiders,San Diego Chargers,2015,October 25
+1089,Miami Dolphins,0,0,0,85,80,74,0,0,"New Orleans, LA",New Orleans Saints,Miami Dolphins,2013,September 30
+1090,Kansas City Chiefs,0,0,0,79,68,57,0,0,"Kansas City, MO",Tennessee Titans,Kansas City Chiefs,2014,September 7
+1091,Buffalo Bills,0,0,0,89,81,72,1,0,"Houston, TX",Houston Texans,Buffalo Bills,2014,September 28
+1092,Houston Texans,0,0,0,55,45,34,1,0,"Nashville, TN",Tennessee Titans,Houston Texans,2013,December 29
+1093,San Francisco 49ers,0,0,0,77,65,53,0,0,"Santa Clara, CA",Seattle Seahawks,San Francisco 49ers,2015,October 22
+1094,Cleveland Browns,0,0,0,73,62,53,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Cleveland Browns,2014,September 7
+1095,Buffalo Bills,0,0,0,49,42,35,1,0,"Orchard Park, NY",Kansas City Chiefs,Buffalo Bills,2014,November 9
+1096,Tampa Bay Buccaneers,0,0,0,36,32,27,1,1,"St. Louis, MO",St. Louis Rams,Tampa Bay Buccaneers,2013,December 22
+1097,New Orleans Saints,0,0,0,58,55,52,0,0,"New Orleans, LA",Atlanta Falcons,New Orleans Saints,2014,December 21
+1098,Chicago Bears,0,0,0,39,26,12,0,1,"Chicago, IL",Green Bay Packers,Chicago Bears,2013,December 29
+1099,Houston Texans,0,0,0,83,67,51,0,0,"Santa Clara, CA",San Francisco 49ers,Houston Texans,2013,October 6
+1100,Kansas City Chiefs,0,0,0,53,41,28,0,0,"Denver, CO",Denver Broncos,Kansas City Chiefs,2013,November 17
+1101,Miami Dolphins,0,1,0,44,36,27,1,1,"Denver, CO",Denver Broncos,Miami Dolphins,2014,November 23
+1102,Houston Texans,0,0,0,72,58,46,0,0,"Kansas City, MO",Kansas City Chiefs,Houston Texans,2013,October 20
+1103,Indianapolis Colts,0,0,0,48,41,33,0,0,"Indianapolis, IN",St. Louis Rams,Indianapolis Colts,2013,November 10
+1104,Miami Dolphins,0,0,0,45,40,36,0,0,"Detroit, MI",Detroit Lions,Miami Dolphins,2014,November 9
+1105,Baltimore Ravens,0,0,0,57,47,39,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Baltimore Ravens,2013,October 20
+1106,New York Jets,0,0,0,65,54,42,1,0,"Orchard Park, NY",Buffalo Bills,New York Jets,2014,November 24
+1107,Kansas City Chiefs,0,0,0,91,83,75,0,0,"Kansas City, MO",Denver Broncos,Kansas City Chiefs,2015,September 17
+1108,Jacksonville Jaguars,0,0,0,82,76,69,0,0,"Jacksonville, FL",Tennessee Titans,Jacksonville Jaguars,2013,December 22
+1109,Detroit Lions,0,0,0,69,66,62,1,0,"Charlotte, NC",Carolina Panthers,Detroit Lions,2014,September 14
+1110,Houston Texans,0,0,0,91,75,59,0,0,"Charlotte, NC",Carolina Panthers,Houston Texans,2015,September 20
+1111,Oakland Raiders,0,0,0,75,67,59,0,0,"Oakland, CA",Washington Redskins,Oakland Raiders,2013,September 29
+1112,St. Louis Rams,0,0,0,82,73,63,0,0,"Atlanta, GA",Atlanta Falcons,St. Louis Rams,2013,September 15
+1113,San Francisco 49ers,0,0,0,72,60,47,0,0,"St. Louis, MO",St. Louis Rams,San Francisco 49ers,2015,November 1
+1114,Detroit Lions,0,0,0,85,80,75,0,0,"San Diego, CA",San Diego Chargers,Detroit Lions,2015,September 13
+1115,Philadelphia Eagles,0,0,0,46,40,30,1,0,"Philadelphia, PA",Seattle Seahawks,Philadelphia Eagles,2014,December 7
+1116,Kansas City Chiefs,0,0,0,86,73,60,0,0,"Kansas City, MO",Chicago Bears,Kansas City Chiefs,2015,October 11
+1117,Oakland Raiders,0,1,0,89,79,69,0,0,"Indianapolis, IN",Indianapolis Colts,Oakland Raiders,2013,September 8
+1118,Dallas Cowboys,0,0,0,71,61,50,1,0,"East Rutherford, NJ",New York Giants,Dallas Cowboys,2015,October 25
+1119,Tennessee Titans,0,0,0,40,32,23,1,1,"Nashville, TN",Pittsburgh Steelers,Tennessee Titans,2014,November 17
+1120,New Orleans Saints,0,0,0,53,46,37,0,0,"East Rutherford, NJ",New York Jets,New Orleans Saints,2013,November 3
+1121,Tampa Bay Buccaneers,0,0,0,71,64,57,1,0,"Tampa, FL",San Francisco 49ers,Tampa Bay Buccaneers,2013,December 15
+1122,Tampa Bay Buccaneers,0,0,0,78,70,62,1,0,"Tampa, FL",Green Bay Packers,Tampa Bay Buccaneers,2014,December 21
+1123,Carolina Panthers,0,1,0,52,48,44,0,0,"New Orleans, LA",New Orleans Saints,Carolina Panthers,2013,December 8
+1124,Cleveland Browns,0,0,0,0,0,0,0,0,"Cleveland, OH",Jacksonville Jaguars,Cleveland Browns,2013,December 1
+1125,Cincinnati Bengals,0,0,0,50,42,34,1,0,"Pittsburgh, PA",Pittsburgh Steelers,Cincinnati Bengals,2014,December 28
+1126,Dallas Cowboys,0,0,0,66,62,57,1,0,"Arlington, TX",Seattle Seahawks,Dallas Cowboys,2015,November 1
+1127,Buffalo Bills,0,0,0,71,64,55,1,0,"East Rutherford, NJ",New York Jets,Buffalo Bills,2013,September 22
+1128,Carolina Panthers,0,0,0,21,14,6,0,0,"Minneapolis, MN",Minnesota Vikings,Carolina Panthers,2014,November 30
+1129,San Diego Chargers,0,0,0,82,71,60,0,0,"Minneapolis, MN",Minnesota Vikings,San Diego Chargers,2015,September 27
+1130,Denver Broncos,0,0,0,54,37,20,0,0,"Denver, CO",San Diego Chargers,Denver Broncos,2013,December 12
+1131,Detroit Lions,0,0,0,55,50,45,0,0,"Detroit, MI",Buffalo Bills,Detroit Lions,2014,October 5
+1132,Chicago Bears,0,0,0,64,55,46,0,0,"Seattle, WA",Seattle Seahawks,Chicago Bears,2015,September 27
+1133,Green Bay Packers,0,1,0,26,23,20,0,1,"Green Bay, WI",Pittsburgh Steelers,Green Bay Packers,2013,December 22
+1134,New Orleans Saints,0,0,0,90,80,70,1,0,"Atlanta, GA",Atlanta Falcons,New Orleans Saints,2014,September 7
+1135,Oakland Raiders,0,0,0,60,56,51,0,0,"Chicago, IL",Chicago Bears,Oakland Raiders,2015,October 4
+1136,Cleveland Browns,0,0,0,76,62,47,0,0,"Baltimore, MD",Baltimore Ravens,Cleveland Browns,2013,September 15
+1137,San Francisco 49ers,0,0,0,72,57,41,0,0,"Denver, CO",Denver Broncos,San Francisco 49ers,2014,October 19
+1138,Cleveland Browns,0,0,0,79,70,61,1,0,"East Rutherford, NJ",New York Jets,Cleveland Browns,2015,September 13
+1139,San Diego Chargers,0,0,0,87,79,71,1,0,"Glendale, AZ",Arizona Cardinals,San Diego Chargers,2014,September 8
+1140,Tampa Bay Buccaneers,0,0,0,69,57,44,0,0,"Atlanta, GA",Atlanta Falcons,Tampa Bay Buccaneers,2013,October 20
+1141,Tennessee Titans,0,0,0,64,56,48,0,0,"Jacksonville, FL",Jacksonville Jaguars,Tennessee Titans,2014,December 18
+1142,Jacksonville Jaguars,0,0,0,45,35,25,0,1,"Indianapolis, IN",Indianapolis Colts,Jacksonville Jaguars,2013,December 29
+1143,Cleveland Browns,0,0,0,64,58,53,1,0,"Cleveland, OH",Arizona Cardinals,Cleveland Browns,2015,November 1
+1144,Buffalo Bills,0,0,0,82,73,64,0,0,"Tampa, FL",Tampa Bay Buccaneers,Buffalo Bills,2013,December 8
+1145,Tennessee Titans,0,0,0,91,83,74,0,0,"Houston, TX",Houston Texans,Tennessee Titans,2013,September 15
+1146,Tennessee Titans,0,0,0,59,50,41,0,0,"Landover, MD",Washington Redskins,Tennessee Titans,2014,October 19
+1147,Tampa Bay Buccaneers,0,0,0,69,60,51,0,0,"Landover, MD",Washington Redskins,Tampa Bay Buccaneers,2015,October 25
+1148,Green Bay Packers,0,0,0,38,37,35,1,0,"Orchard Park, NY",Buffalo Bills,Green Bay Packers,2014,December 14
+1149,Tampa Bay Buccaneers,0,0,0,84,73,62,0,0,"East Rutherford, NJ",New York Jets,Tampa Bay Buccaneers,2013,September 8
+1150,Kansas City Chiefs,0,0,0,70,59,47,0,0,"San Diego, CA",San Diego Chargers,Kansas City Chiefs,2013,December 29
+1151,San Diego Chargers,0,0,0,71,61,51,0,0,"Miami Gardens, FL",Miami Dolphins,San Diego Chargers,2014,November 2
+1152,St. Louis Rams,0,0,0,84,70,55,0,0,"Glendale, AZ",Arizona Cardinals,St. Louis Rams,2014,November 9
+1153,Washington Redskins,0,0,0,74,64,55,0,0,"Landover, MD",Detroit Lions,Washington Redskins,2013,September 22
+1154,Oakland Raiders,0,0,0,71,63,55,0,0,"Oakland, CA",Arizona Cardinals,Oakland Raiders,2014,October 19
+1155,Washington Redskins,0,0,0,74,65,56,0,0,"Atlanta, GA",Atlanta Falcons,Washington Redskins,2015,October 11
+1156,Baltimore Ravens,0,0,0,89,72,54,0,0,"Denver, CO",Denver Broncos,Baltimore Ravens,2015,September 13
+1157,Minnesota Vikings,0,1,0,52,48,45,0,0,"Detroit, MI",Detroit Lions,Minnesota Vikings,2014,December 14
+1158,Washington Redskins,0,0,0,82,68,55,0,0,"East Rutherford, NJ",New York Giants,Washington Redskins,2015,September 24
+1159,Baltimore Ravens,0,0,0,81,73,65,0,0,"Baltimore, MD",Cincinnati Bengals,Baltimore Ravens,2014,September 7
+1160,Atlanta Falcons,0,0,0,61,56,51,1,0,"Atlanta, GA",Carolina Panthers,Atlanta Falcons,2014,December 28
+1161,Denver Broncos,0,1,0,35,30,25,0,1,"St. Louis, MO",St. Louis Rams,Denver Broncos,2014,November 16
+1162,Chicago Bears,0,0,0,65,56,46,0,0,"Chicago, IL",Minnesota Vikings,Chicago Bears,2015,November 1
+1163,New Orleans Saints,0,0,0,88,75,63,0,0,"Arlington, TX",Dallas Cowboys,New Orleans Saints,2014,September 28
+1164,Washington Redskins,0,0,0,73,66,60,0,0,"Landover, MD",Miami Dolphins,Washington Redskins,2015,September 13
+1165,Carolina Panthers,0,0,0,68,57,45,0,0,"Charlotte, NC",New Orleans Saints,Carolina Panthers,2014,October 30
+1166,Dallas Cowboys,0,0,0,66,63,60,0,0,"New Orleans, LA",New Orleans Saints,Dallas Cowboys,2015,October 4
+1167,New York Giants,0,0,0,75,63,51,0,0,"Chicago, IL",Chicago Bears,New York Giants,2013,October 10
+1168,New York Giants,0,0,0,30,27,24,0,0,"East Rutherford, NJ",Dallas Cowboys,New York Giants,2013,November 24
+1169,New England Patriots,0,0,0,78,66,53,1,0,"Charlotte, NC",Carolina Panthers,New England Patriots,2013,November 18
+1170,New York Jets,0,1,0,64,54,45,0,0,"East Rutherford, NJ",Denver Broncos,New York Jets,2014,October 12
+1171,Washington Redskins,0,0,0,95,84,73,1,0,"Houston, TX",Houston Texans,Washington Redskins,2014,September 7
+1172,Oakland Raiders,0,0,0,76,68,59,1,0,"Oakland, CA",Cincinnati Bengals,Oakland Raiders,2015,September 13
+1173,Washington Redskins,0,0,0,46,41,36,1,0,"East Rutherford, NJ",New York Giants,Washington Redskins,2013,December 29
+1174,Cincinnati Bengals,0,0,0,39,30,21,1,1,"Pittsburgh, PA",Pittsburgh Steelers,Cincinnati Bengals,2013,December 15
+1175,Kansas City Chiefs,0,0,0,34,30,26,0,0,"Pittsburgh, PA",Pittsburgh Steelers,Kansas City Chiefs,2014,December 21
+1176,Jacksonville Jaguars,0,0,0,75,68,60,0,0,"Jacksonville, FL",Pittsburgh Steelers,Jacksonville Jaguars,2014,October 5
+1177,Minnesota Vikings,0,0,0,64,58,52,0,0,"Minneapolis, MN",New England Patriots,Minnesota Vikings,2014,September 14
+1178,Detroit Lions,0,0,0,73,60,48,1,0,"Minneapolis, MN",Minnesota Vikings,Detroit Lions,2015,September 20
+1179,Oakland Raiders,0,0,0,58,46,33,0,0,"Oakland, CA",Kansas City Chiefs,Oakland Raiders,2013,December 15
+1180,Buffalo Bills,0,1,0,64,60,55,1,0,"Oakland, CA",Oakland Raiders,Buffalo Bills,2014,December 21
+1181,Baltimore Ravens,0,0,0,70,55,40,0,0,"Baltimore, MD",Cleveland Browns,Baltimore Ravens,2015,October 11
+1182,Green Bay Packers,0,0,0,84,71,58,0,0,"New Orleans, LA",New Orleans Saints,Green Bay Packers,2014,October 26
+1183,Chicago Bears,0,0,0,65,52,38,0,0,"Charlotte, NC",Carolina Panthers,Chicago Bears,2014,October 5
+1184,St. Louis Rams,0,0,0,42,37,32,0,1,"St. Louis, MO",Arizona Cardinals,St. Louis Rams,2014,December 11
+1185,Tennessee Titans,0,0,0,18,8,-3,0,1,"Denver, CO",Denver Broncos,Tennessee Titans,2013,December 8
+1186,Tennessee Titans,0,0,0,52,42,32,0,0,"Indianapolis, IN",Indianapolis Colts,Tennessee Titans,2013,December 1
+1187,Cleveland Browns,0,0,0,60,48,35,1,0,"Baltimore, MD",Baltimore Ravens,Cleveland Browns,2014,December 28
+1188,Baltimore Ravens,0,0,0,75,63,51,0,0,"Orchard Park, NY",Buffalo Bills,Baltimore Ravens,2013,September 29
+1189,Tampa Bay Buccaneers,0,0,0,78,73,68,0,0,"Tampa, FL",Carolina Panthers,Tampa Bay Buccaneers,2015,October 4
+1190,Jacksonville Jaguars,0,0,0,75,62,52,0,0,"Jacksonville, FL",San Francisco 49ers,Jacksonville Jaguars,2013,October 27
+1191,Atlanta Falcons,0,0,0,87,74,60,0,0,"Glendale, AZ",Arizona Cardinals,Atlanta Falcons,2013,October 27
+1192,Jacksonville Jaguars,0,0,0,48,36,23,0,0,"Cincinnati, OH",Cincinnati Bengals,Jacksonville Jaguars,2014,November 2
+1193,New York Giants,0,0,0,71,70,68,1,0,"New Orleans, LA",New Orleans Saints,New York Giants,2015,November 1
+1194,Philadelphia Eagles,0,0,0,28,22,16,0,1,"Green Bay, WI",Green Bay Packers,Philadelphia Eagles,2014,November 16
+1195,Washington Redskins,0,0,0,33,30,29,0,0,"Landover, MD",Kansas City Chiefs,Washington Redskins,2013,December 8
+1196,Cleveland Browns,0,0,0,35,32,30,0,1,"Cleveland, OH",Houston Texans,Cleveland Browns,2014,November 16
+1197,Chicago Bears,0,0,0,66,63,60,1,0,"Detroit, MI",Detroit Lions,Chicago Bears,2013,September 29
+1198,Jacksonville Jaguars,0,0,0,46,44,41,1,0,"Houston, TX",Houston Texans,Jacksonville Jaguars,2014,December 28
+1199,New York Jets,0,0,0,64,58,52,1,0,"Orchard Park, NY",Buffalo Bills,New York Jets,2013,November 17
+1200,St. Louis Rams,0,0,0,79,68,57,0,0,"St. Louis, MO",Dallas Cowboys,St. Louis Rams,2014,September 21
+1201,New Orleans Saints,0,0,0,96,85,74,0,0,"New Orleans, LA",Tampa Bay Buccaneers,New Orleans Saints,2015,September 20
+1202,Dallas Cowboys,0,0,0,59,48,37,0,0,"Arlington, TX",Philadelphia Eagles,Dallas Cowboys,2014,November 27
+1203,Chicago Bears,0,0,0,79,69,58,0,0,"Chicago, IL",Green Bay Packers,Chicago Bears,2014,September 28
+1204,Oakland Raiders,0,0,0,67,58,48,0,0,"San Diego, CA",San Diego Chargers,Oakland Raiders,2013,December 22
+1205,San Diego Chargers,0,0,0,84,78,72,0,0,"Miami Gardens, FL",Miami Dolphins,San Diego Chargers,2013,November 17
+1206,Jacksonville Jaguars,0,0,0,75,70,66,0,0,"Jacksonville, FL",Houston Texans,Jacksonville Jaguars,2015,October 18
+1207,Tampa Bay Buccaneers,0,0,0,81,69,57,0,0,"Tampa, FL",Minnesota Vikings,Tampa Bay Buccaneers,2014,October 26
+1208,Oakland Raiders,0,0,0,86,69,51,0,0,"Oakland, CA",San Diego Chargers,Oakland Raiders,2014,October 12
+1209,Miami Dolphins,0,0,0,89,82,75,0,0,"Miami Gardens, FL",Baltimore Ravens,Miami Dolphins,2013,October 6
+1210,Jacksonville Jaguars,0,0,0,91,80,70,0,0,"Jacksonville, FL",Indianapolis Colts,Jacksonville Jaguars,2014,September 21
+1211,Detroit Lions,0,0,0,102,91,80,0,0,"Glendale, AZ",Arizona Cardinals,Detroit Lions,2013,September 15
+1212,San Francisco 49ers,0,0,0,98,86,75,0,0,"Glendale, AZ",Arizona Cardinals,San Francisco 49ers,2014,September 21
+1213,Tampa Bay Buccaneers,0,0,0,63,46,29,0,0,"Charlotte, NC",Carolina Panthers,Tampa Bay Buccaneers,2014,December 14
+1214,Minnesota Vikings,0,0,0,60,48,35,0,0,"Minneapolis, MN",Carolina Panthers,Minnesota Vikings,2013,October 13
+1215,Washington Redskins,0,0,0,49,40,31,1,0,"Atlanta, GA",Atlanta Falcons,Washington Redskins,2013,December 15
+1216,San Diego Chargers,0,0,0,72,56,39,0,0,"Denver, CO",Denver Broncos,San Diego Chargers,2014,October 23
+1217,Minnesota Vikings,0,0,0,33,29,25,0,1,"Chicago, IL",Chicago Bears,Minnesota Vikings,2014,November 16
+1218,Tennessee Titans,0,0,0,59,52,44,0,0,"Seattle, WA",Seattle Seahawks,Tennessee Titans,2013,October 13
+1219,Tennessee Titans,0,0,0,74,56,37,0,0,"Nashville, TN",Cleveland Browns,Tennessee Titans,2014,October 5
+1220,Cincinnati Bengals,0,0,0,43,36,28,0,0,"Cincinnati, OH",Pittsburgh Steelers,Cincinnati Bengals,2014,December 7
+1221,Houston Texans,0,0,0,57,48,41,1,0,"Pittsburgh, PA",Pittsburgh Steelers,Houston Texans,2014,October 20

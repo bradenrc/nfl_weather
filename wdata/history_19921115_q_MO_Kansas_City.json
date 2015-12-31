@@ -1,0 +1,470 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "history": 1
+  }
+	}
+		,
+	"history": {
+		"date": {
+		"pretty": "November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "12",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "18",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"observations": [
+		{
+		"date": {
+		"pretty": "12:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "00",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "6:00 AM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "06",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"1.6", "tempi":"34.9","dewptm":"-2.3", "dewpti":"27.9","hum":"76","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"180","wdire":"South","vism":"16.1", "visi":"10.0","pressurem":"1026.6", "pressurei":"30.32","windchillm":"-0.7", "windchilli":"30.8","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 150600Z 18004KT 10SM SCT250 02/M02 A3032 RMK SLPNO T00161023" },
+		{
+		"date": {
+		"pretty": "1:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "01",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "7:00 AM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "07",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"1.6", "tempi":"34.9","dewptm":"-2.8", "dewpti":"27.0","hum":"73","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"180","wdire":"South","vism":"16.1", "visi":"10.0","pressurem":"1026.6", "pressurei":"30.32","windchillm":"-2.0", "windchilli":"28.3","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 150700Z 18007KT 10SM CLR 02/M03 A3032 RMK SLPNO T00161028" },
+		{
+		"date": {
+		"pretty": "2:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "02",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "8:00 AM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "08",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"1.1", "tempi":"34.0","dewptm":"-2.3", "dewpti":"27.9","hum":"78","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"16.1", "visi":"10.0","pressurem":"1026.3", "pressurei":"30.31","windchillm":"-3.6", "windchilli":"25.5","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 150800Z 20010KT 10SM CLR 01/M02 A3031 RMK SLPNO T00111023" },
+		{
+		"date": {
+		"pretty": "3:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "03",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:00 AM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "09",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"1.6", "tempi":"34.9","dewptm":"-2.3", "dewpti":"27.9","hum":"76","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"16.1", "visi":"10.0","pressurem":"1026.0", "pressurei":"30.30","windchillm":"-3.0", "windchilli":"26.6","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 150900Z 20010KT 10SM CLR 02/M02 A3030 RMK SLPNO T00161023" },
+		{
+		"date": {
+		"pretty": "4:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "04",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "10:00 AM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "10",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"1.6", "tempi":"34.9","dewptm":"-2.3", "dewpti":"27.9","hum":"76","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"16.1", "visi":"10.0","pressurem":"1026.3", "pressurei":"30.31","windchillm":"-3.0", "windchilli":"26.6","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151000Z 20010KT 10SM SCT120 02/M02 A3031 RMK SLPNO T00161023" },
+		{
+		"date": {
+		"pretty": "5:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "05",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "11:00 AM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "11",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"1.6", "tempi":"34.9","dewptm":"-2.3", "dewpti":"27.9","hum":"76","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"16.1", "visi":"10.0","pressurem":"1026.3", "pressurei":"30.31","windchillm":"-1.2", "windchilli":"29.9","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151100Z 23005KT 10SM SCT120 02/M02 A3031 RMK SLPNO T00161023" },
+		{
+		"date": {
+		"pretty": "6:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "06",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "12:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "12",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"1.6", "tempi":"34.9","dewptm":"-2.3", "dewpti":"27.9","hum":"76","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"16.1", "visi":"10.0","pressurem":"1026.3", "pressurei":"30.31","windchillm":"-1.6", "windchilli":"29.0","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151200Z 23006KT 10SM BKN120 02/M02 A3031 RMK SLPNO T00161023" },
+		{
+		"date": {
+		"pretty": "7:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "07",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "1:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "13",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"2.2", "tempi":"36.0","dewptm":"-1.2", "dewpti":"29.8","hum":"78","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"170","wdire":"South","vism":"16.1", "visi":"10.0","pressurem":"1026.0", "pressurei":"30.30","windchillm":"-0.5", "windchilli":"31.1","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151300Z 17005KT 10SM BKN120 02/M01 A3030 RMK SLPNO T00221012" },
+		{
+		"date": {
+		"pretty": "8:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "08",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "2:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "14",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"2.7", "tempi":"36.9","dewptm":"-1.2", "dewpti":"29.8","hum":"76","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1026.6", "pressurei":"30.32","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151400Z 00000KT 10SM OVC120 03/M01 A3032 RMK SLPNO T00271012" },
+		{
+		"date": {
+		"pretty": "9:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "09",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "3:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "15",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"3.8", "tempi":"38.8","dewptm":"-0.6", "dewpti":"30.9","hum":"73","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"180","wdire":"South","vism":"16.1", "visi":"10.0","pressurem":"1026.6", "pressurei":"30.32","windchillm":"1.4", "windchilli":"34.6","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151500Z 18005KT 10SM OVC120 04/M01 A3032 RMK BINOVC SLPNO T00381006" },
+		{
+		"date": {
+		"pretty": "10:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "10",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "4:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "16",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"6.1", "tempi":"43.0","dewptm":"-0.6", "dewpti":"30.9","hum":"62","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"170","wdire":"South","vism":"16.1", "visi":"10.0","pressurem":"1026.6", "pressurei":"30.32","windchillm":"3.2", "windchilli":"37.7","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151600Z 17008KT 10SM BKN120 06/M01 A3032 RMK SLPNO T00611006" },
+		{
+		"date": {
+		"pretty": "11:00 AM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "11",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "5:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "17",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"8.8", "tempi":"47.8","dewptm":"-0.6", "dewpti":"30.9","hum":"52","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"180","wdire":"South","vism":"16.1", "visi":"10.0","pressurem":"1026.6", "pressurei":"30.32","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151700Z 18006KT 10SM SCT120 09/M01 A3032 RMK SLPNO T00881006" },
+		{
+		"date": {
+		"pretty": "12:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "12",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "6:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "18",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"12.2", "tempi":"54.0","dewptm":"-1.2", "dewpti":"29.8","hum":"40","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"140","wdire":"SE","vism":"16.1", "visi":"10.0","pressurem":"1025.6", "pressurei":"30.29","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151800Z 14006KT 10SM SCT250 12/M01 A3029 RMK SLPNO T01221012" },
+		{
+		"date": {
+		"pretty": "1:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "13",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "7:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "19",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"14.4", "tempi":"57.9","dewptm":"-1.2", "dewpti":"29.8","hum":"34","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"120","wdire":"ESE","vism":"16.1", "visi":"10.0","pressurem":"1024.3", "pressurei":"30.25","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 151900Z 12007KT 10SM SCT250 14/M01 A3025 RMK SLPNO T01441012" },
+		{
+		"date": {
+		"pretty": "2:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "14",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "8:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "20",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"15.0", "tempi":"59.0","dewptm":"-1.2", "dewpti":"29.8","hum":"33","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"190","wdire":"South","vism":"16.1", "visi":"10.0","pressurem":"1023.2", "pressurei":"30.22","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 152000Z 19008KT 10SM SCT250 15/M01 A3022 RMK SLPNO T01501012" },
+		{
+		"date": {
+		"pretty": "3:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "15",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "9:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "21",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"15.0", "tempi":"59.0","dewptm":"-0.6", "dewpti":"30.9","hum":"35","wspdm":"27.8", "wspdi":"17.3","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"170","wdire":"South","vism":"16.1", "visi":"10.0","pressurem":"1022.6", "pressurei":"30.20","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 152100Z 17015KT 10SM SCT250 15/M01 A3020 RMK SLPNO T01501006" },
+		{
+		"date": {
+		"pretty": "4:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "16",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "10:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "22",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"15.0", "tempi":"59.0","dewptm":"-0.6", "dewpti":"30.9","hum":"35","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"160","wdire":"SSE","vism":"16.1", "visi":"10.0","pressurem":"1022.2", "pressurei":"30.19","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 152200Z 16010KT 10SM SCT250 15/M01 A3019 RMK SLPNO T01501006" },
+		{
+		"date": {
+		"pretty": "5:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "17",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "11:00 PM GMT on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "23",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"13.3", "tempi":"55.9","dewptm":"-0.6", "dewpti":"30.9","hum":"39","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"140","wdire":"SE","vism":"16.1", "visi":"10.0","pressurem":"1022.2", "pressurei":"30.19","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 152300Z 14008KT 10SM SCT250 13/M01 A3019 RMK SLPNO T01331006" },
+		{
+		"date": {
+		"pretty": "6:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "18",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "12:00 AM GMT on November 16, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "16",
+		"hour": "00",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"11.6", "tempi":"52.9","dewptm":"-0.6", "dewpti":"30.9","hum":"43","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"140","wdire":"SE","vism":"16.1", "visi":"10.0","pressurem":"1021.9", "pressurei":"30.18","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 160000Z 14008KT 10SM CLR 12/M01 A3018 RMK SLPNO T01161006" },
+		{
+		"date": {
+		"pretty": "7:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "19",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "1:00 AM GMT on November 16, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "16",
+		"hour": "01",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"10.0", "tempi":"50.0","dewptm":"-1.2", "dewpti":"29.8","hum":"46","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"100","wdire":"East","vism":"16.1", "visi":"10.0","pressurem":"1021.9", "pressurei":"30.18","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 160100Z 10008KT 10SM CLR 10/M01 A3018 RMK SLPNO T01001012" },
+		{
+		"date": {
+		"pretty": "8:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "20",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "2:00 AM GMT on November 16, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "16",
+		"hour": "02",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"8.8", "tempi":"47.8","dewptm":"-0.6", "dewpti":"30.9","hum":"52","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1021.9", "pressurei":"30.18","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KMKC 160200Z 00000KT 10SM CLR 09/M01 A3018 RMK SLPNO T00881006" },
+		{
+		"date": {
+		"pretty": "9:00 PM CST on November 15, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "15",
+		"hour": "21",
+		"min": "00",
+		"tzname": "America/Chicago"
+		},
+		"utcdate": {
+		"pretty": "3:00 AM GMT on November 16, 1992",
+		"year": "1992",
+		"mon": "11",
+		"mday": "16",
+		"hour": "03",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"7.7", "tempi":"45.9","dewptm":"-0.6", "dewpti":"30.9","hum":"56","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1021.6", "pressurei":"30.17","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","
