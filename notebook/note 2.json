@@ -1,0 +1,1777 @@
+{
+  "paragraphs": [
+    {
+      "title": "Load Data from the Scrape",
+      "text": "%pyspark\n\nscores_raw_df \u003d sqlContext.read.json(\"/Users/braden/Dropbox/code/NFL_Weather/data/\")\nscores_raw_df.registerTempTable(\"scores_raw\")\nscores_raw_df.cache()\n\nscores_raw_df.show(5)\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451325381560_466135054",
+      "id": "20151228-095621_331827115",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "+-----------+-------+--------------------+--------------------+---------+------------------+------------+-------------+---------------+----------------+----+--------------------+-----------+------------+----+\n|        Day|WeekDay|            boxscore|        boxscore_uri|loc_indic|       losing_team|points_loser|points_winner|turnovers_loser|turnovers_winner|week|        winning_team|yards_loser|yards_winner|year|\n+-----------+-------+--------------------+--------------------+---------+------------------+------------+-------------+---------------+----------------+----+--------------------+-----------+------------+----+\n|September 9|    Sun|[null,null,outdoo...|/boxscores/199009...|         |Indianapolis Colts|          10|           26|              2|               1|   1|       Buffalo Bills|        229|         383|1990|\n|September 9|    Sun|[null,null,dome,P...|/boxscores/199009...|        @|     Detroit Lions|          21|           38|              6|               2|   1|Tampa Bay Buccaneers|        258|         375|1990|\n|September 9|    Sun|[null,null,outdoo...|/boxscores/199009...|         |  Seattle Seahawks|           0|           17|              3|               1|   1|       Chicago Bears|        132|         366|1990|\n|September 9|    Sun|[null,null,outdoo...|/boxscores/199009...|         |San Diego Chargers|          14|           17|              2|               1|   1|      Dallas Cowboys|        212|         249|1990|\n|September 9|    Sun|[null,null,outdoo...|/boxscores/199009...|         |  Los Angeles Rams|          24|           36|              5|               1|   1|   Green Bay Packers|        408|         333|1990|\n+-----------+-------+--------------------+--------------------+---------+------------------+------------+-------------+---------------+----------------+----+--------------------+-----------+------------+----+\n\n"
+      },
+      "dateCreated": "Dec 28, 2015 9:56:21 AM",
+      "dateStarted": "Dec 30, 2015 11:01:00 AM",
+      "dateFinished": "Dec 30, 2015 11:01:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "How many records?",
+      "text": "%sql\nselect count(*) from scores_raw",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 94.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "c0",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "c0",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451325437414_-2101066138",
+      "id": "20151228-095717_679428192",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "c0\n6667\n"
+      },
+      "dateCreated": "Dec 28, 2015 9:57:17 AM",
+      "dateStarted": "Dec 30, 2015 11:01:00 AM",
+      "dateFinished": "Dec 30, 2015 11:01:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Schema of JSON Data Loaded",
+      "text": "%pyspark\nscores_raw_df.printSchema()\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "null",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "null",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451325464572_811729867",
+      "id": "20151228-095744_2070304898",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "root\n |-- Day: string (nullable \u003d true)\n |-- WeekDay: string (nullable \u003d true)\n |-- boxscore: struct (nullable \u003d true)\n |    |-- Attendance: string (nullable \u003d true)\n |    |-- Duration: string (nullable \u003d true)\n |    |-- Roof: string (nullable \u003d true)\n |    |-- Stadium: string (nullable \u003d true)\n |    |-- Start Time (ET): string (nullable \u003d true)\n |    |-- Surface: string (nullable \u003d true)\n |    |-- Vegas Line: string (nullable \u003d true)\n |    |-- Weather: string (nullable \u003d true)\n |    |-- Won Toss: string (nullable \u003d true)\n |-- boxscore_uri: string (nullable \u003d true)\n |-- loc_indic: string (nullable \u003d true)\n |-- losing_team: string (nullable \u003d true)\n |-- points_loser: string (nullable \u003d true)\n |-- points_winner: string (nullable \u003d true)\n |-- turnovers_loser: string (nullable \u003d true)\n |-- turnovers_winner: string (nullable \u003d true)\n |-- week: string (nullable \u003d true)\n |-- winning_team: string (nullable \u003d true)\n |-- yards_loser: string (nullable \u003d true)\n |-- yards_winner: string (nullable \u003d true)\n |-- year: long (nullable \u003d true)\n\n"
+      },
+      "dateCreated": "Dec 28, 2015 9:57:44 AM",
+      "dateStarted": "Dec 30, 2015 11:01:01 AM",
+      "dateFinished": "Dec 30, 2015 11:01:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Table view of the loaded Data",
+      "text": "%sql\nselect * from scores_raw limit 10",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "Day",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "WeekDay",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "Day",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "WeekDay",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451325395326_1121159928",
+      "id": "20151228-095635_1433552499",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "Day\tWeekDay\tboxscore\tboxscore_uri\tloc_indic\tlosing_team\tpoints_loser\tpoints_winner\tturnovers_loser\tturnovers_winner\tweek\twinning_team\tyards_loser\tyards_winner\tyear\nSeptember 9\tSun\t[null,null,outdoors,Rich Stadium,4:00pm,astroturf,null,59 degrees relative humidity 83%, wind 7 mph,null]\t/boxscores/199009090buf.htm\t\tIndianapolis Colts\t10\t26\t2\t1\t1\tBuffalo Bills\t229\t383\t1990\nSeptember 9\tSun\t[null,null,dome,Pontiac Silverdome,1:00pm,astroturf,null,null,null]\t/boxscores/199009090det.htm\t@\tDetroit Lions\t21\t38\t6\t2\t1\tTampa Bay Buccaneers\t258\t375\t1990\nSeptember 9\tSun\t[null,null,outdoors,Soldier Field,1:00pm,grass,null,73 degrees relative humidity 78%, wind 7 mph,null]\t/boxscores/199009090chi.htm\t\tSeattle Seahawks\t0\t17\t3\t1\t1\tChicago Bears\t132\t366\t1990\nSeptember 9\tSun\t[null,null,outdoors,Texas Stadium,4:00pm,astroturf,null,76 degrees relative humidity 87%, wind 6 mph,null]\t/boxscores/199009090dal.htm\t\tSan Diego Chargers\t14\t17\t2\t1\t1\tDallas Cowboys\t212\t249\t1990\nSeptember 9\tSun\t[null,null,outdoors,Lambeau Field,1:00pm,grass,null,68 degrees relative humidity 83%, wind 8 mph,null]\t/boxscores/199009090gnb.htm\t\tLos Angeles Rams\t24\t36\t5\t1\t1\tGreen Bay Packers\t408\t333\t1990\nSeptember 9\tSun\t[null,null,outdoors,Cleveland Municipal Stadium,4:00pm,grass,null,68 degrees relative humidity 79%, wind 8 mph,null]\t/boxscores/199009090cle.htm\t\tPittsburgh Steelers\t3\t13\t3\t1\t1\tCleveland Browns\t210\t158\t1990\nSeptember 9\tSun\t[null,null,outdoors,Giants Stadium,8:00pm,astroturf,null,64 degrees relative humidity 61%, wind 6 mph,null]\t/boxscores/199009090nyg.htm\t\tPhiladelphia Eagles\t20\t27\t3\t1\t1\tNew York Giants\t295\t227\t1990\nSeptember 9\tSun\t[null,null,outdoors,Atlanta-Fulton County Stadium,4:00pm,grass,null,79 degrees relative humidity 70%, wind 10 mph,null]\t/boxscores/199009090atl.htm\t\tHouston Oilers\t27\t47\t6\t2\t1\tAtlanta Falcons\t418\t301\t1990\nSeptember 9\tSun\t[null,null,outdoors,Riverfront Stadium,4:00pm,astroturf,null,72 degrees relative humidity 91%, wind 9 mph,null]\t/boxscores/199009090cin.htm\t\tNew York Jets\t20\t25\t3\t2\t1\tCincinnati Bengals\t342\t303\t1990\nSeptember 9\tSun\t[null,null,outdoors,Arrowhead Stadium,1:00pm,astroturf,null,78 degrees relative humidity 71%, wind 6 mph,null]\t/boxscores/199009090kan.htm\t\tMinnesota Vikings\t21\t24\t3\t1\t1\tKansas City Chiefs\t354\t304\t1990\n"
+      },
+      "dateCreated": "Dec 28, 2015 9:56:35 AM",
+      "dateStarted": "Dec 30, 2015 11:01:01 AM",
+      "dateFinished": "Dec 30, 2015 11:01:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Who has Won the most games for the data set (1990-2015)",
+      "text": "%sql\nselect winning_team, \ncount(*) wins,\nsum(points_winner) as score_sum\nfrom scores_raw\ngroup by winning_team\norder by wins desc\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "winning_team",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "wins",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "winning_team",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "wins",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451330374565_646371194",
+      "id": "20151228-111934_1907273720",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "winning_team\twins\tscore_sum\nNew England Patriots\t279\t8255.0\nPittsburgh Steelers\t274\t7131.0\nGreen Bay Packers\t272\t7941.0\nDenver Broncos\t260\t7357.0\nSan Francisco 49ers\t251\t7154.0\nIndianapolis Colts\t247\t6822.0\nPhiladelphia Eagles\t244\t6764.0\nDallas Cowboys\t243\t6663.0\nNew York Giants\t232\t5969.0\nMinnesota Vikings\t227\t6382.0\nKansas City Chiefs\t224\t6129.0\nSeattle Seahawks\t222\t5949.0\nMiami Dolphins\t221\t5495.0\nBuffalo Bills\t217\t5926.0\nNew Orleans Saints\t216\t6104.0\nSan Diego Chargers\t212\t6032.0\nChicago Bears\t207\t5266.0\nAtlanta Falcons\t207\t5643.0\nNew York Jets\t199\t5111.0\nWashington Redskins\t193\t5028.0\nBaltimore Ravens\t189\t4930.0\nTampa Bay Buccaneers\t184\t4478.0\nCincinnati Bengals\t177\t4821.0\nCarolina Panthers\t172\t4607.0\nDetroit Lions\t166\t4505.0\nJacksonville Jaguars\t157\t4102.0\nArizona Cardinals\t157\t4135.0\nSt. Louis Rams\t148\t4322.0\nTennessee Titans\t142\t3771.0\nOakland Raiders\t135\t3766.0\nCleveland Browns\t127\t3074.0\nHouston Texans\t98\t2530.0\nHouston Oilers\t60\t1646.0\nLos Angeles Raiders\t49\t1107.0\nLos Angeles Rams\t23\t582.0\nPhoenix Cardinals\t20\t482.0\nTennessee Oilers\t16\t413.0\n"
+      },
+      "dateCreated": "Dec 28, 2015 11:19:34 AM",
+      "dateStarted": "Dec 30, 2015 11:01:01 AM",
+      "dateFinished": "Dec 30, 2015 11:01:02 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "What about average win per season over the entire data set (1990-2015)",
+      "text": "%sql\nselect\n    winning_team,\n    sum(wins) / count(year) as Average_Wins\nfrom\n    (select\n        winning_team,\n        year,\n        count(*) as wins\n    from scores_raw\n    group by winning_team, year) w\ngroup by winning_team\norder by Average_Wins desc",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "winning_team",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "Average_Wins",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "winning_team",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "Average_Wins",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451330618899_236414402",
+      "id": "20151228-112338_2108461251",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "winning_team\tAverage_Wins\nNew England Patriots\t10.73076923076923\nPittsburgh Steelers\t10.538461538461538\nGreen Bay Packers\t10.461538461538462\nDenver Broncos\t10.0\nLos Angeles Raiders\t9.8\nSan Francisco 49ers\t9.653846153846153\nIndianapolis Colts\t9.5\nBaltimore Ravens\t9.45\nPhiladelphia Eagles\t9.384615384615385\nDallas Cowboys\t9.346153846153847\nNew York Giants\t8.923076923076923\nMinnesota Vikings\t8.73076923076923\nKansas City Chiefs\t8.615384615384615\nHouston Oilers\t8.571428571428571\nSeattle Seahawks\t8.538461538461538\nMiami Dolphins\t8.5\nTennessee Titans\t8.352941176470589\nBuffalo Bills\t8.346153846153847\nNew Orleans Saints\t8.307692307692308\nCarolina Panthers\t8.19047619047619\nSan Diego Chargers\t8.153846153846153\nTennessee Oilers\t8.0\nAtlanta Falcons\t7.961538461538462\nChicago Bears\t7.961538461538462\nNew York Jets\t7.653846153846154\nJacksonville Jaguars\t7.476190476190476\nWashington Redskins\t7.423076923076923\nArizona Cardinals\t7.136363636363637\nTampa Bay Buccaneers\t7.076923076923077\nSt. Louis Rams\t7.0476190476190474\nHouston Texans\t7.0\nCincinnati Bengals\t6.8076923076923075\nDetroit Lions\t6.64\nOakland Raiders\t6.428571428571429\nCleveland Browns\t5.521739130434782\nPhoenix Cardinals\t5.0\nLos Angeles Rams\t4.6\n"
+      },
+      "dateCreated": "Dec 28, 2015 11:23:38 AM",
+      "dateStarted": "Dec 30, 2015 11:01:01 AM",
+      "dateFinished": "Dec 30, 2015 11:01:07 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Average wins with the number of years of existence of the team (during 1990 to 2015)",
+      "text": "%sql\nselect\n    winning_team,\n    sum(wins) / count(year) as Average_Wins,\n    count(year) as years\nfrom\n    (select\n        winning_team,\n        year,\n        count(*) as wins\n    from scores_raw\n    group by winning_team, year) w\ngroup by winning_team\norder by Average_Wins desc",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "winning_team",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "Average_Wins",
+              "index": 1.0,
+              "aggr": "sum"
+            },
+            {
+              "name": "years",
+              "index": 2.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "winning_team",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "Average_Wins",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451331991440_-1380972572",
+      "id": "20151228-114631_1872094784",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "winning_team\tAverage_Wins\tyears\nNew England Patriots\t10.73076923076923\t26\nPittsburgh Steelers\t10.538461538461538\t26\nGreen Bay Packers\t10.461538461538462\t26\nDenver Broncos\t10.0\t26\nLos Angeles Raiders\t9.8\t5\nSan Francisco 49ers\t9.653846153846153\t26\nIndianapolis Colts\t9.5\t26\nBaltimore Ravens\t9.45\t20\nPhiladelphia Eagles\t9.384615384615385\t26\nDallas Cowboys\t9.346153846153847\t26\nNew York Giants\t8.923076923076923\t26\nMinnesota Vikings\t8.73076923076923\t26\nKansas City Chiefs\t8.615384615384615\t26\nHouston Oilers\t8.571428571428571\t7\nSeattle Seahawks\t8.538461538461538\t26\nMiami Dolphins\t8.5\t26\nTennessee Titans\t8.352941176470589\t17\nBuffalo Bills\t8.346153846153847\t26\nNew Orleans Saints\t8.307692307692308\t26\nCarolina Panthers\t8.19047619047619\t21\nSan Diego Chargers\t8.153846153846153\t26\nTennessee Oilers\t8.0\t2\nChicago Bears\t7.961538461538462\t26\nAtlanta Falcons\t7.961538461538462\t26\nNew York Jets\t7.653846153846154\t26\nJacksonville Jaguars\t7.476190476190476\t21\nWashington Redskins\t7.423076923076923\t26\nArizona Cardinals\t7.136363636363637\t22\nTampa Bay Buccaneers\t7.076923076923077\t26\nSt. Louis Rams\t7.0476190476190474\t21\nHouston Texans\t7.0\t14\nCincinnati Bengals\t6.8076923076923075\t26\nDetroit Lions\t6.64\t25\nOakland Raiders\t6.428571428571429\t21\nCleveland Browns\t5.521739130434782\t23\nPhoenix Cardinals\t5.0\t4\nLos Angeles Rams\t4.6\t5\n"
+      },
+      "dateCreated": "Dec 28, 2015 11:46:31 AM",
+      "dateStarted": "Dec 30, 2015 11:01:02 AM",
+      "dateFinished": "Dec 30, 2015 11:01:13 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect\nboxscore.Roof,\ncount(*)\nfrom\nscores_raw\ngroup by boxscore.Roof",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "pieChart",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "Roof",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "c1",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "Roof",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "c1",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451416873210_-2064001956",
+      "id": "20151229-112113_552504857",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "Roof\tc1\nretractable roof (closed)\t243\nretractable roof (open)\t78\nretractable roof\t4\ndome\t1281\nnull\t15\noutdoors\t5046\n"
+      },
+      "dateCreated": "Dec 29, 2015 11:21:13 AM",
+      "dateStarted": "Dec 30, 2015 11:01:08 AM",
+      "dateFinished": "Dec 30, 2015 11:01:14 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect\nboxscore.Roof,\navg(yards_winner) as Avg_Yards_Winner,\navg(yards_loser) as Avg_Yards_Loser,\navg(points_winner) as Avg_Points_Winner,\navg(points_loser) as Avg_Points_Loser,\ncount(*)\nfrom\nscores_raw\nwhere boxscore.Roof is not null\ngroup by boxscore.Roof",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "Roof",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "Avg_Points_Winner",
+              "index": 3.0,
+              "aggr": "sum"
+            },
+            {
+              "name": "Avg_Points_Loser",
+              "index": 4.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "Roof",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "Avg_Yards_Winner",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451416950633_1515604409",
+      "id": "20151229-112230_1091948367",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "Roof\tAvg_Yards_Winner\tAvg_Yards_Loser\tAvg_Points_Winner\tAvg_Points_Loser\tc5\nretractable roof (closed)\t368.95473251028807\t323.0411522633745\t28.275720164609055\t17.34567901234568\t243\nretractable roof (open)\t370.15384615384613\t322.1666666666667\t27.858974358974358\t17.44871794871795\t78\nretractable roof\t383.25\t327.25\t25.0\t12.5\t4\ndome\t356.4488680718189\t307.1834504293521\t27.825136612021858\t16.215456674473067\t1281\noutdoors\t349.53894945490583\t296.86719524281466\t26.801387512388505\t15.009910802775025\t5046\n"
+      },
+      "dateCreated": "Dec 29, 2015 11:22:30 AM",
+      "dateStarted": "Dec 30, 2015 11:01:13 AM",
+      "dateFinished": "Dec 30, 2015 11:01:14 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect\nboxscore.Roof,\navg(yards_winner) as Avg_Yards_Winner,\navg(yards_loser) as Avg_Yards_Loser,\navg(points_winner) as Avg_Points_Winner,\navg(points_loser) as Avg_Points_Loser,\ncount(*)\nfrom\nscores_raw\nwhere boxscore.Roof is not null\ngroup by boxscore.Roof",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "Roof",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "Avg_Yards_Winner",
+              "index": 1.0,
+              "aggr": "sum"
+            },
+            {
+              "name": "Avg_Yards_Loser",
+              "index": 2.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "Roof",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "Avg_Yards_Winner",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451417222338_1535594383",
+      "id": "20151229-112702_1883580462",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "Roof\tAvg_Yards_Winner\tAvg_Yards_Loser\tAvg_Points_Winner\tAvg_Points_Loser\tc5\nretractable roof (closed)\t368.95473251028807\t323.0411522633745\t28.275720164609055\t17.34567901234568\t243\nretractable roof (open)\t370.15384615384613\t322.1666666666667\t27.858974358974358\t17.44871794871795\t78\nretractable roof\t383.25\t327.25\t25.0\t12.5\t4\ndome\t356.4488680718189\t307.1834504293521\t27.825136612021858\t16.215456674473067\t1281\noutdoors\t349.53894945490583\t296.86719524281466\t26.801387512388505\t15.009910802775025\t5046\n"
+      },
+      "dateCreated": "Dec 29, 2015 11:27:02 AM",
+      "dateStarted": "Dec 30, 2015 11:01:14 AM",
+      "dateFinished": "Dec 30, 2015 11:01:15 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "For weather we only want the outdoor Games",
+      "text": "%pyspark\n\nscores_outdoor \u003d scores_raw_df.filter(scores_raw_df[\u0027boxscore\u0027][\u0027Roof\u0027] \u003d\u003d \u0027outdoors\u0027)\nscores_outdoor.cache()\n\nscores_outdoor.registerTempTable(\"scores_outdoor\")\n\nscores_outdoor.show(5)\n\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "Day",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "year",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "Day",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "year",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451325582924_-2048893529",
+      "id": "20151228-095942_1379246682",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "+-----------+-------+--------------------+--------------------+---------+-------------------+------------+-------------+---------------+----------------+----+-----------------+-----------+------------+----+\n|        Day|WeekDay|            boxscore|        boxscore_uri|loc_indic|        losing_team|points_loser|points_winner|turnovers_loser|turnovers_winner|week|     winning_team|yards_loser|yards_winner|year|\n+-----------+-------+--------------------+--------------------+---------+-------------------+------------+-------------+---------------+----------------+----+-----------------+-----------+------------+----+\n|September 9|    Sun|[null,null,outdoo...|/boxscores/199009...|         | Indianapolis Colts|          10|           26|              2|               1|   1|    Buffalo Bills|        229|         383|1990|\n|September 9|    Sun|[null,null,outdoo...|/boxscores/199009...|         |   Seattle Seahawks|           0|           17|              3|               1|   1|    Chicago Bears|        132|         366|1990|\n|September 9|    Sun|[null,null,outdoo...|/boxscores/199009...|         | San Diego Chargers|          14|           17|              2|               1|   1|   Dallas Cowboys|        212|         249|1990|\n|September 9|    Sun|[null,null,outdoo...|/boxscores/199009...|         |   Los Angeles Rams|          24|           36|              5|               1|   1|Green Bay Packers|        408|         333|1990|\n|September 9|    Sun|[null,null,outdoo...|/boxscores/199009...|         |Pittsburgh Steelers|           3|           13|              3|               1|   1| Cleveland Browns|        210|         158|1990|\n+-----------+-------+--------------------+--------------------+---------+-------------------+------------+-------------+---------------+----------------+----+-----------------+-----------+------------+----+\n\n"
+      },
+      "dateCreated": "Dec 28, 2015 9:59:42 AM",
+      "dateStarted": "Dec 30, 2015 11:01:15 AM",
+      "dateFinished": "Dec 30, 2015 11:01:15 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Table view of outdoor games",
+      "text": "%sql\n\nselect \n*\nfrom scores_outdoor limit 10",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "Day",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "WeekDay",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "Day",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "WeekDay",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451325820796_1705626324",
+      "id": "20151228-100340_355678129",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "Day\tWeekDay\tboxscore\tboxscore_uri\tloc_indic\tlosing_team\tpoints_loser\tpoints_winner\tturnovers_loser\tturnovers_winner\tweek\twinning_team\tyards_loser\tyards_winner\tyear\nSeptember 9\tSun\t[null,null,outdoors,Rich Stadium,4:00pm,astroturf,null,59 degrees relative humidity 83%, wind 7 mph,null]\t/boxscores/199009090buf.htm\t\tIndianapolis Colts\t10\t26\t2\t1\t1\tBuffalo Bills\t229\t383\t1990\nSeptember 9\tSun\t[null,null,outdoors,Soldier Field,1:00pm,grass,null,73 degrees relative humidity 78%, wind 7 mph,null]\t/boxscores/199009090chi.htm\t\tSeattle Seahawks\t0\t17\t3\t1\t1\tChicago Bears\t132\t366\t1990\nSeptember 9\tSun\t[null,null,outdoors,Texas Stadium,4:00pm,astroturf,null,76 degrees relative humidity 87%, wind 6 mph,null]\t/boxscores/199009090dal.htm\t\tSan Diego Chargers\t14\t17\t2\t1\t1\tDallas Cowboys\t212\t249\t1990\nSeptember 9\tSun\t[null,null,outdoors,Lambeau Field,1:00pm,grass,null,68 degrees relative humidity 83%, wind 8 mph,null]\t/boxscores/199009090gnb.htm\t\tLos Angeles Rams\t24\t36\t5\t1\t1\tGreen Bay Packers\t408\t333\t1990\nSeptember 9\tSun\t[null,null,outdoors,Cleveland Municipal Stadium,4:00pm,grass,null,68 degrees relative humidity 79%, wind 8 mph,null]\t/boxscores/199009090cle.htm\t\tPittsburgh Steelers\t3\t13\t3\t1\t1\tCleveland Browns\t210\t158\t1990\nSeptember 9\tSun\t[null,null,outdoors,Giants Stadium,8:00pm,astroturf,null,64 degrees relative humidity 61%, wind 6 mph,null]\t/boxscores/199009090nyg.htm\t\tPhiladelphia Eagles\t20\t27\t3\t1\t1\tNew York Giants\t295\t227\t1990\nSeptember 9\tSun\t[null,null,outdoors,Atlanta-Fulton County Stadium,4:00pm,grass,null,79 degrees relative humidity 70%, wind 10 mph,null]\t/boxscores/199009090atl.htm\t\tHouston Oilers\t27\t47\t6\t2\t1\tAtlanta Falcons\t418\t301\t1990\nSeptember 9\tSun\t[null,null,outdoors,Riverfront Stadium,4:00pm,astroturf,null,72 degrees relative humidity 91%, wind 9 mph,null]\t/boxscores/199009090cin.htm\t\tNew York Jets\t20\t25\t3\t2\t1\tCincinnati Bengals\t342\t303\t1990\nSeptember 9\tSun\t[null,null,outdoors,Arrowhead Stadium,1:00pm,astroturf,null,78 degrees relative humidity 71%, wind 6 mph,null]\t/boxscores/199009090kan.htm\t\tMinnesota Vikings\t21\t24\t3\t1\t1\tKansas City Chiefs\t354\t304\t1990\nSeptember 9\tSun\t[null,null,outdoors,Foxboro Stadium,4:00pm,astroturf,null,58 degrees relative humidity 65%, wind 13 mph,null]\t/boxscores/199009090nwe.htm\t@\tNew England Patriots\t24\t27\t0\t4\t1\tMiami Dolphins\t265\t432\t1990\n"
+      },
+      "dateCreated": "Dec 28, 2015 10:03:40 AM",
+      "dateStarted": "Dec 30, 2015 11:01:15 AM",
+      "dateFinished": "Dec 30, 2015 11:01:15 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Combine the WIN and LOSS columns into a single Table",
+      "text": "%pyspark\nscores \u003d sqlContext.sql( \"\"\"select\n Day,\n WeekDay,\n year,\n winning_team as team,\n yards_winner as yards,\n turnovers_winner as turnovers,\n points_winner as points,\n 1 as Won,\n if(loc_indic \u003d \u0027@\u0027, losing_team, winning_team) as location,\n boxscore.Stadium as stadium\nfrom scores_outdoor\nUNION ALL\nselect\n Day,\n WeekDay,\n year,\n losing_team as team,\n yards_loser as yards,\n turnovers_loser as turnovers,\n points_loser as points,\n 0 as Won,\n if(loc_indic \u003d \u0027@\u0027, losing_team, winning_team) as location,\n  boxscore.Stadium as stadium\nfrom scores_outdoor\n    \"\"\")\nscores.registerTempTable(\"scores\")\nscores.cache()",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451333084525_-1691858430",
+      "id": "20151228-120444_533708071",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 28, 2015 12:04:44 PM",
+      "dateStarted": "Dec 30, 2015 11:01:15 AM",
+      "dateFinished": "Dec 30, 2015 11:01:15 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect\n    team,\n    sum(Won) as wins,\n    sum(if(Won \u003d 0, 1, 0)) as losses,\n    sum(Won)/sum(if(Won \u003d 0, 1, 0)) as ratio\nfrom scores\ngroup by team\norder by ratio desc",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 389.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "team",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "ratio",
+              "index": 3.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "team",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451333663032_-1598151553",
+      "id": "20151228-121423_1984691916",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "team\twins\tlosses\tratio\nGreen Bay Packers\t229\t137\t1.6715328467153285\nPittsburgh Steelers\t257\t157\t1.6369426751592357\nNew England Patriots\t251\t154\t1.62987012987013\nDenver Broncos\t242\t154\t1.5714285714285714\nSan Francisco 49ers\t206\t142\t1.4507042253521127\nDallas Cowboys\t197\t142\t1.3873239436619718\nBaltimore Ravens\t180\t136\t1.3235294117647058\nPhiladelphia Eagles\t220\t174\t1.264367816091954\nLos Angeles Raiders\t42\t34\t1.2352941176470589\nTennessee Oilers\t16\t14\t1.1428571428571428\nKansas City Chiefs\t203\t181\t1.1215469613259668\nNew York Giants\t205\t184\t1.1141304347826086\nSeattle Seahawks\t157\t144\t1.0902777777777777\nMiami Dolphins\t202\t186\t1.086021505376344\nBuffalo Bills\t199\t185\t1.0756756756756756\nTennessee Titans\t124\t116\t1.0689655172413792\nChicago Bears\t175\t174\t1.0057471264367817\nCarolina Panthers\t137\t137\t1.0\nSan Diego Chargers\t193\t200\t0.965\nIndianapolis Colts\t93\t97\t0.9587628865979382\nJacksonville Jaguars\t143\t157\t0.910828025477707\nNew Orleans Saints\t77\t87\t0.8850574712643678\nNew York Jets\t178\t206\t0.8640776699029126\nHouston Oilers\t22\t27\t0.8148148148148148\nWashington Redskins\t171\t210\t0.8142857142857143\nTampa Bay Buccaneers\t150\t193\t0.7772020725388601\nHouston Texans\t38\t51\t0.7450980392156863\nCincinnati Bengals\t161\t219\t0.7351598173515982\nOakland Raiders\t125\t189\t0.6613756613756614\nAtlanta Falcons\t66\t104\t0.6346153846153846\nMinnesota Vikings\t64\t104\t0.6153846153846154\nArizona Cardinals\t84\t146\t0.5753424657534246\nCleveland Browns\t113\t219\t0.5159817351598174\nSt. Louis Rams\t43\t85\t0.5058823529411764\nPhoenix Cardinals\t18\t39\t0.46153846153846156\nLos Angeles Rams\t21\t47\t0.44680851063829785\nDetroit Lions\t44\t115\t0.3826086956521739\n"
+      },
+      "dateCreated": "Dec 28, 2015 12:14:23 PM",
+      "dateStarted": "Dec 30, 2015 11:01:15 AM",
+      "dateFinished": "Dec 30, 2015 11:01:18 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "grab stadium locations from wikipedia",
+      "text": "%pyspark\nimport requests\nfrom lxml import html\n\nurl \u003d \"https://en.wikipedia.org/wiki/National_Football_League\"\npage \u003d requests.get(url)\ntree \u003d html.fromstring(page.text)\ntable \u003d tree.xpath(\u0027//table[@class\u003d\"navbox plainrowheaders wikitable\"]/tr\u0027)\n\n\ncounter \u003d 1\nteam \u003d []\nteam_all \u003d []\n\nfor tr in table:\n    for td in tr:\n        if counter \u003e 10:\n            val \u003d td.text_content()\n            val \u003d val.encode(\u0027utf-8\u0027, errors\u003d\"replace\")\n            val \u003d str(val).decode(\u0027unicode_escape\u0027).encode(\u0027ascii\u0027,\u0027ignore\u0027).replace(\"*\", \"\")\n            val \u003d str(val)\n            if val in [\"North\", \"South\", \"West\", \"East\", \"National Football Conference\"] and counter !\u003d 235:\n                counter \u003d counter -1\n            else:\n                if counter%7 !\u003d 1:\n                    team.append(val)\n                    \n        if (counter-10)%7 \u003d\u003d 0 and team !\u003d []:\n            team_all.append(team)\n            team \u003d []\n        counter \u003d counter + 1\n        \nteams_rdd \u003d sc.parallelize(team_all)\n\ndef cleanupS(st):\n    if st.__contains__(\"[\"):\n        return st[0:st.index(\"[\")]\n    else:\n        return st\n\nteams_schema \u003d teams_rdd.map(lambda x: Row(team\u003dx[0],location\u003dx[1],stadium\u003dcleanupS(x[2])))\nteams_table \u003d sqlContext.createDataFrame(teams_schema)\nteams_table.registerTempTable(\"teams_meta\")",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451333708177_-546171439",
+      "id": "20151228-121508_908898723",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 28, 2015 12:15:08 PM",
+      "dateStarted": "Dec 30, 2015 11:01:16 AM",
+      "dateFinished": "Dec 30, 2015 11:01:17 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Stadium metadata",
+      "text": "%sql\n\nselect * from teams_meta",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "location",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "stadium",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "location",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "stadium",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451333810018_-1683383563",
+      "id": "20151228-121650_1921077022",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "location\tstadium\tteam\nOrchard Park, NY\tRalph Wilson Stadium\tBuffalo Bills\nMiami Gardens, FL\tSun Life Stadium\tMiami Dolphins\nFoxborough, MA\tGillette Stadium\tNew England Patriots\nEast Rutherford, NJ\tMetLife Stadium\tNew York Jets\nBaltimore, MD\tM\u0026T Bank Stadium\tBaltimore Ravens\nCincinnati, OH\tPaul Brown Stadium\tCincinnati Bengals\nCleveland, OH\tFirstEnergy Stadium\tCleveland Browns\nPittsburgh, PA\tHeinz Field\tPittsburgh Steelers\nHouston, TX\tNRG Stadium\tHouston Texans\nIndianapolis, IN\tLucas Oil Stadium\tIndianapolis Colts\nJacksonville, FL\tEverBank Field\tJacksonville Jaguars\nNashville, TN\tNissan Stadium\tTennessee Titans\nDenver, CO\tSports Authority Field at Mile High\tDenver Broncos\nKansas City, MO\tArrowhead Stadium\tKansas City Chiefs\nOakland, CA\tO.co Coliseum\tOakland Raiders\nSan Diego, CA\tQualcomm Stadium\tSan Diego Chargers\nArlington, TX\tAT\u0026T Stadium\tDallas Cowboys\nEast Rutherford, NJ\tMetLife Stadium\tNew York Giants\nPhiladelphia, PA\tLincoln Financial Field\tPhiladelphia Eagles\nLandover, MD\tFedExField\tWashington Redskins\nChicago, IL\tSoldier Field\tChicago Bears\nDetroit, MI\tFord Field\tDetroit Lions\nGreen Bay, WI\tLambeau Field\tGreen Bay Packers\nMinneapolis, MN\tTCF Bank Stadium\tMinnesota Vikings\nAtlanta, GA\tGeorgia Dome\tAtlanta Falcons\nCharlotte, NC\tBank of America Stadium\tCarolina Panthers\nNew Orleans, LA\tMercedes-Benz Superdome\tNew Orleans Saints\nTampa, FL\tRaymond James Stadium\tTampa Bay Buccaneers\nGlendale, AZ\tUniversity of Phoenix Stadium\tArizona Cardinals\nSt. Louis, MO\tEdward Jones Dome\tSt. Louis Rams\nSanta Clara, CA\tLevi\u0027s Stadium\tSan Francisco 49ers\nSeattle, WA\tCenturyLink Field\tSeattle Seahawks\n"
+      },
+      "dateCreated": "Dec 28, 2015 12:16:50 PM",
+      "dateStarted": "Dec 30, 2015 11:01:16 AM",
+      "dateFinished": "Dec 30, 2015 11:01:18 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "how many games match up",
+      "text": "%sql\n\nselect\n\u0027Matched\u0027 as m,\ncount(*) / 2 as c\nfrom scores\ninner join teams_meta on\n scores.stadium \u003d teams_meta.stadium\nunion all\nselect\n\u0027Total\u0027 as m,\ncount(*) / 2 as c\nfrom scores\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 94.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "m",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "c",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "m",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "c",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451333827745_1562004057",
+      "id": "20151228-121707_281404140",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "m\tc\nMatched\t2323.0\nTotal\t5046.0\n"
+      },
+      "dateCreated": "Dec 28, 2015 12:17:07 PM",
+      "dateStarted": "Dec 31, 2015 3:24:49 PM",
+      "dateFinished": "Dec 31, 2015 3:24:50 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "what is missing",
+      "text": "%sql\nselect\nscores.stadium,\ncount(*) / 2 as Games\nfrom scores\nleft join stadiums on\n scores.stadium \u003d stadiums.stadium_name\nwhere stadiums.stadium_name is null\ngroup by scores.stadium\norder by Games Desc\nlimit 20\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "year",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "location",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "year",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "location",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451336730086_813823380",
+      "id": "20151228-130530_961659814",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "stadium\tGames\nGiants Stadium\t330.0\nTexas Stadium\t161.0\nSun Devil Stadium\t129.0\nCleveland Browns Stadium\t112.0\nVeterans Stadium\t110.0\nFoxboro Stadium\t100.0\nCandlestick Park\t97.0\nThree Rivers Stadium\t96.0\nMile High Stadium\t93.0\n3Com Park\t86.0\nAlltel Stadium\t84.0\nInvesco Field at Mile High\t82.0\nRich Stadium\t81.0\nPro Player Stadium\t76.0\nLP Field\t73.0\nEriccson Stadium\t66.0\nQwest Field\t62.0\nJack Murphy Stadium\t59.0\nRobert F. Kennedy Memorial Stadium\t58.0\nNetwork Associates Coliseum\t53.0\n"
+      },
+      "dateCreated": "Dec 28, 2015 1:05:30 PM",
+      "dateStarted": "Dec 31, 2015 3:25:14 PM",
+      "dateFinished": "Dec 31, 2015 3:25:15 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nsmap \u003d {}\nsmap[\"Giants Stadium\"] \u003d \"East Rutherford, NJ\"\nsmap[\"Texas Stadium\"] \u003d \"Irving, TX\"\nsmap[\"Sun Devil Stadium\"] \u003d \"Tempe, AZ\"\nsmap[\"Cleveland Browns Stadium\"] \u003d \"Cleveland, OH\"\nsmap[\"Veterans Stadium\"] \u003d \"Philadelphia, PA\"\nsmap[\"Foxboro Stadium\"] \u003d \"Foxboro, MA\"\nsmap[\"Candlestick Park\"] \u003d \"San Francisco, CA\"\nsmap[\"Mile High Stadium\"] \u003d \"Denver, CO\"\nsmap[\"3Com Park\"] \u003d \"San Francisco, CA\"\n\ncity_stadium_map \u003d []\n\nfor v in smap:\n    city_stadium_map.append([v, smap[v]])\n\ncity_statdium_rdd \u003d stadiums.map(lambda x: [x[0], x[1]])\n\nfor s in city_statdium_rdd.collect():\n    city_stadium_map.append([s[1], s[0]])\n\nprint city_stadium_map",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451604163848_255420528",
+      "id": "20151231-152243_2109051509",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "[[\u0027Mile High Stadium\u0027, \u0027Denver, CO\u0027], [\u0027Candlestick Park\u0027, \u0027San Francisco, CA\u0027], [\u0027Texas Stadium\u0027, \u0027Irving, TX\u0027], [\u0027Cleveland Browns Stadium\u0027, \u0027Cleveland, OH\u0027], [\u0027Foxboro Stadium\u0027, \u0027Foxboro, MA\u0027], [\u0027Sun Devil Stadium\u0027, \u0027Tempe, AZ\u0027], [\u00273Com Park\u0027, \u0027San Francisco, CA\u0027], [\u0027Giants Stadium\u0027, \u0027East Rutherford, NJ\u0027], [\u0027Veterans Stadium\u0027, \u0027Philadelphia, PA\u0027], [u\u0027Ralph Wilson Stadium\u0027, u\u0027Orchard Park, NY\u0027], [u\u0027Sun Life Stadium\u0027, u\u0027Miami Gardens, FL\u0027], [u\u0027Gillette Stadium\u0027, u\u0027Foxborough, MA\u0027], [u\u0027MetLife Stadium\u0027, u\u0027East Rutherford, NJ\u0027], [u\u0027M\u0026T Bank Stadium\u0027, u\u0027Baltimore, MD\u0027], [u\u0027Paul Brown Stadium\u0027, u\u0027Cincinnati, OH\u0027], [u\u0027FirstEnergy Stadium\u0027, u\u0027Cleveland, OH\u0027], [u\u0027Heinz Field\u0027, u\u0027Pittsburgh, PA\u0027], [u\u0027NRG Stadium\u0027, u\u0027Houston, TX\u0027], [u\u0027Lucas Oil Stadium\u0027, u\u0027Indianapolis, IN\u0027], [u\u0027EverBank Field\u0027, u\u0027Jacksonville, FL\u0027], [u\u0027Nissan Stadium\u0027, u\u0027Nashville, TN\u0027], [u\u0027Sports Authority Field at Mile High\u0027, u\u0027Denver, CO\u0027], [u\u0027Arrowhead Stadium\u0027, u\u0027Kansas City, MO\u0027], [u\u0027O.co Coliseum\u0027, u\u0027Oakland, CA\u0027], [u\u0027Qualcomm Stadium\u0027, u\u0027San Diego, CA\u0027], [u\u0027AT\u0026T Stadium\u0027, u\u0027Arlington, TX\u0027], [u\u0027MetLife Stadium\u0027, u\u0027East Rutherford, NJ\u0027], [u\u0027Lincoln Financial Field\u0027, u\u0027Philadelphia, PA\u0027], [u\u0027FedExField\u0027, u\u0027Landover, MD\u0027], [u\u0027Soldier Field\u0027, u\u0027Chicago, IL\u0027], [u\u0027Ford Field\u0027, u\u0027Detroit, MI\u0027], [u\u0027Lambeau Field\u0027, u\u0027Green Bay, WI\u0027], [u\u0027TCF Bank Stadium\u0027, u\u0027Minneapolis, MN\u0027], [u\u0027Georgia Dome\u0027, u\u0027Atlanta, GA\u0027], [u\u0027Bank of America Stadium\u0027, u\u0027Charlotte, NC\u0027], [u\u0027Mercedes-Benz Superdome\u0027, u\u0027New Orleans, LA\u0027], [u\u0027Raymond James Stadium\u0027, u\u0027Tampa, FL\u0027], [u\u0027University of Phoenix Stadium\u0027, u\u0027Glendale, AZ\u0027], [u\u0027Edward Jones Dome\u0027, u\u0027St. Louis, MO\u0027], [u\"Levi\u0027s Stadium\", u\u0027Santa Clara, CA\u0027], [u\u0027CenturyLink Field\u0027, u\u0027Seattle, WA\u0027]]\n"
+      },
+      "dateCreated": "Dec 31, 2015 3:22:43 PM",
+      "dateStarted": "Dec 31, 2015 3:28:04 PM",
+      "dateFinished": "Dec 31, 2015 3:28:04 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nfrom pyspark.sql import Row\ncity_stadium_map_rdd \u003d sc.parallelize(city_stadium_map)\ncity_stadium_map_schema \u003d city_stadium_map_rdd.map(lambda x: Row(stadium\u003dx[0],stadium_city\u003dx[1]))                                                 \ncity_stadium_map_df \u003d sqlContext.createDataFrame(city_stadium_map_schema)\ncity_stadium_map_df.registerTempTable(\"city_stadium_map\")",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451604368735_-141565360",
+      "id": "20151231-152608_183329740",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 31, 2015 3:26:08 PM",
+      "dateStarted": "Dec 31, 2015 3:26:27 PM",
+      "dateFinished": "Dec 31, 2015 3:26:27 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n\nselect\n\u0027Matched\u0027,\n count(*) / 2\nfrom scores\ninner join city_stadium_map on\n scores.stadium \u003d city_stadium_map.stadium\nUNION ALL\nselect \n\u0027Total Games\u0027,\n count(*) / 2\nfrom scores",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 99.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "c0",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "c1",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "c0",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "c1",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451604445687_-661991060",
+      "id": "20151231-152725_1538475194",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "c0\tc1\nMatched\t3541.0\nTotal Games\t5046.0\n"
+      },
+      "dateCreated": "Dec 31, 2015 3:27:25 PM",
+      "dateStarted": "Dec 31, 2015 3:28:17 PM",
+      "dateFinished": "Dec 31, 2015 3:28:17 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nselect\nscores.stadium,\ncount(*) / 2 as Games\nfrom scores\nleft join city_stadium_map on\n scores.stadium \u003d city_stadium_map.stadium\nwhere city_stadium_map.stadium is null\ngroup by scores.stadium\norder by Games Desc\nlimit 20",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 129.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "stadium",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "Games",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "stadium",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "Games",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451604400537_-505290989",
+      "id": "20151231-152640_86906105",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "stadium\tGames\nThree Rivers Stadium\t96.0\nAlltel Stadium\t84.0\nInvesco Field at Mile High\t82.0\nRich Stadium\t81.0\nPro Player Stadium\t76.0\nLP Field\t73.0\nEriccson Stadium\t66.0\nQwest Field\t62.0\nJack Murphy Stadium\t59.0\nRobert F. Kennedy Memorial Stadium\t58.0\nJoe Robbie Stadium\t53.0\nNetwork Associates Coliseum\t53.0\nRiverfront Stadium\t49.0\nTampa Stadium\t49.0\nCleveland Municipal Stadium\t49.0\nOakland-Alameda County Coliseum\t48.0\nDolphin Stadium\t42.0\nLos Angeles Memorial Coliseum\t42.0\nAnaheim Stadium\t40.0\nJacksonville Municipal Stadium\t40.0\n"
+      },
+      "dateCreated": "Dec 31, 2015 3:26:40 PM",
+      "dateStarted": "Dec 31, 2015 3:26:48 PM",
+      "dateFinished": "Dec 31, 2015 3:26:49 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Build Function to create weather API URL",
+      "text": "%pyspark\nimport datetime\nimport os\n\nkey_file \u003d open(\"/Users/braden/Dropbox/code/NFL_Weather/wu.key\", \"r\")\napi_key \u003d key_file.read().replace(\"\\n\", \"\")\n\n#add a leading zero to the dates for the API\ndef lead_zero(value):\n    if int(value) in range(1,10):\n        return str(0) + str(value)\n    else:\n        return value\n\n#function to build the URI that calls the weather underground API    \ndef weather_uri(location, year, day):\n    base_uri \u003d \"http://api.wunderground.com/api/{}/history_\".format(api_key)\n    day \u003d str(day)\n    year \u003d str(year)\n    ds \u003d day + \" \" + year\n    x \u003d datetime.datetime.strptime(ds, \"%B %d %Y\").date()\n    date_formated \u003d \"\".join([str(x.year), lead_zero(str(x.month)), lead_zero(str(x.day))])\n\n    location_l \u003d location.split(\",\")\n    state \u003d location_l[1].replace(\" \", \"\")\n    city \u003d location_l[0].replace(\" \", \"_\")\n\n    ruri \u003d base_uri + date_formated + \"/q/\" + state + \"/\" + city + \".json\"\n    return ruri\n\n#register the function for SQL to use\nsqlContext.registerFunction(\"weather_uri\", weather_uri)",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451337238530_277399691",
+      "id": "20151228-131358_1780731014",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 28, 2015 1:13:58 PM",
+      "dateStarted": "Dec 30, 2015 11:01:18 AM",
+      "dateFinished": "Dec 30, 2015 11:01:18 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Test the function",
+      "text": "%sql\n\nselect\ndistinct \nscores.year,\nteams_meta.location,\nscores.Day,\nscores.stadium,\nweather_uri(teams_meta.location, year, Day) as weather_uri,\n*\nfrom scores\ninner join teams_meta on\n scores.stadium \u003d teams_meta.stadium\n\nlimit 10",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "year",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "location",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "year",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451342842134_-1062863047",
+      "id": "20151228-144722_39759989",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "year\tlocation\tDay\tstadium\tweather_uri\tDay\tWeekDay\tyear\tteam\tyards\tturnovers\tpoints\tWon\tlocation\tstadium\tlocation\tstadium\tteam\n2014\tLandover, MD\tSeptember 25\tFedExField\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_20140925/q/MD/Landover.json\tSeptember 25\tThu\t2014\tWashington Redskins\t329\t6\t14\t0\tWashington Redskins\tFedExField\tLandover, MD\tFedExField\tWashington Redskins\n2009\tPhiladelphia, PA\tDecember 20\tLincoln Financial Field\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_20091220/q/PA/Philadelphia.json\tDecember 20\tSun\t2009\tPhiladelphia Eagles\t422\t2\t27\t1\tPhiladelphia Eagles\tLincoln Financial Field\tPhiladelphia, PA\tLincoln Financial Field\tPhiladelphia Eagles\n2004\tOrchard Park, NY\tOctober 17\tRalph Wilson Stadium\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_20041017/q/NY/Orchard_Park.json\tOctober 17\tSun\t2004\tMiami Dolphins\t212\t1\t13\t0\tBuffalo Bills\tRalph Wilson Stadium\tOrchard Park, NY\tRalph Wilson Stadium\tBuffalo Bills\n2015\tDenver, CO\tNovember 15\tSports Authority Field at Mile High\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_20151115/q/CO/Denver.json\tNovember 15\tSun\t2015\tKansas City Chiefs\t303\t0\t29\t1\tDenver Broncos\tSports Authority Field at Mile High\tDenver, CO\tSports Authority Field at Mile High\tDenver Broncos\n2009\tChicago, IL\tDecember 28\tSoldier Field\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_20091228/q/IL/Chicago.json\tDecember 28\tMon\t2009\tMinnesota Vikings\t423\t2\t30\t0\tChicago Bears\tSoldier Field\tChicago, IL\tSoldier Field\tChicago Bears\n2001\tGreen Bay, WI\tSeptember 9\tLambeau Field\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_20010909/q/WI/Green_Bay.json\tSeptember 9\tSun\t2001\tGreen Bay Packers\t424\t1\t28\t1\tGreen Bay Packers\tLambeau Field\tGreen Bay, WI\tLambeau Field\tGreen Bay Packers\n1991\tKansas City, MO\tSeptember 1\tArrowhead Stadium\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19910901/q/MO/Kansas_City.json\tSeptember 1\tSun\t1991\tKansas City Chiefs\t291\t1\t14\t1\tKansas City Chiefs\tArrowhead Stadium\tKansas City, MO\tArrowhead Stadium\tKansas City Chiefs\n2008\tCharlotte, NC\tJanuary 10\tBank of America Stadium\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_20080110/q/NC/Charlotte.json\tJanuary 10\tSat\t2008\tCarolina Panthers\t269\t6\t13\t0\tCarolina Panthers\tBank of America Stadium\tCharlotte, NC\tBank of America Stadium\tCarolina Panthers\n2010\tMiami Gardens, FL\tNovember 18\tSun Life Stadium\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_20101118/q/FL/Miami_Gardens.json\tNovember 18\tThu\t2010\tChicago Bears\t268\t1\t16\t1\tMiami Dolphins\tSun Life Stadium\tMiami Gardens, FL\tSun Life Stadium\tMiami Dolphins\n2011\tDenver, CO\tOctober 30\tSports Authority Field at Mile High\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_20111030/q/CO/Denver.json\tOctober 30\tSun\t2011\tDetroit Lions\t376\t0\t45\t1\tDenver Broncos\tSports Authority Field at Mile High\tDenver, CO\tSports Authority Field at Mile High\tDenver Broncos\n"
+      },
+      "dateCreated": "Dec 28, 2015 2:47:22 PM",
+      "dateStarted": "Dec 31, 2015 3:43:11 PM",
+      "dateFinished": "Dec 31, 2015 3:43:11 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "create dataframe of distinct game locations and days to get the weather info",
+      "text": "%pyspark\n\noutdoor_games \u003d sqlContext.sql( \"\"\"select\n                                            scores.*,\n                                            teams_meta.location as stadium_city,\n                                            weather_uri(teams_meta.location, year, Day) as weather_uri\n                                            from scores\n                                                inner join teams_meta on\n                                                    scores.stadium \u003d teams_meta.stadium\n                                        \"\"\")\n\noutdoor_games.registerTempTable(\"outdoor_games\")",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451342580500_814743878",
+      "id": "20151228-144300_1846003593",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 28, 2015 2:43:00 PM",
+      "dateStarted": "Dec 31, 2015 4:23:18 PM",
+      "dateFinished": "Dec 31, 2015 4:23:18 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Table view of Distinct Game Locations and weather API URIs",
+      "text": "%sql\nselect * from outdoor_games\norder by year, Day, stadium\nlimit 10\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "Day",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "WeekDay",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "Day",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "WeekDay",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451342617788_-1888471246",
+      "id": "20151228-144337_1754811557",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "Day\tWeekDay\tyear\tteam\tyards\tturnovers\tpoints\tWon\tlocation\tstadium\tstadium_city\tweather_uri\nDecember 16\tSun\t1990\tHouston Oilers\t563\t1\t27\t1\tKansas City Chiefs\tArrowhead Stadium\tKansas City, MO\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901216/q/MO/Kansas_City.json\nDecember 16\tSun\t1990\tKansas City Chiefs\t350\t2\t10\t0\tKansas City Chiefs\tArrowhead Stadium\tKansas City, MO\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901216/q/MO/Kansas_City.json\nDecember 2\tSun\t1990\tDetroit Lions\t296\t2\t17\t0\tChicago Bears\tSoldier Field\tChicago, IL\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901202/q/IL/Chicago.json\nDecember 2\tSun\t1990\tChicago Bears\t361\t0\t23\t1\tChicago Bears\tSoldier Field\tChicago, IL\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901202/q/IL/Chicago.json\nDecember 22\tSat\t1990\tGreen Bay Packers\t314\t4\t17\t0\tGreen Bay Packers\tLambeau Field\tGreen Bay, WI\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901222/q/WI/Green_Bay.json\nDecember 22\tSat\t1990\tDetroit Lions\t352\t3\t24\t1\tGreen Bay Packers\tLambeau Field\tGreen Bay, WI\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901222/q/WI/Green_Bay.json\nDecember 23\tSun\t1990\tChicago Bears\t368\t3\t27\t1\tChicago Bears\tSoldier Field\tChicago, IL\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901223/q/IL/Chicago.json\nDecember 23\tSun\t1990\tTampa Bay Buccaneers\t209\t3\t14\t0\tChicago Bears\tSoldier Field\tChicago, IL\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901223/q/IL/Chicago.json\nDecember 29\tSat\t1990\tKansas City Chiefs\t383\t2\t21\t1\tChicago Bears\tSoldier Field\tChicago, IL\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901229/q/IL/Chicago.json\nDecember 29\tSat\t1990\tChicago Bears\t176\t3\t10\t0\tChicago Bears\tSoldier Field\tChicago, IL\thttp://api.wunderground.com/api/9ea2f24ba4e99c50/history_19901229/q/IL/Chicago.json\n"
+      },
+      "dateCreated": "Dec 28, 2015 2:43:37 PM",
+      "dateStarted": "Dec 31, 2015 4:23:23 PM",
+      "dateFinished": "Dec 31, 2015 4:23:23 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "create a function to get weather data given API URI",
+      "text": "%pyspark\nimport json\nimport requests\n\ndef get_weather_data(uri):\n    rdict \u003d{}\n\n    try:\n        #hack to fix different spelling between wikipedia and weather underground\n        if \"Foxborough\" in uri:\n            uri \u003d uri.replace(\"Foxborough\", \"Foxboro\")\n\n        r \u003d requests.get(uri)\n        wjs \u003d json.loads(r.text)\n\n        if \u0027history\u0027 in wjs:\n            if \u0027dailysummary\u0027 in wjs[\u0027history\u0027]:\n                rdict \u003d wjs[\u0027history\u0027][\u0027dailysummary\u0027][0]\n    except:\n        redict \u003d {}\n        \n    return rdict\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451342719176_1107704712",
+      "id": "20151228-144519_1001306610",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 28, 2015 2:45:19 PM",
+      "dateStarted": "Dec 31, 2015 4:16:49 PM",
+      "dateFinished": "Dec 31, 2015 4:16:49 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Test Weather API Function",
+      "text": "%pyspark\n\nu \u003d \"http://api.wunderground.com/api/9ea2f24ba4e99c50/history_19921115/q/MO/Kansas_City.json\"\nu2 \u003d \"http://api.wunderground.com/api/9ea2f24ba4e99c50/history_19061115/q/MO/Kansas_City.json\"\nprint get_weather_data(u)\nprint get_weather_data(u2)\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451418101355_1572990526",
+      "id": "20151229-114141_1682350732",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "{u\u0027maxpressurem\u0027: u\u00271027\u0027, u\u0027maxdewptm\u0027: u\u0027-1\u0027, u\u0027maxpressurei\u0027: u\u002730.32\u0027, u\u0027maxdewpti\u0027: u\u002731\u0027, u\u0027since1julheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027heatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027since1sepcoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027hail\u0027: u\u00270\u0027, u\u0027since1julsnowfallm\u0027: u\u0027\u0027, u\u0027date\u0027: {u\u0027mday\u0027: u\u002715\u0027, u\u0027hour\u0027: u\u002712\u0027, u\u0027min\u0027: u\u002700\u0027, u\u0027mon\u0027: u\u002711\u0027, u\u0027pretty\u0027: u\u002712:00 PM CST on November 15, 1992\u0027, u\u0027year\u0027: u\u00271992\u0027, u\u0027tzname\u0027: u\u0027America/Chicago\u0027}, u\u0027since1julheatingdegreedays\u0027: u\u0027\u0027, u\u0027maxvisi\u0027: u\u002710\u0027, u\u0027since1sepheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027heatingdegreedays\u0027: u\u002718\u0027, u\u0027mindewptm\u0027: u\u0027-3\u0027, u\u0027since1sepheatingdegreedays\u0027: u\u0027\u0027, u\u0027maxwspdm\u0027: u\u002727\u0027, u\u0027since1julsnowfalli\u0027: u\u0027\u0027, u\u0027since1sepcoolingdegreedays\u0027: u\u0027\u0027, u\u0027snow\u0027: u\u00270\u0027, u\u0027meanvism\u0027: u\u002716\u0027, u\u0027meandewptm\u0027: u\u0027-1\u0027, u\u0027snowdepthm\u0027: u\u0027\u0027, u\u0027meanvisi\u0027: u\u002710\u0027, u\u0027fog\u0027: u\u00270\u0027, u\u0027snowdepthi\u0027: u\u0027\u0027, u\u0027minvism\u0027: u\u002716\u0027, u\u0027since1jancoolingdegreedays\u0027: u\u0027\u0027, u\u0027minvisi\u0027: u\u002710\u0027, u\u0027coolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027gdegreedays\u0027: u\u00270\u0027, u\u0027maxwspdi\u0027: u\u002717\u0027, u\u0027meanwindspdi\u0027: u\u00277\u0027, u\u0027meanpressurei\u0027: u\u002730.25\u0027, u\u0027monthtodateheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027meanwindspdm\u0027: u\u002711\u0027, u\u0027meanpressurem\u0027: u\u00271024\u0027, u\u0027tornado\u0027: u\u00270\u0027, u\u0027mindewpti\u0027: u\u002727\u0027, u\u0027mintempi\u0027: u\u002734\u0027, u\u0027meandewpti\u0027: u\u002730\u0027, u\u0027rain\u0027: u\u00270\u0027, u\u0027mintempm\u0027: u\u00271\u0027, u\u0027minhumidity\u0027: u\u002733\u0027, u\u0027precipsource\u0027: u\u0027\u0027, u\u0027minwspdi\u0027: u\u00270\u0027, u\u0027meanwdird\u0027: u\u0027170\u0027, u\u0027meanwdire\u0027: u\u0027\u0027, u\u0027minwspdm\u0027: u\u00270\u0027, u\u0027monthtodatesnowfalli\u0027: u\u0027\u0027, u\u0027monthtodatecoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027monthtodatesnowfallm\u0027: u\u0027\u0027, u\u0027maxhumidity\u0027: u\u002778\u0027, u\u0027coolingdegreedays\u0027: u\u00270\u0027, u\u0027maxtempm\u0027: u\u002715\u0027, u\u0027minpressurei\u0027: u\u002730.15\u0027, u\u0027monthtodatecoolingdegreedays\u0027: u\u0027\u0027, u\u0027maxtempi\u0027: u\u002759\u0027, u\u0027minpressurem\u0027: u\u00271021\u0027, u\u0027humidity\u0027: u\u0027\u0027, u\u0027precipi\u0027: u\u00270.00\u0027, u\u0027snowfalli\u0027: u\u00270.00\u0027, u\u0027since1jancoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027precipm\u0027: u\u00270.00\u0027, u\u0027snowfallm\u0027: u\u00270.00\u0027, u\u0027thunder\u0027: u\u00270\u0027, u\u0027monthtodateheatingdegreedays\u0027: u\u0027\u0027, u\u0027meantempi\u0027: u\u002746\u0027, u\u0027maxvism\u0027: u\u002716\u0027, u\u0027meantempm\u0027: u\u00278\u0027}\n{}\n"
+      },
+      "dateCreated": "Dec 29, 2015 11:41:41 AM",
+      "dateStarted": "Dec 31, 2015 4:16:52 PM",
+      "dateFinished": "Dec 31, 2015 4:16:54 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Build a dataFrame with each distinct game location and weather information",
+      "text": "%pyspark\n\n#create weather RDD using API   \n\noutdoor_games_weather \u003d outdoor_games.map(lambda x: [x.Day, x.year, x.team, x.yards, x.turnovers, x.points, x.Won, x.location, x.stadium, x.stadium_city, get_weather_data(x.weather_uri)])\noutdoor_games_weather.cache()\n\nfor w in outdoor_games_weather.take(2):\n    print w\n    print \"*\" * 20",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451346145980_-2080055417",
+      "id": "20151228-154225_1387594808",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "[u\u0027September 19\u0027, 1999, u\u0027Buffalo Bills\u0027, u\u0027384\u0027, u\u00271\u0027, u\u002717\u0027, 1, u\u0027Buffalo Bills\u0027, u\u0027Ralph Wilson Stadium\u0027, u\u0027Orchard Park, NY\u0027, {u\u0027maxpressurem\u0027: u\u00271019\u0027, u\u0027maxdewptm\u0027: u\u002712\u0027, u\u0027maxpressurei\u0027: u\u002730.09\u0027, u\u0027maxdewpti\u0027: u\u002753\u0027, u\u0027coolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027since1sepcoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027hail\u0027: u\u00270\u0027, u\u0027snow\u0027: u\u00270\u0027, u\u0027date\u0027: {u\u0027mday\u0027: u\u002719\u0027, u\u0027hour\u0027: u\u002712\u0027, u\u0027min\u0027: u\u002700\u0027, u\u0027mon\u0027: u\u002709\u0027, u\u0027pretty\u0027: u\u002712:00 PM EDT on September 19, 1999\u0027, u\u0027year\u0027: u\u00271999\u0027, u\u0027tzname\u0027: u\u0027America/New_York\u0027}, u\u0027maxvisi\u0027: u\u002710\u0027, u\u0027since1sepheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027heatingdegreedays\u0027: u\u00272\u0027, u\u0027maxtempm\u0027: u\u002724\u0027, u\u0027meanwdird\u0027: u\u0027178\u0027, u\u0027monthtodatecoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027since1sepheatingdegreedays\u0027: u\u0027\u0027, u\u0027meanwdire\u0027: u\u0027\u0027, u\u0027since1julsnowfalli\u0027: u\u0027\u0027, u\u0027since1julsnowfallm\u0027: u\u0027\u0027, u\u0027meanvism\u0027: u\u002716\u0027, u\u0027maxwspdm\u0027: u\u002711\u0027, u\u0027snowdepthm\u0027: u\u0027\u0027, u\u0027meanvisi\u0027: u\u002710\u0027, u\u0027fog\u0027: u\u00270\u0027, u\u0027snowdepthi\u0027: u\u0027\u0027, u\u0027minvism\u0027: u\u002713\u0027, u\u0027since1jancoolingdegreedays\u0027: u\u0027\u0027, u\u0027minvisi\u0027: u\u00278\u0027, u\u0027since1julheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027maxwspdi\u0027: u\u00277\u0027, u\u0027gdegreedays\u0027: u\u002712\u0027, u\u0027meanwindspdi\u0027: u\u00276\u0027, u\u0027meanpressurei\u0027: u\u002730.03\u0027, u\u0027monthtodateheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027meanwindspdm\u0027: u\u002710\u0027, u\u0027meanpressurem\u0027: u\u00271017\u0027, u\u0027meandewptm\u0027: u\u00279\u0027, u\u0027heatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027mintempi\u0027: u\u002750\u0027, u\u0027meandewpti\u0027: u\u002749\u0027, u\u0027rain\u0027: u\u00270\u0027, u\u0027mintempm\u0027: u\u002710\u0027, u\u0027mindewpti\u0027: u\u002745\u0027, u\u0027precipsource\u0027: u\u0027\u0027, u\u0027minwspdi\u0027: u\u00274\u0027, u\u0027tornado\u0027: u\u00270\u0027, u\u0027since1julheatingdegreedays\u0027: u\u0027\u0027, u\u0027minwspdm\u0027: u\u00276\u0027, u\u0027monthtodatesnowfalli\u0027: u\u0027\u0027, u\u0027monthtodatesnowfallm\u0027: u\u0027\u0027, u\u0027minhumidity\u0027: u\u002737\u0027, u\u0027maxhumidity\u0027: u\u002793\u0027, u\u0027coolingdegreedays\u0027: u\u00270\u0027, u\u0027mindewptm\u0027: u\u00277\u0027, u\u0027since1sepcoolingdegreedays\u0027: u\u0027\u0027, u\u0027minpressurei\u0027: u\u002729.94\u0027, u\u0027monthtodatecoolingdegreedays\u0027: u\u0027\u0027, u\u0027maxtempi\u0027: u\u002775\u0027, u\u0027minpressurem\u0027: u\u00271014\u0027, u\u0027humidity\u0027: u\u0027\u0027, u\u0027precipi\u0027: u\u00270.00\u0027, u\u0027snowfalli\u0027: u\u00270.00\u0027, u\u0027since1jancoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027precipm\u0027: u\u00270.00\u0027, u\u0027snowfallm\u0027: u\u00270.00\u0027, u\u0027thunder\u0027: u\u00270\u0027, u\u0027monthtodateheatingdegreedays\u0027: u\u0027\u0027, u\u0027meantempi\u0027: u\u002762\u0027, u\u0027maxvism\u0027: u\u002716\u0027, u\u0027meantempm\u0027: u\u002717\u0027}]\n********************\n[u\u0027September 26\u0027, 1999, u\u0027Buffalo Bills\u0027, u\u0027377\u0027, u\u00271\u0027, u\u002726\u0027, 1, u\u0027Buffalo Bills\u0027, u\u0027Ralph Wilson Stadium\u0027, u\u0027Orchard Park, NY\u0027, {u\u0027maxpressurem\u0027: u\u00271022\u0027, u\u0027maxdewptm\u0027: u\u002714\u0027, u\u0027maxpressurei\u0027: u\u002730.17\u0027, u\u0027maxdewpti\u0027: u\u002758\u0027, u\u0027coolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027since1sepcoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027hail\u0027: u\u00270\u0027, u\u0027snow\u0027: u\u00270\u0027, u\u0027date\u0027: {u\u0027mday\u0027: u\u002726\u0027, u\u0027hour\u0027: u\u002712\u0027, u\u0027min\u0027: u\u002700\u0027, u\u0027mon\u0027: u\u002709\u0027, u\u0027pretty\u0027: u\u002712:00 PM EDT on September 26, 1999\u0027, u\u0027year\u0027: u\u00271999\u0027, u\u0027tzname\u0027: u\u0027America/New_York\u0027}, u\u0027maxvisi\u0027: u\u002710\u0027, u\u0027since1sepheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027heatingdegreedays\u0027: u\u00271\u0027, u\u0027maxtempm\u0027: u\u002727\u0027, u\u0027meanwdird\u0027: u\u0027144\u0027, u\u0027monthtodatecoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027since1sepheatingdegreedays\u0027: u\u0027\u0027, u\u0027meanwdire\u0027: u\u0027\u0027, u\u0027since1julsnowfalli\u0027: u\u0027\u0027, u\u0027since1julsnowfallm\u0027: u\u0027\u0027, u\u0027meanvism\u0027: u\u002716\u0027, u\u0027maxwspdm\u0027: u\u002714\u0027, u\u0027snowdepthm\u0027: u\u0027\u0027, u\u0027meanvisi\u0027: u\u002710\u0027, u\u0027fog\u0027: u\u00270\u0027, u\u0027snowdepthi\u0027: u\u0027\u0027, u\u0027minvism\u0027: u\u002716\u0027, u\u0027since1jancoolingdegreedays\u0027: u\u0027\u0027, u\u0027minvisi\u0027: u\u002710\u0027, u\u0027since1julheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027maxwspdi\u0027: u\u00279\u0027, u\u0027gdegreedays\u0027: u\u002714\u0027, u\u0027meanwindspdi\u0027: u\u00276\u0027, u\u0027meanpressurei\u0027: u\u002730.13\u0027, u\u0027monthtodateheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027meanwindspdm\u0027: u\u002710\u0027, u\u0027meanpressurem\u0027: u\u00271020\u0027, u\u0027meandewptm\u0027: u\u002711\u0027, u\u0027heatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027mintempi\u0027: u\u002748\u0027, u\u0027meandewpti\u0027: u\u002751\u0027, u\u0027rain\u0027: u\u00270\u0027, u\u0027mintempm\u0027: u\u00279\u0027, u\u0027mindewpti\u0027: u\u002743\u0027, u\u0027precipsource\u0027: u\u0027\u0027, u\u0027minwspdi\u0027: u\u00274\u0027, u\u0027tornado\u0027: u\u00270\u0027, u\u0027since1julheatingdegreedays\u0027: u\u0027\u0027, u\u0027minwspdm\u0027: u\u00276\u0027, u\u0027monthtodatesnowfalli\u0027: u\u0027\u0027, u\u0027monthtodatesnowfallm\u0027: u\u0027\u0027, u\u0027minhumidity\u0027: u\u002739\u0027, u\u0027maxhumidity\u0027: u\u002786\u0027, u\u0027coolingdegreedays\u0027: u\u00270\u0027, u\u0027mindewptm\u0027: u\u00276\u0027, u\u0027since1sepcoolingdegreedays\u0027: u\u0027\u0027, u\u0027minpressurei\u0027: u\u002730.08\u0027, u\u0027monthtodatecoolingdegreedays\u0027: u\u0027\u0027, u\u0027maxtempi\u0027: u\u002780\u0027, u\u0027minpressurem\u0027: u\u00271019\u0027, u\u0027humidity\u0027: u\u0027\u0027, u\u0027precipi\u0027: u\u00270.07\u0027, u\u0027snowfalli\u0027: u\u00270.00\u0027, u\u0027since1jancoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027precipm\u0027: u\u00271.78\u0027, u\u0027snowfallm\u0027: u\u00270.00\u0027, u\u0027thunder\u0027: u\u00270\u0027, u\u0027monthtodateheatingdegreedays\u0027: u\u0027\u0027, u\u0027meantempi\u0027: u\u002764\u0027, u\u0027maxvism\u0027: u\u002716\u0027, u\u0027meantempm\u0027: u\u002718\u0027}]\n********************\n"
+      },
+      "dateCreated": "Dec 28, 2015 3:42:25 PM",
+      "dateStarted": "Dec 31, 2015 4:24:56 PM",
+      "dateFinished": "Dec 31, 2015 4:29:32 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\ndef check_dict(dict, keyv):\n    if dict.__contains__(keyv):\n        return dict[keyv]\n    else:\n        return \u0027\u0027\n        \nogw_n \u003d outdoor_games_weather.map(lambda x: Row(day\u003dx[0], year \u003d x[1], team \u003d x[2], yards\u003dx[3], turnovers\u003dx[4], \\\n                                    points\u003dx[5], Won\u003dx[6], location\u003dx[7], stadium\u003dx[8], stadium_city\u003dx[9], weather\u003dx[10]))\n\nfor r in ogw_n.take(2):\n    print r\n    print \"*\" * 20",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451351456188_-173146581",
+      "id": "20151228-171056_1463446589",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "Row(Won\u003d1, day\u003du\u0027September 19\u0027, location\u003du\u0027Buffalo Bills\u0027, points\u003du\u002717\u0027, stadium\u003du\u0027Ralph Wilson Stadium\u0027, stadium_city\u003du\u0027Orchard Park, NY\u0027, team\u003du\u0027Buffalo Bills\u0027, turnovers\u003du\u00271\u0027, weather\u003d{u\u0027maxpressurem\u0027: u\u00271019\u0027, u\u0027maxdewptm\u0027: u\u002712\u0027, u\u0027maxpressurei\u0027: u\u002730.09\u0027, u\u0027maxdewpti\u0027: u\u002753\u0027, u\u0027coolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027since1sepcoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027hail\u0027: u\u00270\u0027, u\u0027snow\u0027: u\u00270\u0027, u\u0027date\u0027: {u\u0027mday\u0027: u\u002719\u0027, u\u0027hour\u0027: u\u002712\u0027, u\u0027min\u0027: u\u002700\u0027, u\u0027mon\u0027: u\u002709\u0027, u\u0027pretty\u0027: u\u002712:00 PM EDT on September 19, 1999\u0027, u\u0027year\u0027: u\u00271999\u0027, u\u0027tzname\u0027: u\u0027America/New_York\u0027}, u\u0027maxvisi\u0027: u\u002710\u0027, u\u0027since1sepheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027heatingdegreedays\u0027: u\u00272\u0027, u\u0027maxtempm\u0027: u\u002724\u0027, u\u0027meanwdird\u0027: u\u0027178\u0027, u\u0027monthtodatecoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027since1sepheatingdegreedays\u0027: u\u0027\u0027, u\u0027meanwdire\u0027: u\u0027\u0027, u\u0027since1julsnowfalli\u0027: u\u0027\u0027, u\u0027since1julsnowfallm\u0027: u\u0027\u0027, u\u0027meanvism\u0027: u\u002716\u0027, u\u0027maxwspdm\u0027: u\u002711\u0027, u\u0027snowdepthm\u0027: u\u0027\u0027, u\u0027meanvisi\u0027: u\u002710\u0027, u\u0027fog\u0027: u\u00270\u0027, u\u0027snowdepthi\u0027: u\u0027\u0027, u\u0027minvism\u0027: u\u002713\u0027, u\u0027since1jancoolingdegreedays\u0027: u\u0027\u0027, u\u0027minvisi\u0027: u\u00278\u0027, u\u0027since1julheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027maxwspdi\u0027: u\u00277\u0027, u\u0027gdegreedays\u0027: u\u002712\u0027, u\u0027meanwindspdi\u0027: u\u00276\u0027, u\u0027meanpressurei\u0027: u\u002730.03\u0027, u\u0027monthtodateheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027meanwindspdm\u0027: u\u002710\u0027, u\u0027meanpressurem\u0027: u\u00271017\u0027, u\u0027meandewptm\u0027: u\u00279\u0027, u\u0027heatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027mintempi\u0027: u\u002750\u0027, u\u0027meandewpti\u0027: u\u002749\u0027, u\u0027rain\u0027: u\u00270\u0027, u\u0027mintempm\u0027: u\u002710\u0027, u\u0027mindewpti\u0027: u\u002745\u0027, u\u0027precipsource\u0027: u\u0027\u0027, u\u0027minwspdi\u0027: u\u00274\u0027, u\u0027tornado\u0027: u\u00270\u0027, u\u0027since1julheatingdegreedays\u0027: u\u0027\u0027, u\u0027minwspdm\u0027: u\u00276\u0027, u\u0027monthtodatesnowfalli\u0027: u\u0027\u0027, u\u0027monthtodatesnowfallm\u0027: u\u0027\u0027, u\u0027minhumidity\u0027: u\u002737\u0027, u\u0027maxhumidity\u0027: u\u002793\u0027, u\u0027coolingdegreedays\u0027: u\u00270\u0027, u\u0027mindewptm\u0027: u\u00277\u0027, u\u0027since1sepcoolingdegreedays\u0027: u\u0027\u0027, u\u0027minpressurei\u0027: u\u002729.94\u0027, u\u0027monthtodatecoolingdegreedays\u0027: u\u0027\u0027, u\u0027maxtempi\u0027: u\u002775\u0027, u\u0027minpressurem\u0027: u\u00271014\u0027, u\u0027humidity\u0027: u\u0027\u0027, u\u0027precipi\u0027: u\u00270.00\u0027, u\u0027snowfalli\u0027: u\u00270.00\u0027, u\u0027since1jancoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027precipm\u0027: u\u00270.00\u0027, u\u0027snowfallm\u0027: u\u00270.00\u0027, u\u0027thunder\u0027: u\u00270\u0027, u\u0027monthtodateheatingdegreedays\u0027: u\u0027\u0027, u\u0027meantempi\u0027: u\u002762\u0027, u\u0027maxvism\u0027: u\u002716\u0027, u\u0027meantempm\u0027: u\u002717\u0027}, yards\u003du\u0027384\u0027, year\u003d1999)\n********************\nRow(Won\u003d1, day\u003du\u0027September 26\u0027, location\u003du\u0027Buffalo Bills\u0027, points\u003du\u002726\u0027, stadium\u003du\u0027Ralph Wilson Stadium\u0027, stadium_city\u003du\u0027Orchard Park, NY\u0027, team\u003du\u0027Buffalo Bills\u0027, turnovers\u003du\u00271\u0027, weather\u003d{u\u0027maxpressurem\u0027: u\u00271022\u0027, u\u0027maxdewptm\u0027: u\u002714\u0027, u\u0027maxpressurei\u0027: u\u002730.17\u0027, u\u0027maxdewpti\u0027: u\u002758\u0027, u\u0027coolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027since1sepcoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027hail\u0027: u\u00270\u0027, u\u0027snow\u0027: u\u00270\u0027, u\u0027date\u0027: {u\u0027mday\u0027: u\u002726\u0027, u\u0027hour\u0027: u\u002712\u0027, u\u0027min\u0027: u\u002700\u0027, u\u0027mon\u0027: u\u002709\u0027, u\u0027pretty\u0027: u\u002712:00 PM EDT on September 26, 1999\u0027, u\u0027year\u0027: u\u00271999\u0027, u\u0027tzname\u0027: u\u0027America/New_York\u0027}, u\u0027maxvisi\u0027: u\u002710\u0027, u\u0027since1sepheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027heatingdegreedays\u0027: u\u00271\u0027, u\u0027maxtempm\u0027: u\u002727\u0027, u\u0027meanwdird\u0027: u\u0027144\u0027, u\u0027monthtodatecoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027since1sepheatingdegreedays\u0027: u\u0027\u0027, u\u0027meanwdire\u0027: u\u0027\u0027, u\u0027since1julsnowfalli\u0027: u\u0027\u0027, u\u0027since1julsnowfallm\u0027: u\u0027\u0027, u\u0027meanvism\u0027: u\u002716\u0027, u\u0027maxwspdm\u0027: u\u002714\u0027, u\u0027snowdepthm\u0027: u\u0027\u0027, u\u0027meanvisi\u0027: u\u002710\u0027, u\u0027fog\u0027: u\u00270\u0027, u\u0027snowdepthi\u0027: u\u0027\u0027, u\u0027minvism\u0027: u\u002716\u0027, u\u0027since1jancoolingdegreedays\u0027: u\u0027\u0027, u\u0027minvisi\u0027: u\u002710\u0027, u\u0027since1julheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027maxwspdi\u0027: u\u00279\u0027, u\u0027gdegreedays\u0027: u\u002714\u0027, u\u0027meanwindspdi\u0027: u\u00276\u0027, u\u0027meanpressurei\u0027: u\u002730.13\u0027, u\u0027monthtodateheatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027meanwindspdm\u0027: u\u002710\u0027, u\u0027meanpressurem\u0027: u\u00271020\u0027, u\u0027meandewptm\u0027: u\u002711\u0027, u\u0027heatingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027mintempi\u0027: u\u002748\u0027, u\u0027meandewpti\u0027: u\u002751\u0027, u\u0027rain\u0027: u\u00270\u0027, u\u0027mintempm\u0027: u\u00279\u0027, u\u0027mindewpti\u0027: u\u002743\u0027, u\u0027precipsource\u0027: u\u0027\u0027, u\u0027minwspdi\u0027: u\u00274\u0027, u\u0027tornado\u0027: u\u00270\u0027, u\u0027since1julheatingdegreedays\u0027: u\u0027\u0027, u\u0027minwspdm\u0027: u\u00276\u0027, u\u0027monthtodatesnowfalli\u0027: u\u0027\u0027, u\u0027monthtodatesnowfallm\u0027: u\u0027\u0027, u\u0027minhumidity\u0027: u\u002739\u0027, u\u0027maxhumidity\u0027: u\u002786\u0027, u\u0027coolingdegreedays\u0027: u\u00270\u0027, u\u0027mindewptm\u0027: u\u00276\u0027, u\u0027since1sepcoolingdegreedays\u0027: u\u0027\u0027, u\u0027minpressurei\u0027: u\u002730.08\u0027, u\u0027monthtodatecoolingdegreedays\u0027: u\u0027\u0027, u\u0027maxtempi\u0027: u\u002780\u0027, u\u0027minpressurem\u0027: u\u00271019\u0027, u\u0027humidity\u0027: u\u0027\u0027, u\u0027precipi\u0027: u\u00270.07\u0027, u\u0027snowfalli\u0027: u\u00270.00\u0027, u\u0027since1jancoolingdegreedaysnormal\u0027: u\u0027\u0027, u\u0027precipm\u0027: u\u00271.78\u0027, u\u0027snowfallm\u0027: u\u00270.00\u0027, u\u0027thunder\u0027: u\u00270\u0027, u\u0027monthtodateheatingdegreedays\u0027: u\u0027\u0027, u\u0027meantempi\u0027: u\u002764\u0027, u\u0027maxvism\u0027: u\u002716\u0027, u\u0027meantempm\u0027: u\u002718\u0027}, yards\u003du\u0027377\u0027, year\u003d1999)\n********************\n"
+      },
+      "dateCreated": "Dec 28, 2015 5:10:56 PM",
+      "dateStarted": "Dec 31, 2015 4:45:13 PM",
+      "dateFinished": "Dec 31, 2015 4:45:13 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\ndef check_dict(dict, keyv):\n    if dict.__contains__(keyv):\n        return dict[keyv]\n    else:\n        return \u0027\u0027\n\ndef returnFloat(sval):\n    try:\n        return float(sval)\n    except:\n        return 0.0\n\n        \nv1 \u003d ogw_n.map(lambda x: returnFloat(x.points))\nv2 \u003d ogw_n.map(lambda x: returnFloat(check_dict(x.weather, \"maxtempi\")))\n\nfor x in ogw_n.take(5):\n    print x.points, check_dict(x.weather, \"maxtempi\")\n\nprint v1.take(5)\nprint v2.take(5)\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451609173060_1820168516",
+      "id": "20151231-164613_2005758855",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "17 75\n26 80\n24 66\n20 68\n23 57\n[17.0, 26.0, 24.0, 20.0, 23.0]\n[75.0, 80.0, 66.0, 68.0, 57.0]\n"
+      },
+      "dateCreated": "Dec 31, 2015 4:46:13 PM",
+      "dateStarted": "Dec 31, 2015 4:51:31 PM",
+      "dateFinished": "Dec 31, 2015 4:51:32 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nfrom pyspark.mllib.stat import Statistics\n\nprint \"Pearson: \" , Statistics.corr(v1, v2, method\u003d\"pearson\")\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451609573362_-918724275",
+      "id": "20151231-165253_697674080",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "Pearson:  -0.0073212320693\n"
+      },
+      "dateCreated": "Dec 31, 2015 4:52:53 PM",
+      "dateStarted": "Dec 31, 2015 4:53:10 PM",
+      "dateFinished": "Dec 31, 2015 4:57:25 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nogw_team \u003d ogw_n.filter(lambda x: x.team \u003d\u003d \u0027Chicago Bears\u0027)\n\nv1 \u003d ogw_team.map(lambda x: returnFloat(x.points))\nv2 \u003d ogw_team.map(lambda x: returnFloat(check_dict(x.weather, \"maxtempi\")))\n\nfor x in ogw_team.take(5):\n    print x.points, check_dict(x.weather, \"maxtempi\")\n\nprint v1.take(5)\nprint v2.take(5)\n\nprint \"Pearson: \" , Statistics.corr(v1, v2, method\u003d\"pearson\")\n\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451615609605_-532505080",
+      "id": "20151231-183329_1613035195",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "3 41\n27 70\n16 80\n13 57\n23 60\n[3.0, 27.0, 16.0, 13.0, 23.0]\n[41.0, 70.0, 80.0, 57.0, 60.0]\nPearson:  0.0486670888807\n"
+      },
+      "dateCreated": "Dec 31, 2015 6:33:29 PM",
+      "dateStarted": "Dec 31, 2015 6:35:25 PM",
+      "dateFinished": "Dec 31, 2015 6:35:26 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\ncteams \u003d sqlContext.sql(\"select distinct team from scores where year \u003d 2015\")\ncteams.registerTempTable(\"cteams\")\n\nprint cteams.count()\n\nfor x in cteams.collect():\n    print x.team",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451615732839_1177904639",
+      "id": "20151231-183532_1353982436",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "32\nSeattle Seahawks\nGreen Bay Packers\nJacksonville Jaguars\nChicago Bears\nHouston Texans\nIndianapolis Colts\nNew York Giants\nArizona Cardinals\nWashington Redskins\nCleveland Browns\nNew England Patriots\nBaltimore Ravens\nDetroit Lions\nSan Diego Chargers\nTampa Bay Buccaneers\nCarolina Panthers\nMiami Dolphins\nMinnesota Vikings\nTennessee Titans\nSan Francisco 49ers\nPhiladelphia Eagles\nCincinnati Bengals\nOakland Raiders\nAtlanta Falcons\nPittsburgh Steelers\nBuffalo Bills\nSt. Louis Rams\nDenver Broncos\nNew Orleans Saints\nDallas Cowboys\nKansas City Chiefs\nNew York Jets\n"
+      },
+      "dateCreated": "Dec 31, 2015 6:35:32 PM",
+      "dateStarted": "Dec 31, 2015 6:38:50 PM",
+      "dateFinished": "Dec 31, 2015 6:38:50 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\ndef corrMetricTeam(game_metric, weather_metric, team):\n    ogw_team \u003d ogw_n.filter(lambda x: x.team \u003d\u003d team)\n\n    v1_c \u003d \"ogw_team.map(lambda x: returnFloat(x.{}))\".format(game_metric)\n    v1 \u003d  eval(v1_c)\n    v2 \u003d ogw_team.map(lambda x: returnFloat(check_dict(x.weather, weather_metric)))\n\n    return Statistics.corr(v1, v2, method\u003d\"pearson\")\n\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451615960959_1060261777",
+      "id": "20151231-183920_1278828862",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 31, 2015 6:39:20 PM",
+      "dateStarted": "Dec 31, 2015 6:48:18 PM",
+      "dateFinished": "Dec 31, 2015 6:48:18 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nw_metric \u003d \u0027maxtempi\u0027\ng_metric \u003d \u0027points\u0027\nt \u003d \u0027Chicago Bears\u0027\n\nprint corrMetricTeam(g_metric, w_metric, t)",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451616074123_-1663205477",
+      "id": "20151231-184114_1214455664",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": " 0.0486670888807\n"
+      },
+      "dateCreated": "Dec 31, 2015 6:41:14 PM",
+      "dateStarted": "Dec 31, 2015 6:48:20 PM",
+      "dateFinished": "Dec 31, 2015 6:48:20 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nw_metric \u003d \u0027precipm\u0027\ng_metric \u003d \u0027yards\u0027\nt \u003d \u0027Seattle Seahawks\u0027\n\nprint corrMetricTeam(g_metric, w_metric, t)\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451616521337_-538344712",
+      "id": "20151231-184841_263567849",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": " -0.113882148744\n"
+      },
+      "dateCreated": "Dec 31, 2015 6:48:41 PM",
+      "dateStarted": "Dec 31, 2015 6:54:48 PM",
+      "dateFinished": "Dec 31, 2015 6:54:49 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nw_metric \u003d \u0027precipm\u0027\ng_metric \u003d \u0027yards\u0027\n\nprecipm_yards \u003d []\n\nfor x in cteams.collect():\n\n    t \u003d x.team\n    precipm_yards.append([t, corrMetricTeam(g_metric, w_metric, t)])",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451616709710_1098821510",
+      "id": "20151231-185149_2122257146",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 31, 2015 6:51:49 PM",
+      "dateStarted": "Dec 31, 2015 6:58:11 PM",
+      "dateFinished": "Dec 31, 2015 6:58:23 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\npy \u003d sc.parallelize(precipm_yards)\npy_schema \u003d py.map(lambda x: Row(team\u003dx[0],corr\u003dx[1]))                                                 \npy_df \u003d sqlContext.createDataFrame(py_schema)\npy_df.registerTempTable(\"py\")\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451617230451_2053891397",
+      "id": "20151231-190030_2043194522",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 31, 2015 7:00:30 PM",
+      "dateStarted": "Dec 31, 2015 7:00:48 PM",
+      "dateFinished": "Dec 31, 2015 7:00:49 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n\nselect * from py",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "team",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "corr",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "corr",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "team",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451617247268_-568141709",
+      "id": "20151231-190047_696296524",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "corr\tteam\n-0.11388214874417536\tSeattle Seahawks\n-0.014933609219707256\tGreen Bay Packers\n-0.04710721511978116\tJacksonville Jaguars\n-0.04832921680835946\tChicago Bears\n-0.29989702754032926\tHouston Texans\n-0.018025897649693423\tIndianapolis Colts\n-0.11666569886423109\tNew York Giants\n0.056057763239531745\tArizona Cardinals\n-0.060146034515044335\tWashington Redskins\n-0.05544057378582024\tCleveland Browns\n-0.017294478357794577\tNew England Patriots\n-0.0473123033271929\tBaltimore Ravens\n-0.06490943438758959\tDetroit Lions\n-0.18728827511055895\tSan Diego Chargers\n0.002194471053990417\tTampa Bay Buccaneers\n-0.12086413251000798\tCarolina Panthers\n-0.33027984706478714\tMiami Dolphins\n0.02555422314837037\tMinnesota Vikings\n-0.17352124571638602\tTennessee Titans\n-0.14601458471757234\tSan Francisco 49ers\n0.010848416912088158\tPhiladelphia Eagles\n-0.01620061044976374\tCincinnati Bengals\n0.14773533742848438\tOakland Raiders\n0.09596262963956567\tAtlanta Falcons\n-0.15492932635096934\tPittsburgh Steelers\n-0.007328897247028117\tBuffalo Bills\n0.1383657701987696\tSt. Louis Rams\n-0.03643804785806781\tDenver Broncos\n-0.035612737648824465\tNew Orleans Saints\n-0.04856743635307898\tDallas Cowboys\n-0.09473088427803777\tKansas City Chiefs\n0.0292819724979874\tNew York Jets\n"
+      },
+      "dateCreated": "Dec 31, 2015 7:00:47 PM",
+      "dateStarted": "Dec 31, 2015 7:00:58 PM",
+      "dateFinished": "Dec 31, 2015 7:00:58 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1451604946020_1486353732",
+      "id": "20151231-153546_180634499",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT"
+      },
+      "dateCreated": "Dec 31, 2015 3:35:46 PM",
+      "dateStarted": "Dec 31, 2015 4:45:34 PM",
+      "dateFinished": "Dec 31, 2015 4:45:34 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "NFL Weather v2",
+  "id": "2B747VYQ5",
+  "angularObjects": {
+    "2AUT5SWNG": [],
+    "2ATJEEV3Z": [],
+    "2ATX2UP3E": [],
+    "2AV9JBN8B": [],
+    "2AVK6ZW5M": [],
+    "2AW72AXBP": [],
+    "2ATDB6DPP": [],
+    "2AUV8UA7U": [],
+    "2AUH78YGG": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}
