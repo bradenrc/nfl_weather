@@ -27,8 +27,8 @@ def get_weather_data(uri):
     except:
         return {}
 
-uri = "http://api.wunderground.com/api/9ea2f24ba4e99c50/history_20141221/q/PA/Pittsburgh.json"
-uri = "http://api.wunderground.com/api/9ea2f24ba4e99c50/history_19921115/q/MO/Kansas_City.json"
+uri = "http://api.wunderground.com/api/***/history_20141221/q/PA/Pittsburgh.json"
+uri = "http://api.wunderground.com/api/***/history_19921115/q/MO/Kansas_City.json"
 
 x = get_weather_data(uri)
 
